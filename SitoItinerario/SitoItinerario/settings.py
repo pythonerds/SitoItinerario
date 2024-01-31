@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 import os
+from django.utils.translation import gettext_lazy as _
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,6 +29,18 @@ SECRET_KEY = 'django-insecure-yzkntmv44^kgkf2jwq*qt-kkfl^tm82w0ej$83u(y4h#@lmik$
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+LANGUAGES = [
+    # per ogni lingua aggiungiamo ('it', _('Italian')), 
+    ('it', _('Italian')),
+    ('en', _('English')),
+    ('de', _('Germany')),
+    ('fr', _('French')),
+    
+]
+
+LOCALE_PATHS = [
+    os.path.join(BASE_DIR, 'locale'),#aggiunto per le traduzioni
+]
 
 ALLOWED_HOSTS = []
 
@@ -44,6 +58,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'django.middleware.locale.LocaleMiddleware',#aggiunto per le traduzioni
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -58,10 +73,11 @@ ROOT_URLCONF = 'SitoItinerario.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                'django.template.context_processors.i18n',#aggiunto per le traduzioni
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
@@ -119,9 +135,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_COOKIE_NAME = "django_language"  # Controlla che corrisponda al nome del cookie della lingua
+
