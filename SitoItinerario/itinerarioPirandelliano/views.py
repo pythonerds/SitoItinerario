@@ -31,7 +31,7 @@ def home(request):
     return render(request, 'itinerarioPirandelliano/home.html',{"pagina":pagina})
 
 def secondaPagina(request):
-    pagina="home"
+    pagina="secondaPagina"
 
 
     logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
@@ -45,6 +45,8 @@ def secondaPagina(request):
 
 def set_language(request):
     language = request.GET.get('language', None)
+    pagina = request.GET.get('pagina', None)
+    logger.debug(f"Variabile 'pagina' ricevuta: {pagina}")
     
 
     if language and language in [code for code, _ in settings.LANGUAGES]:
@@ -52,9 +54,36 @@ def set_language(request):
         activate(language)
 
     # Crea un URL con la lingua incorporata e usa reverse per ottenere il percorso completo
-    language_url = reverse('home')
+    language_url = reverse(pagina)
     logger.debug(f"{language_url}")
     
     return redirect(language_url)
+
+#def set_language(request):
+    language = request.GET.get('language', None)
+    stringa = request.POST.get('pagina')
+    logger.debug(f"{stringa}")
+
+    if language and language in [code for code, _ in settings.LANGUAGES]:
+        # Imposta la lingua della sessione di Django
+        activate(language)
+
+    # Verifica se 'pagina' è un valore valido
+    if stringa is not None:
+        try:
+            # Tenta di ottenere l'URL usando il valore di 'pagina'
+            language_url = reverse(stringa)
+            logger.debug(f"{language_url}")
+            logger.debug(f"fattooo")
+            return redirect(language_url)
+        except:
+            # Gestisci eventuali eccezioni (ad esempio, URL non trovato)
+            logger.error("Errore nella generazione dell'URL per la pagina specificata.")
+    
+    # Gestisci il caso in cui 'pagina' non sia specificato o non valido
+    logger.error("Valore 'pagina' non valido o non specificato.")
+    # Puoi reindirizzare a una pagina predefinita o fare qualsiasi altra azione necessaria
+
+    return redirect('home')
 
 
