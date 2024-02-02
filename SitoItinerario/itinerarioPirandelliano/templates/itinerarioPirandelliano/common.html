@@ -29,12 +29,38 @@
     }
   }
 
+  #navbar{
+    background: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+  }
+  #navbar.navbar-shrink{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background: #ffffff;
+    
+  }
+  .navdropbutton{
+    background: aqua;
+    border-color: transparent;
+  }
+  .navdropbutton:hover, .navdropbutton:focus {
+    background: rgb(248, 3, 3);
+    border-color: transparent;
+  }
+
+  
+  
   </style>
 </head>
 
 <body class="overflow-x-hidden" style="background-color:blanchedalmond;">
   {% load i18n %}
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg  fixed-top" id="navbar">
     <div class="container-fluid">
 
       <a class="navbar-brand" href="#">
@@ -47,7 +73,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse nav-center" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -73,7 +99,7 @@
         </ul>
         <span class="d-flex">
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown"  aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle navdropbutton" type="button" id="languageDropdown" data-bs-toggle="dropdown"  aria-expanded="false">
                 {% get_current_language as current_language %}
                 
                 {{ current_language }}
@@ -98,5 +124,27 @@
 
   {% endblock %}
 </body>
+
+<script>
+  
+  var mainNav = document.querySelector('#navbar');
+  var collapseNavbar = function() {
+
+    var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+
+    if (scrollTop > 100) {
+      mainNav.classList.add("navbar-shrink");
+    } else {
+      mainNav.classList.remove("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  collapseNavbar();
+  // Collapse the navbar when page is scrolled
+  document.addEventListener("scroll", collapseNavbar);
+  
+
+    
+</script>
 
 </html>
