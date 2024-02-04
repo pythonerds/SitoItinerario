@@ -27,10 +27,12 @@
         right: auto !important; /* Assicura che il right sia impostato su auto per la modalità dropdown-end */
         left: 0 !important; /* Posiziona il dropdown all'estremità sinistra per la modalità dropdown-end */
     }
+
+
   }
 
   #navbar{
-    background: #ffffff;
+    background: #baa93f;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;
@@ -41,11 +43,11 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    background: #ffffff;
+    background: #baa93f;
     
   }
   .navdropbutton{
-    background: aqua;
+    background: #16308d;
     border-color: transparent;
   }
   .navdropbutton:hover, .navdropbutton:focus {
@@ -54,11 +56,10 @@
   }
 
   
-  
   </style>
 </head>
 
-<body class="overflow-x-hidden" style="background-color:blanchedalmond;">
+<body class="overflow-x-hidden"  style="background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255, 0.65) 100%); background-size: 100%; backdrop-filter: blur(5px);">
   {% load i18n %}
   <nav class="navbar navbar-expand-lg  fixed-top" id="navbar">
     <div class="container-fluid">
@@ -144,6 +145,11 @@
   document.addEventListener("scroll", collapseNavbar);
   
 
+  var dimensions = function(){
+    var navBarHeight = document.getElementById("navbar").offsetHeight;
+    document.getElementById("sottoBarra").style.marginTop = navBarHeight + "px";
+  }
+  document.addEventListener("DOMContentLoaded", dimensions);
     
 </script>
 
