@@ -55,11 +55,17 @@
     border-color: transparent;
   }
 
+  #ciao .nav-link.active {
+    color: var(--bs-nav-tabs-link-active-color);
+    background-color: #ff0000;
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+  }
+
   
   </style>
 </head>
 
-<body class="overflow-x-hidden"  style="background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255, 0.65) 100%); background-size: 100%; backdrop-filter: blur(5px);">
+<body class="overflow-x-hidden"  style="background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255, 0.65) 100%); background-size: 100%;">
   {% load i18n %}
   <nav class="navbar navbar-expand-lg  fixed-top" id="navbar">
     <div class="container-fluid">

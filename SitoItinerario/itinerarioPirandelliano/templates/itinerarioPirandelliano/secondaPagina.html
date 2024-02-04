@@ -6,12 +6,14 @@
 {% block content %}
 <input type="hidden" name="pagina" id="pagina" value="secondaPagina">
 
-<div class="row text-center" id="sottoBarra">
+<div style="min-height: auto">
+
+  <div class="row text-center" id="sottoBarra">
     <div class="col">
       <h1 style="font-family:fantasy; margin-top: 8%;">Piano San Gerlando - Arco Spoto</h1>
     </div>
   </div>
-
+  
   <div class="row" style="margin:5% 5% 3%">
     <div class="col">
       <!--Carousel-->
@@ -36,9 +38,9 @@
     </div>
     
   </div>
-
-  <!--Passi della novella-->
-
+  
+    <!--Passi della novella-->
+  
   <div class="row  " >
     <div class="col text-center">
       <div class="container">
@@ -50,172 +52,55 @@
       </div>
     </div>
   </div>
-
-  <div class="row " style="margin: 2% 10% 3%">
-    <div class="col">
-      <div class="card" style="height: 100vh; background-color: rgba(255, 255, 255, 0.663);">
-      <div class="d-flex align-items-start" style="padding: 0%;">
-        <div class="row">
-          <div class="col">
-            <button class="btn" id="MyBtn" >Ciao</button>
-            <button class="btn" id="NovellaBtn" >pippo</button>
-          </div>
-          <div class="row">
-            <p id="div" style="display: none;">ciao guys</p>
-            <p id="Passi" style="display: none;">Passi Scelti</p>
-          </div>
+  
+  <div class="row" style="margin: 2% 10% 3%">
+    <div class="container mt-3">
+      <div class="card" id="ciao" style="background-color: rgba(224, 159, 61, 0.644);">
+        <ul class="nav nav-tabs" id="navTabDescription" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="arte-tab" data-bs-toggle="tab" data-bs-target="#arte-tab-pane" type="button" role="tab" aria-controls="arte-tab-pane" aria-selected="true">Arte</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="scelta-tab" data-bs-toggle="tab" data-bs-target="#scelta-tab-pane" type="button" role="tab" aria-controls="scelta-tab-pane" aria-selected="false">Scelto</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="novella-tab" data-bs-toggle="tab" data-bs-target="#novella-tab-pane" type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella completa</button>
+          </li>
+        </ul>
+        <div class="tab-content mt-3" id="myTabContent">
+          <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab">Contenuto per Arte</div>
+          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab">Contenuto per Scelta</div>
+          <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab">Contenuto per Novella completa</div>
         </div>
       </div>
     </div>
-
-  </div>
-
-  <div class="row" style="margin: 1% 5% 5%;">
-    <div class="col">
-      <p class="d-inline-flex gap-1">
-        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-          aria-expanded="false" aria-controls="collapseExample">
-          Novella completa
-        </button>
-      </p>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-          Addio, Sicilia; addio, Valsanìa; Girgenti che si vede da lontano, lassù, alta; addio, campane di San Gerlando,
-          di cui nel silenzio della campagna m’arrivava il ronzìo; addio, alberi che conoscevo a uno a uno… Voi non vi
-          potete immaginare, come da lontano vi s’avvistino le cose care che lasciate e vi afferrino e vi strappino
-          l’anima!
-
-          Io vedevo certi luoghi, qua, di Valsanìa, proprio come se vi fossi; meglio, anzi; notavo certe cose, che prima
-          non avevo mai notato; come tremavano i fili d’erba alla brezza grecalina, un sasso caduto dal murello, un
-          albero un po’ storto a pendìo, che si sarebbe potuto raddrizzare, e di cui potevo contare le foglie, a una a
-          una… Basta!”.
-
-          Prendiamo spunto da questa struggente pagina de “I vecchi e i Giovani” di Luigi Pirandello per sottolineare il
-          profondo legame del premio Nobel di Agrigento con la sua terra.
-
-          Per Pirandello quei luoghi e quei particolari della sua città natale, non sono “visti da lontano” – in questa
-          pagina e nella sua vita – solo geograficamente (spesso Pirandello è rimasto a lungo a Palermo, a Bonn, a Roma
-          e in giro per il mondo), ma anche nel tempo.
-
-          Sono lampi della memoria, della sua infanzia e della sua prima giovinezza vissuta in gran parte nella Casa al
-          Caos, la contrada poco lontana da Girgenti dove Pirandello nacque perché nel centro cittadino imperversava il
-          colera e i suoi genitori decisero di allontanarsi per evitare il contagio.
-
-          E poi nelle case della sua famiglia a Girgenti e a Porto Empedocle. Ricordi comunque ancora vivi, come quelli
-          descritti in quest’altra pagina dello stesso romanzo storico: “Nero, tutto nero, cielo e mare. Solo la vela,
-          stesa, biancheggiava. Le stelle, fitte fitte, alte, parevano polvere, il mare si rompeva urtando contro i
-          fianchi della tartana, e l’albero cigolava. Poi spuntò la luna, e il bestione si abbonacciò.
-
-          I marinai, a prua, fumavano la pipa e chiacchieravano tra loro; io, buttato là, tra le balle e il cordame
-          incatramato, vedevo il fuoco delle loro pipe; piangevo, con gli occhi spalancati, senz’accorgermene. Le
-          lagrime mi cadevano su le mani. Ero come una creatura di cinque anni; e ne avevo trentatré!”.
-
-          Quel sottolineare che si sentiva pari ad una “creatura di cinque anni” è molto significativo. Si tratta di un
-          viaggio nel tempo, introspettivo, dentro di sé, nel proprio passato. Lo scrittore con la memoria compie degli
-          incontri con il suo passato remoto, con la gente che ha lasciato. Pirandello ha fatto anche con il suo
-          biografo, Vittorio Nardelli, questo viaggio della memoria.
-
-          Così nel libro Vita segreta di Pirandello possiamo leggere molti aneddoti legati alla sua infanzia e alla sua
-          prima giovinezza ad Agrigento e che qui riportiamo.
-
-          Nel testo scopriamo la sorpresa di Caterina, sua madre, perché il suo Luigi ancora “cucciolo”, ricordava
-          nitidamente la sua tata Filippa, ma anche un’eclissi totale di sole e il precettore privato Fasulo, che: “Mise
-          dunque il nostro a far le aste, anzi a ricalcar le aste su certi quaderni all’uopo apprestati”.
-
-          Luigi Pirandello piangeva. Si vede che anche in quel tempo lontano egli era di carattere piuttosto
-          insofferente. Piangeva perché le aste e le aste e le aste gli erano venute a noia. “Sempre star dietro a
-          ricalcar le aste?”. Ricordo, questo, che mette in evidenza una intelligenza già vivace e ribelle. “Incompreso
-          dal suo precettore che alla madre di Luigi, donna Caterina, diceva che il ragazzo era tardo: «— Che vuole che
-          le dica? Il ragazzo è un po’ tardo» (sic!)”.
-
-          Il piccolo dei Pirandello tardo non era ma in quegli anni impaurito sì: “aveva una sacrosanta paura degli
-          spiriti. La sua famiglia abitava, a Girgenti, una casa che a tergo dava su d’una tenebrosa via malfamata e la
-          superstiziosa donna di servizio, Maria Stella, “volentieri gli parlava” di spiriti e di gente assassinata che
-          “quasi in foggia d’uomo” chiedeva “vendetta gridando a gran forza e aggirandosi perpetuamente la notte sul
-          luogo insanguinato… passeggiare in su e in giù, aggirarsi con insistenza forsennata nella via, picchiare alle
-          porte”.
-
-          Secondo alcuni biografi, fu Maria Stella ad aver dato a Luigi il senso del soprannaturale, iniziandolo ai
-          misteri del sacro. Sappiamo bene che l’interesse per lo spiritismo non manca nella pagine pirandelliane, in
-          particolare nel romanzo “Il fu Mattia Pascal”.
-
-          Ogni domenica Luigi andava con Maria Stella nella vicina chiesa di San Pietro, dove officiava don Spanna,
-          prete piuttosto servile con le famiglie benestanti, come lo erano i Pirandello. In quella piccola chiesa nel
-          centro storico di Agrigento si procedeva spesso ad una lotteria, la cui posta era una statuina cerea della
-          Madonna. Sulle polizze ciascuno scriveva il proprio il nome e cognome.
-
-          Luigi un giorno regalò la sua polizza a un fanciullo povero, cancellando le proprie e riportando le generalità
-          di quello. Ma accadde che il prete fece l’estrazione, “dispiegò la carta e rimase un attimo soprappensiero: da
-          ultimo, con cerimoniosa voce, lesse il nome di Pirandello…Ma nel sacro silenzio dei fedeli Luigi levò un urlo:
-          “Non è vero !”.
-
-          Ben sapendo che non poteva aver letto il suo cognome. Rimase cosi deluso da quell’imbroglio del sacerdote che
-          non volle più avere a che fare con la Chiesa. Pirandello nel 1913 ha riportato l’episodio nella novella “La
-          Madonnina”.
-
-          In un’altra occasione il piccolo Luigi, avendo saputo che in una delle torri delle mura di Girgenti, che
-          faceva all’occorrenza da sala mortuaria, avevano portato un suicida, sconosciuto, per un irragionevole
-          desiderio volle vederlo. Andò così dentro la torre e vide il corpo giacente.
-
-          “Luigi contemplava il poveraccio disteso. Regnava intorno uno spaventevole silenzio… Nel tacito della chiusa
-          atmosfera tuttavia Luigi percepì un piccolo rumore, quasi un frullo… V’eran altri, forse ? Qualcuno nascosto
-          negli angoli profondi della torre, qualcuno che si fosse (o non si fosse) accorto di lui?”.
-
-          Presto scoprì due amanti: “Erano allacciati insieme. Non fermi. Compivano anzi con lentezza un movimento
-          bizzarro, ininterrotto, quasi che si cullassero agitati da uno spasimo o regolati da una molla. Stretti: e la
-          femmina aveva le sottane alzate”.
-
-          Ma Luigi non lo comprese che dopo molti anni dopo ciò che aveva visto. Un contrasto tra la passione e la morte
-          che ritroviamo ad esempio nella novella pirandelliana “Il No di Anna”.
-
-          L’infanzia e la prima giovinezza di Pirandello non furono quindi sempre serene. Secondo alcuni studiosi, “ciò
-          lo stimolò ad affinare le sue capacità espressive e a studiare il modo di comportarsi degli altri per cercare
-          di corrispondervi al meglio
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <script>
-
-    var MyBtn = document.getElementById("MyBtn");
-    var NovellaBtn = document.getElementById("NovellaBtn");
-    var div = document.getElementById("div")
-    var passi = document.getElementById("Passi");
-  
-    MyBtn.addEventListener("click", function(){
-      MyBtn.style.borderBlockEndColor = (MyBtn.style.borderBlockEndColor === "lightgray") ? '' : "lightgray";
-      NovellaBtn.style.borderBlockColor = '';
-      div.style.display = (div.style.display === "none") ? "flex" : "none";
-      passi.style.display = "none"
-    });
-  
-    NovellaBtn.addEventListener("click", function(){
-      NovellaBtn.style.borderBlockEndColor = (NovellaBtn.style.borderBlockEndColor === "lightgray") ? '' : "lightgray";
-      MyBtn.style.borderBlockEndColor = '';
-      div.style.display = "none";
-      passi.style.display = (passi.style.display === "none") ? "flex" : "none";
-  
-    })
-
-
-    function changeBackgroundImage(){
-        // Ottieni il body
-        var body = document.body;
-
-        // Nuovo URL dell'immagine di sfondo
-        var newBackgroundImageURL = 'url("../../../media/SanGerlando1.jpeg")';
-
-        // Imposta la nuova immagine di sfondo
-        body.style.backgroundImage = newBackgroundImageURL;
-      }
-
-      document.addEventListener("DOMContentLoaded", changeBackgroundImage)
     
-    </script>
+  
+  </div>
+
+</div>
+
+
+
+
+
+<script>
+
+
+  function changeBackgroundImage(){
+      // Ottieni il body
+      var body = document.body;
+
+      // Nuovo URL dell'immagine di sfondo
+      var newBackgroundImageURL = 'url("../../../media/SanGerlando1.jpeg")';
+
+      // Imposta la nuova immagine di sfondo
+      body.style.backgroundImage = newBackgroundImageURL;
+    }
+
+    document.addEventListener("DOMContentLoaded", changeBackgroundImage)
+  
+</script>
 
 
 
