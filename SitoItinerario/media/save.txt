@@ -1,0 +1,67 @@
+<div class="col" style="margin-top: 0%;">
+      <p align="justify">
+        {%trans "Arte Piano San Gerlando"%}
+
+        Il piano S. Gerlando oggi chiamato piazza don Minzoni si trova alla fine della via duomo e da cui si accede alla
+        scalinata che conduce alla facciata principale della Cattedrale. Si può considerare la più antica piazza della
+        città, nata per servire come zona di manovra militare dello steri.
+        Sulla piazza prospetta il maestoso edificio del seminario fondato in data 1577 ad opera del vescovo Cesare
+        Marullo sui resti dell’antico Steri Chiaramontano, e opera degli interventi di diversi vescovi ad iniziare dal
+        vescovo Bonincontro seguito dai vescovi Traina, Ramirez, Gioieni, Lucchesi Palli che hanno riutilizzando le
+        strutture medievali. Oggi appartiene alla Curia agrigentina. Il prospetto esterno è formato da due ordini di
+        finestre simmetriche regolari con al centro due balconi barocchi sul portale. Lo Steri era dimora fortificata di
+        Manfredi Chiaramonte, Gran Siniscalco e Conte di Modica, dove si trasferì lasciando la precedente dimora oggi il
+        monastero di S.Spirito.
+        Nel 1310 il Vescovo Labro gli concede alcune case dove egli vi edifica il suo palazzo in posizione strategica.
+        Il Fazello racconta che nel 1353 in questa piazza si tenne una grande festa per le nozze di Luchina Chiaramonte,
+        figlia di Federico III, che sposava Enrico Rosso, conte di Aidone. In questo grande spiazzo si apparecchiò uno
+        straordinario e sfarzoso banchetto a cui partecipò anche il popolo.
+        La scelta della posizione nel punto più alto della città e in particolare di fronte al simbolo religioso
+        qual’era la cattedrale, è espressione del prestigio della più potente famiglia feudale siciliana del XIV secolo,
+        di cui sono rimaste alcune testimonianze chiara montane: i resti di una torre merlata, alcune monofore, una
+        bifora e una serie di volte a crociera poggianti su pilastri sormontati da capitelli, nei quali vi è lo stemma
+        dei Chiaramonte dove sono raffigurati il colle e i cinque monti, incorniciati da un arco trilobato. Viene
+        chiamato “Lo steri grande” (da Hosterium, palazzo fortificato).
+        In adiacenza all’edificio sul lato nord ovest della piazza si ergeva la Porta dei Cavalieri, una delle nove
+        porte medievali della Terra Vecchia, mentre sul lato sud est si trova nascosto un arco a tutto sesto, l’Arco di
+        Spoto. L’Arco di Spoto rappresenta la prima fase dello sviluppo della città medievale della Terravecchia prima
+        della venuta dei Chiaramonte.
+
+      </p>
+    </div>
+
+
+
+
+    <h3>Passi Scelti della Novella</h3>
+      <p align="left">
+        {%trans "Novella sanGerlando"%}
+        Novelle
+        <br>
+        Addio, Sicilia; addio, Valsanìa; Girgenti che si vede da lontano, lassù, alta; addio, campane di San Gerlando,
+        di cui nel silenzio della campagna m’arrivava il ronzìo; addio, alberi che conoscevo a uno a uno… Voi non vi
+        potete immaginare, come da lontano vi s’avvistino le cose care che lasciate e vi afferrino e vi strappino
+        l’anima!
+
+        Io vedevo certi luoghi, qua, di Valsanìa, proprio come se vi fossi; meglio, anzi; notavo certe cose, che prima
+        non avevo mai notato; come tremavano i fili d’erba alla brezza grecalina, un sasso caduto dal murello, un albero
+        un po’ storto a pendìo, che si sarebbe potuto raddrizzare, e di cui potevo contare le foglie, a una a una…
+        Basta!”.
+      </p>
+
+
+
+
+
+      <p>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    Toggle width collapse
+  </button>
+</p>
+<div style="min-height: 120px;">
+  <div class="collapse collapse-horizontal" id="">
+    <div class="card card-body" style="width: 300px;">
+      This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+    </div>
+  </div>
+</div>
