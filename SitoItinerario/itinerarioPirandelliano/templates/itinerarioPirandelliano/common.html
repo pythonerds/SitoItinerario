@@ -39,6 +39,9 @@
     letter-spacing: 1px;
     border-bottom: none;
   }
+  .navbar-nav{
+    --bs-nav-link-hover-color: #16308d;
+  }
   #navbar.navbar-shrink{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -57,15 +60,25 @@
 
   #ciao .nav-link.active {
     color: var(--bs-nav-tabs-link-active-color);
-    background-color: #ff0000;
+    background-color: #baa93f;
     border-color: var(--bs-nav-tabs-link-active-border-color);
   }
 
+  .rettangolo {
+            background-color: #baa93f; /* Imposta il colore di sfondo del rettangolo */
+            width: 100vw; /* Imposta una larghezza fissa per il rettangolo */
+            height: 32vh;; /* Imposta un'altezza fissa per il rettangolo */
+            padding: 1%;
+        }
+
+  .nav-link{
+    color: white;
+  }
   
   </style>
 </head>
 
-<body class="overflow-x-hidden"  style="background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255, 0.65) 100%); background-size: 100%;">
+<body class="overflow-x-hidden"  style="background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255, 0.65) 100%); background-size: 115%;">
   {% load i18n %}
   <nav class="navbar navbar-expand-lg  fixed-top" id="navbar">
     <div class="container-fluid">
@@ -73,7 +86,7 @@
       <a class="navbar-brand" href="{%url 'home'%}">
         <img src="../../../media/Logo.jpg" alt="Logo" width="50" height="50"
           class="d-inline-block align-text-center">
-        Testo
+        Agrigento Pirandelliana
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,6 +139,7 @@
       </div>
     </div>
   </nav>
+  
   
   {% block content %}
 

@@ -39,36 +39,54 @@
     
   </div>
   
-    <!--Passi della novella-->
-  
-  <div class="row  " >
-    <div class="col text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <!--Bottoni Arte, Passo Scelto e Novella Completa-->
   
   <div class="row" style="margin: 2% 10% 3%">
     <div class="container mt-3">
       <div class="card" id="ciao" style="background-color: rgba(224, 159, 61, 0.644);">
+        <div style="font-family: fantasy; font-size: 130%;">
         <ul class="nav nav-tabs" id="navTabDescription" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="arte-tab" data-bs-toggle="tab" data-bs-target="#arte-tab-pane" type="button" role="tab" aria-controls="arte-tab-pane" aria-selected="true">Arte</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="scelta-tab" data-bs-toggle="tab" data-bs-target="#scelta-tab-pane" type="button" role="tab" aria-controls="scelta-tab-pane" aria-selected="false">Scelto</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="novella-tab" data-bs-toggle="tab" data-bs-target="#novella-tab-pane" type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella completa</button>
-          </li>
-        </ul>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="arte-tab" data-bs-toggle="tab" data-bs-target="#arte-tab-pane" type="button" role="tab" aria-controls="arte-tab-pane" aria-selected="true">Arte</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="scelta-tab" data-bs-toggle="tab" data-bs-target="#scelta-tab-pane" type="button" role="tab" aria-controls="scelta-tab-pane" aria-selected="false">Passo Scelto</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="novella-tab" data-bs-toggle="tab" data-bs-target="#novella-tab-pane" type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella completa</button>
+            </li>
+          </ul>
+        </div>
         <div class="tab-content mt-3" id="myTabContent">
-          <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab">Contenuto per Arte</div>
+          <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+            {%trans "Arte Piano San Gerlando"%}
+
+            Il piano S. Gerlando oggi chiamato piazza don Minzoni si trova alla fine della via duomo e da cui si accede alla
+            scalinata che conduce alla facciata principale della Cattedrale. Si può considerare la più antica piazza della
+            città, nata per servire come zona di manovra militare dello steri.
+            Sulla piazza prospetta il maestoso edificio del seminario fondato in data 1577 ad opera del vescovo Cesare
+            Marullo sui resti dell’antico Steri Chiaramontano, e opera degli interventi di diversi vescovi ad iniziare dal
+            vescovo Bonincontro seguito dai vescovi Traina, Ramirez, Gioieni, Lucchesi Palli che hanno riutilizzando le
+            strutture medievali. Oggi appartiene alla Curia agrigentina. Il prospetto esterno è formato da due ordini di
+            finestre simmetriche regolari con al centro due balconi barocchi sul portale. Lo Steri era dimora fortificata di
+            Manfredi Chiaramonte, Gran Siniscalco e Conte di Modica, dove si trasferì lasciando la precedente dimora oggi il
+            monastero di S.Spirito.
+            Nel 1310 il Vescovo Labro gli concede alcune case dove egli vi edifica il suo palazzo in posizione strategica.
+            Il Fazello racconta che nel 1353 in questa piazza si tenne una grande festa per le nozze di Luchina Chiaramonte,
+            figlia di Federico III, che sposava Enrico Rosso, conte di Aidone. In questo grande spiazzo si apparecchiò uno
+            straordinario e sfarzoso banchetto a cui partecipò anche il popolo.
+            La scelta della posizione nel punto più alto della città e in particolare di fronte al simbolo religioso
+            qual’era la cattedrale, è espressione del prestigio della più potente famiglia feudale siciliana del XIV secolo,
+            di cui sono rimaste alcune testimonianze chiara montane: i resti di una torre merlata, alcune monofore, una
+            bifora e una serie di volte a crociera poggianti su pilastri sormontati da capitelli, nei quali vi è lo stemma
+            dei Chiaramonte dove sono raffigurati il colle e i cinque monti, incorniciati da un arco trilobato. Viene
+            chiamato “Lo steri grande” (da Hosterium, palazzo fortificato).
+            In adiacenza all’edificio sul lato nord ovest della piazza si ergeva la Porta dei Cavalieri, una delle nove
+            porte medievali della Terra Vecchia, mentre sul lato sud est si trova nascosto un arco a tutto sesto, l’Arco di
+            Spoto. L’Arco di Spoto rappresenta la prima fase dello sviluppo della città medievale della Terravecchia prima
+            della venuta dei Chiaramonte.
+
+          </div>
           <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab">Contenuto per Scelta</div>
           <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab">Contenuto per Novella completa</div>
         </div>
@@ -76,6 +94,16 @@
     </div>
     
   
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="rettangolo">
+        <p style="color: #41758C; " align="justify-content-center">
+          Ciao a tutti
+        </p>
+      </div>
+    </div>
   </div>
 
 </div>
@@ -92,7 +120,7 @@
       var body = document.body;
 
       // Nuovo URL dell'immagine di sfondo
-      var newBackgroundImageURL = 'url("../../../media/SanGerlando1.jpeg")';
+      var newBackgroundImageURL = 'url("../../../media/SanGerlando2.jpg")';
 
       // Imposta la nuova immagine di sfondo
       body.style.backgroundImage = newBackgroundImageURL;
