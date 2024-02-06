@@ -6,52 +6,136 @@
 {% block content %}
 <input type="hidden" name="pagina" id="pagina" value="home">
 
+<div style="min-height: auto">
 
-<section>
-
-  <div id="sottoBarra">
-    <div id="immaginiHome" class="carousel slide" data-bs-ride="carousel"  >
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#immaginiHome" data-bs-slide-to="0" class="active" aria-current="true" ></button>
-            <button type="button" data-bs-target="#immaginiHome" data-bs-slide-to="1" ></button>
-            <button type="button" data-bs-target="#immaginiHome" data-bs-slide-to="2" ></button>
-          </div>
-        <div class="carousel-inner" style="max-height: 100vh;">
-          <div class="carousel-item active">
-            <img src="../../../media/foto1.JPG" class="d-block w-100 img-fluid" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../../../media/foto2.JPG" class="d-block w-100 img-fluid" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="../../../media/foto3.JPG" class="d-block w-100 img-fluid" alt="...">
-          </div>
+  <div class="row text-center" id="sottoBarra">
+    <div class="col">
+      <div class="page-section clearfix">
+        <div class="container">
+            <div class="intro">
+              
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner intro-img" style="width: 67%;">
+                  <div class="carousel-item active">
+                    <img src="../../../media/IMG_2456.JPG" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../../media/foto2.JPG" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../../../media/foto3.JPG" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+      
+                <div class="text-center intro-text p-5 rounded bg-faded ag">
+                    <h2 class="section-heading mb-4">Agrigento Pirandelliana</h2>
+                    <p class="mb-3">
+                      Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!\</p>
+                    <div class="mx-auto intro-button">
+                      <a class="btn btn-primary d-inline-block mx-auto btn-xl" role="button" href="#">Visit Us Today!</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#immaginiHome" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#immaginiHome" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div> 
-  </div>
-</section>
-<section style="margin-top: 30px;">
-  <div>
-
-    <div class="row text-center">
-        <h1>Titolo</h1>
+      </div>
     </div>
-  
-    
   </div>
-</section>
+
+
+ <div class="container">
+  <div class="row" style="margin-top: 10%;">
+    <div class="col">
+      <div class="card" style="width: 18rem; margin-left: 12%; ">
+        <img src="../../../media/foto1.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Piano san Gerlando - Arco Spoto</h5>
+          <p class="card-text">Scopri di piu sul piano San Gerlando e sull'arco Spoto</p>
+          <a href="{%url 'secondaPagina'%}" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem; margin-left: 12%;">
+        <img src="../../../media/foto2.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Piano san Gerlando - Arco Spoto</h5>
+          <p class="card-text">Scopri di piu sul piano San Gerlando e sull'arco Spoto</p>
+          <a href="{%url 'secondaPagina'%}" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem; margin-left: 12%;">
+        <img src="../../../media/foto3.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Piano san Gerlando - Arco Spoto</h5>
+          <p class="card-text">Scopri di piu sul piano San Gerlando e sull'arco Spoto</p>
+          <a href="{%url 'secondaPagina'%}" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 5%;">
+    <div class="col">
+      <div class="card" style="width: 18rem; margin-left: 40%;">
+        <img src="../../../media/IMG-20240201-WA0027.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Piano san Gerlando - Arco Spoto</h5>
+          <p class="card-text">Scopri di piu sul piano San Gerlando e sull'arco Spoto</p>
+          <a href="{%url 'secondaPagina'%}" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem; margin-left: 10%;">
+        <img src="../../../media/IMG_2454.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Piano san Gerlando - Arco Spoto</h5>
+          <p class="card-text">Scopri di piu sul piano San Gerlando e sull'arco Spoto</p>
+          <a href="{%url 'secondaPagina'%}" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+  
+
+  
+
+</div>
 
 
 
+<script>
+  function changeBackgroundImage(){
+      // Ottieni il body
+      var body = document.body;
+
+      // Nuovo URL dell'immagine di sfondo
+      var newBackgroundImageURL = 'url("../../../media/agrigento.jpg")';
+
+      // Imposta la nuova immagine di sfondo
+      body.style.backgroundImage = newBackgroundImageURL;
+    }
+
+    document.addEventListener("DOMContentLoaded", changeBackgroundImage)
+  
+</script>
 
 
 
 {% endblock %}
+
+
+
+
+
+<div style="margin-top: 30px;">
+  <div>
+    
+    
+  
+    
+  </div>
+</div>
