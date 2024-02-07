@@ -96,6 +96,18 @@
   
   </div>
 
+  <div class="row" style="margin: 2% 10% 3%;">
+    <div class="map-container">
+      <div class="map-overlay">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d793.3010979304007!2d13.574361499197384!3d37.313985900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1310825a2d4e161d%3A0xb4897b263a026db4!2sVia%20Duomo%2C%20120%2C%2092100%20Agrigento%20AG!5e0!3m2!1sit!2sit!4v1707299727039!5m2!1sit!2sit&zoom=14" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="button-container">
+      <button onclick="getDirections()">Portami li</button>
+    </div>
+
+
+  </div>
   
 
 </div>
@@ -105,7 +117,9 @@
 
 
 <script>
-
+  function getDirections() {
+      window.open("https://www.google.com/maps/dir/?api=1&destination=41.9028,12.4964");
+  }
 
   function changeBackgroundImage(){
       // Ottieni il body
