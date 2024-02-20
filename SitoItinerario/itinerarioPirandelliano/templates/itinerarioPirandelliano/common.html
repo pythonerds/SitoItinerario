@@ -27,6 +27,7 @@
         right: auto !important; /* Assicura che il right sia impostato su auto per la modalità dropdown-end */
         left: 0 !important; /* Posiziona il dropdown all'estremità sinistra per la modalità dropdown-end */
     }
+    
 
 
   }
@@ -112,35 +113,25 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.map-container {
-      position: relative;
-      height: 450px;
-      border-radius: 35px;
-      overflow: hidden;
-    }
 
-    .map-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none; /* Disabilita l'interazione con la mappa */
-    }
+.card-home{
+    width: 60%;
+    height: 61vh;
+    margin-left: 12%;
+    margin-top: 5%;
+  }
 
-    .map-overlay iframe {
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
+  .card-home .card-img-top {
+    object-fit: cover;
+    height: 50%;
+  }
 
-    .button-container {
-      position: absolute;
-      bottom: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
+  .card-home .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+  }
 
 
   
