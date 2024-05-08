@@ -32,43 +32,46 @@ def home(request):
 
 def PianoSanGerlando(request):
     pagina="PianoSanGerlando"
+    language = request.LANGUAGE_CODE
 
 
     logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
     #paragrafo=_("paragrafo")
-    return render(request, 'itinerarioPirandelliano/PianoSanGerlando.html',{"pagina":pagina})
+    return render(request, 'itinerarioPirandelliano/PianoSanGerlando.html',{"pagina":pagina, "lang_name":language})
 
 def Basilica(request):
     pagina="Basilica"
-
+    language = request.LANGUAGE_CODE
 
     logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
     #paragrafo=_("paragrafo")
-    return render(request, 'itinerarioPirandelliano/Basilica.html',{"pagina":pagina})
+    return render(request, 'itinerarioPirandelliano/Basilica.html',{"pagina":pagina, "lang_name":language})
 
 def Cattedrale(request):
     pagina="Cattedrale"
-
+    language = request.LANGUAGE_CODE
 
     logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
     #paragrafo=_("paragrafo")
-    return render(request, 'itinerarioPirandelliano/Cattedrale.html',{"pagina":pagina})
+    return render(request, 'itinerarioPirandelliano/Cattedrale.html',{"pagina":pagina, "lang_name":language})
 
 def Pirandello(request):
     pagina="Pirandello"
+    language = request.LANGUAGE_CODE
 
 
     logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
     #paragrafo=_("paragrafo")
-    return render(request, 'itinerarioPirandelliano/Pirandello.html',{"pagina":pagina})
+    return render(request, 'itinerarioPirandelliano/Pirandello.html',{"pagina":pagina, "lang_name":language})
 
 def VialeVittoria(request):
     pagina="VialeVittoria"
+    language = request.LANGUAGE_CODE
 
 
     logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
     #paragrafo=_("paragrafo")
-    return render(request, 'itinerarioPirandelliano/VialeVittoria.html',{"pagina":pagina})
+    return render(request, 'itinerarioPirandelliano/VialeVittoria.html',{"pagina":pagina, "lang_name":language})
 
 
 
