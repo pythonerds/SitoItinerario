@@ -1,23 +1,327 @@
-<!Doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Itinerario Pirandelliano</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %} {% endblock %}</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <style></style>
-  </head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
-  <body>
-    {% block content %}
-    {% endblock %}
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+  
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <style>
+    @media (min-width: 767px) {
+    /* Aggiungi stili solo quando la larghezza della finestra è inferiore a 768px (dimensioni mobile) */
+
+    .dropdown-menu {
+        right: 0; /* Posiziona il dropdown all'estremità destra per le dimensioni mobile */
+        left: auto !important; /* Assicura che il left sia impostato su auto */
+    }
+
+    .dropdown-menu-end {
+        right: auto !important; /* Assicura che il right sia impostato su auto per la modalità dropdown-end */
+        left: 0 !important; /* Posiziona il dropdown all'estremità sinistra per la modalità dropdown-end */
+    }
+    
+
+
+  }
+
+  #navbar{
+    background: #baa93f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: background .3s ease-in-out,padding-top .3s ease-in-out,padding-bottom .3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+  }
+  .navbar-nav{
+    --bs-nav-link-hover-color: #16308d;
+  }
+  #navbar.navbar-shrink{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background: #baa93f;
+    
+  }
+  .navdropbutton{
+    background: #16308d;
+    border-color: transparent;
+  }
+  .navdropbutton:hover, .navdropbutton:focus {
+    background: rgb(248, 3, 3);
+    border-color: transparent;
+  }
+
+  #ciao .nav-link.active {
+    color: var(--bs-nav-tabs-link-active-color);
+    background-color: #baa93f;
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+  }
+
+  .rettangolo {
+            background-color: #baa93f; /* Imposta il colore di sfondo del rettangolo */
+            width: 100vw; /* Imposta una larghezza fissa per il rettangolo */
+            height: 32vh;; /* Imposta un'altezza fissa per il rettangolo */
+            padding: 1%;
+        }
+
+  .nav-link{
+    color: white;
+  }
+
+  .page-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.intro {
+  position: relative;
+}
+
+.intro .intro-text {
+  left: 0;
+  width: 60%;
+  margin-top: 3rem;
+  position: absolute;
+}
+
+.bg-faded {
+  background-color: rgba(255,255,255,.85);
+}
+
+
+.intro .intro-img {
+  width: 75%;
+  float: right;
+}
+
+
+.ag{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.card-home{
+    width: 60%;
+    height: 61vh;
+    margin-left: 12%;
+    margin-top: 5%;
+  }
+
+  .card-home .card-img-top {
+    object-fit: cover;
+    height: 50%;
+  }
+
+  .card-home .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+  }
+
+  #novella-tab-pane{
+    max-height: 40vh; 
+    overflow-y: scroll;
+
+    
+  }
+  ::-webkit-scrollbar{
+    background-color: transparent;
+  }
+
+  
+  </style>
+</head>
+
+<body class="overflow-x-hidden"  style="background: linear-gradient(rgba(255, 255, 255), rgba(255, 255, 255, 0.65) 100%); background-size: 115%;">
+  {% load i18n %}
+  <nav class="navbar navbar-expand-lg  fixed-top" id="navbar">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="{%url 'home'%}">
+        <img src="../../../media/Logo.jpg" alt="Logo" width="50" height="50"
+          class="d-inline-block align-text-center">
+        Agrigento Pirandelliana
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav-center" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{%url 'home'%}">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Luoghi Pirandelliani
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="{%url 'Cattedrale' %}">Cattedrale - Palazzo Vescovile</a></li>
+              <li><a class="dropdown-item" href="{%url 'PianoSanGerlando'%}">Piano San Gerlando - Arco Spoto</a></li>
+              <li><a class="dropdown-item" href="{%url 'Basilica'%}">Basilica dell'immacolata</a></li>
+              <li><a class="dropdown-item" href="{%url 'Pirandello'%}">Via Pirandello - Casa Natale Luigi Pirandello</a></li>
+              <li><a class="dropdown-item" href="{%url 'VialeVittoria'%}">Viale della Vittoria</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">visita citta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Cibo Tipico</a>
+          </li>
+        </ul>
+        <span class="d-flex">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle navdropbutton" type="button" id="languageDropdown" data-bs-toggle="dropdown"  aria-expanded="false">
+                {% get_current_language as current_language %}
+                
+                {{ current_language }}
+            </button>
+            <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                {% get_current_language as current_language %}
+                {% get_available_languages as available_languages %}
+                {% for lang_code, lang_name in available_languages %}
+                
+                    
+                        <a class="dropdown-item" href="{% url 'set_language' %}?language={{ lang_code }}&pagina={{ pagina }}">{{ lang_name }}</a>
+                    
+                {% endfor %}
+            </div>
+        </div>
+        </span>
+      </div>
+    </div>
+  </nav>
+  
+  
+  {% block content %}
+
+  {% endblock %}
+  <footer class="text-center" style="background: #baa93f; margin-bottom: 0px;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="bi bi-facebook"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="bi bi-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+
+<script>
+  
+  var mainNav = document.querySelector('#navbar');
+  var collapseNavbar = function() {
+
+    var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+
+    if (scrollTop > 100) {
+      mainNav.classList.add("navbar-shrink");
+    } else {
+      mainNav.classList.remove("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  collapseNavbar();
+  // Collapse the navbar when page is scrolled
+  document.addEventListener("scroll", collapseNavbar);
+  
+
+  var dimensions = function(){
+    var navBarHeight = document.getElementById("navbar").offsetHeight;
+    document.getElementById("sottoBarra").style.marginTop = navBarHeight + "px";
+  }
+  document.addEventListener("DOMContentLoaded", dimensions);
+
+  document.addEventListener('DOMContentLoaded', function() {
+        var novellaTabPane = document.getElementById('novella-tab-pane');
+        if (novellaTabPane) {
+            novellaTabPane.innerHTML = novellaTabPane.innerHTML.replace(/\n/g, '<br>');
+        }
+    });
+    
+</script>
 
 </html>

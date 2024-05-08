@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-13 10:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: SitoItinerario/settings.py:34
+msgid "Italian"
+msgstr ""
+
+#: SitoItinerario/settings.py:35
+msgid "English"
+msgstr ""
+
+#: SitoItinerario/settings.py:36
+msgid "Germany"
+msgstr ""
+
+#: SitoItinerario/settings.py:37
+msgid "French"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:2
+msgid "frase da tradurre"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:62
+msgid "Arte Basilica"
+msgstr "Die Basilika dell'Immacolata, identifiziert als die Kirche von San Francesco d'Assisi, mit dem angrenzenden Kloster, wurde von den Franziskaner-Minoriten gegründet, die sich im 13. Jahrhundert in Sizilien niederließen und insbesondere in Agrigento seit 1295 präsent waren. Der Grundriss der Kirche ist rechteckig, mit einem einzigen Schiff ohne Querschiff, mit sieben Seitenaltären; Die Wände und die Decke wurden vom Maler Lucio Gurreri freskiert, der auf dem Gewölbe der Apsis, unter den Heiligen, in einem überfüllten paradiesischen Bild die Figuren von Mons. Michele Sclafani und Bischof Mons. Giovanni Battista Peruzzo abgebildet hat, der verlangte, in derselben Kirche begraben zu werden. Die erste Konstruktion ist von klar montanem Ursprung, was durch das Testament von Donna Isabella Chiaramonte vom 6. Dezember 1362 bestätigt wird, in dem sie ihre Erben anwies, ihr bei ihrem Tod ein Grab in jener Tribuna nova ecclesiae conventus San Francisci zu errichten, die von Federico Chiaramonte errichtet wurde. Im Jahr 1788 wurde ein neuer Glockenturm hinzugefügt und nach den Bombenangriffen von 1943 griff Mons. Michele Sclafani, der Rektor der Basilika, sofort ein, um das Denkmal sowohl außen als auch innen zu restaurieren, indem er die Gemälde und Dekorationen erneuerte. Eine Tafel an der Umfassungsmauer erinnert daran, dass am 12. Juli 1943 ein alliierter Bomber das Schutzhaus in der Via San Francesco traf und 340 Opfer forderte. Die Basilika steht heute in ausgezeichnetem Zustand mit ihrer prächtigen Fassade aus Sandsteintuff, flankiert von zwei Glockentürmen. In der Mitte unten befindet sich ein elegantes Portal zwischen ionischen Pilastern und gotischen und lokalen dekorativen Elementen, genau genommen chiaramontanisch, während oben die Nische steht, die die Statue des heiligen Franziskus aus weißem Marmor enthält."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:65
+msgid "Passo Scelto Basilica"
+msgstr "Die Statue der SS. Immacolta, die das ganze Jahr in einem Wandschrank in der Sakristei der Kirche von S. Franziskus von Assisi aufbewahrt ist, wurde am achten Dezember, vollgeschmückt mit Gold und Edelsteinen, mit hellblauem Gewand aus Seide mit silbernen Sternen, nach feierlichen Funktionen in der Kirche, auf der Bahre in Prozession durch di steilen Straßen von Montelusa getragen, zwischen die alten abgekratzten Häuser, gedrengt, fast eines an das andere; auf, auf, bis zur Kathedrale auf die Spitze des Hügels; und dort gelassen, über die Nacht, Gast des Patrons S. Gerlando. In der Kathedrale sollte di SS. Immacolata vom Abend des Donnerstags bis zum Sonntagmorgen bleiben: Zweieinhalb Tage. Jedoch, da die Zeit zu kurz schien, ließ man sie für diesen Ersten Sonntag nach dem Fest, und man wartete bis zum nächsten Sonntag, um sie mit einer neuen und pompöseren Prozession zur Kirche von S. Franziskus zu führen."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:66
+msgid "Novella Basilica"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:62
+msgid "Arte Cattedrale"
+msgstr "Die Kathedrale von Agrigent und der Bischofspalast wurden im 11. Jahrhundert von Bischof Gerlando von Besançon erbaut. Der Bau des Doms begann im Jahr 1090, aber es gab Probleme mit der Stabilität, weil der Bau auf einem Lehmboden und Erdrutsch basierte. Die durchgeführten Arbeiten haben das normannische Gebäude verändert, von dem aufgrund von Naturereignissen und historischen Ereignissen wie den Kriegen von Friedrich II. nur noch wenig übrig ist. Im 15. Jahrhundert wurden der heutige Glockenturm und die hölzerne Decke mit Bildern der Apostel, der Heiligen agrigentini und den Wappen der edelsten Familien der Stadt bemalt. Die Kathedrale wurde nach Osten mit den runden Stucksäulen nach dem ersten Triumphbogen erweitert. Heute präsentiert sich die Kathedrale als breiter dreischiffiger Bau mit lateinischem Kreuz und einem länglichen Querschiff, das in seiner architektonischen Struktur sehr komplex ist. Der Bischofspalast, Sitz des Bistums, wurde durch das Erdbeben von 1693 beschädigt, aber Mitte des 18. Jahrhunderts sofort wieder aufgebaut. Dadurch wurden verschiedene Veränderungen sowohl an der Fassade als auch im Innenraum vorgenommen. Von besonderem Wert ist das Eingangsportal, das von zwei Säulen begrenzt wird, die als Sockel für einen Balkon dienen. Letzterer wird durch ein dreieckiges, in der Mitte offenes Tympanon bereichert, das das Wappen von Bischof Andrea Lucchesi Palli, einem Mann der Kirche, enthält Kirche und ein großer Gelehrter, der sich der Astronomie, Geschichte, Soziologie und Geisteswissenschaften widmete. In einer Außennische wurde die wunderschöne Marmorstatue von Santa Maria di Monserrato aus der Schule von Domenico Gagini aufgestellt. Im Inneren des Palastes werden die Porträts der Bischöfe von Agrigent aufbewahrt."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:66
+msgid "Passo Scelto Cattedrale"
+msgstr "Die Statue der SS. Immacolta, die das ganze Jahr in einem Wandschrank in der Sakristei der Kirche von S. Franziskus von Assisi aufbewahrt ist, wurde am achten Dezember, vollgeschmückt mit Gold und Edelsteinen, mit hellblauem Gewand aus Seide mit silbernen Sternen, nach feierlichen Funktionen in der Kirche, auf der Bahre in Prozession durch di steilen Straßen von Montelusa getragen, zwischen die alten abgekratzten Häuser, gedrengt, fast eines an das andere; auf, auf, bis zur Kathedrale auf die Spitze des Hügels; und dort gelassen, über die Nacht, Gast des Patrons S. Gerlando. In der Kathedrale sollte di SS. Immacolata vom Abend des Donnerstags bis zum Sonntagmorgen bleiben: Zweieinhalb Tage. Jedoch, da die Zeit zu kurz schien, ließ man sie für diesen Ersten Sonntag nach dem Fest, und man wartete bis zum nächsten Sonntag, um sie mit einer neuen und pompöseren Prozession zur Kirche von S. Franziskus zu führen."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:67
+msgid "Novella Cattedrale"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:62
+msgid "Arte Piano San Gerlando"
+msgstr "Der Plan S. Gerlando, heute Piazza Don Minzoni genannt, befindet sich am Ende der Via Duomo und von wo aus man zur Treppe führt, die zur Hauptfassade der Kathedrale führt. Es kann als der älteste Platz der Stadt angesehen werden, der als militärisches Manövergebiet des Steri entstanden ist. Auf dem Platz befindet sich das maestätische Seminargebäude, das 1577 von Bischof Cesare Marullo über die Überreste des antiken Steri Chiaramontano gegründet wurde, und das Werk der Interventionen mehrerer Bischöfe, beginnend mit Bischof Bonincontro, gefolgt von den Bischöfen Traina, Ramirez, Gioieni, Lucchesi Palli, die die mittelalterlichen Strukturen wiederverwendet haben. Heute gehört es zur Curia Agrigentina. Der äußere Prospekt besteht aus zwei Ordnungen regelmäßiger symmetrischer Fenster mit zwei barocken Balkonen auf dem Portal in der Mitte. Das Steri war eine befestigte Residenz von Manfredi Chiaramonte, Gran Siniscalco und Conte di Modica, wohin er zog und seine frühere Residenz heute das Kloster S.Spirito verließ. Im Jahr 1310 gewährte ihm Bischof Labro einige Häuser, in denen er seinen Palast in einer strategischen Position errichtete. Fazello erzählt, dass 1353 auf diesem Platz eine große Hochzeitsfeier von Luchina Chiaramonte, der Tochter von Friedrich III., die Enrico Rosso, Graf von Aidone, heiratete, veranstaltet wurde. In diesem großen Stellplatz wurde ein außergewöhnliches und prunkvolles Bankett abgehalten, an dem auch die Menschen teilnahmen. Die Wahl der Lage am höchsten Punkt der Stadt und insbesondere vor dem religiösen Symbol, das die Kathedrale war, ist Ausdruck des Prestiges der mächtigsten sizilianischen Feudalfamilie des vierzehnten Jahrhunderts, von der einige deutliche Bergzeugnisse erhalten sind: die Überreste eines gewölbten Turms, einige Monopforen, eine Morge und eine Reihe von Kreuzgewölbe, die auf Säulen ruhen, die von Kapitellen gekrönt sind, in denen sich das Wappen der Chiaramonte befindet, in dem der Hügel und die fünf Berge abgebildet sind, die von einem dreilobigen Bogen umrahmt sind. Es wird „Die große Steri“ genannt (von Hosterium, einem befestigten Palast). Neben dem Gebäude auf der nordwestlichen Seite des Platzes stand das Rittertor, eines der neun mittelalterlichen Tore des Alten Landes, während sich auf der südöstlichen Seite ein Rundbogen, der Spoto-Bogen, verbirgt. Der Arco di Spoto ist die erste Phase der Entwicklung der mittelalterlichen Stadt Terravecchia vor der Ankunft der Chiaramonte."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:65
+msgid "Passo Scelto Piano San Gerlando"
+msgstr "Seinerseits wusste er, dass er seiner Frau den Kopf mit einem Beil eingeschlagen hatte, weil er, klatschnass und schmutzig, an einem Samstag Abend, vom Land unter dem Dorf von Montaperto, wo er  die ganze Woche als Landbursche arbeitete, heimgekehrt, einen großen Skandal in der Gass von Arco di Spoto gefunden hatte, wo er wohnte, auf den Hügeln von San Gerlando. Wenige Stunden vorher war seine Frau in Ehebruch Flagranz, zusammen mit dem Kavalier don Agatino Fiorìca, überrascht worden."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:66
+msgid "Novella Piano San Gerlando"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:62
+msgid "Arte Pirandello"
+msgstr "Parallel zur Via Atenea verläuft die Via Pirandello, einst die Via San Pietro, entlang, in der sich das Stadthaus der Familie des Schriftstellers Luigi Pirandello befindet. Der Schriftsteller wurde jedoch in den ländlichen Gebieten des Chaos von Agrigento geboren, denn Ludwigs schwangere Mutter fürchtete sich vor den vielen Cholerakranken in der Stadt. Als der Alarm nachließ, ließ sich die Familie in der alten Wohnung nieder und der junge Schriftsteller lebte dort lange (1868 bis 1888). In einigen seiner Novellen, wie dem Schwarzen Schal und den Alten und Jungen, bezieht er sich auf dieses Haus, das damals sehr groß war. Pirandello blickte auf die Terrasse mit Blick auf die nur wenige Meter entfernte Kirche San Pietro. Das Gebäude wurde dann im Zweiten Weltkrieg bombardiert. Unmittelbar nach dem Krieg wurde das Gebäude komplett renoviert und beherbergt heute ein Radiologiestudio. Eine kleine Inschrift erinnert an den Ort, an dem der Schriftsteller als junger Mann lebte. Luigi war diesem Haus sehr verbunden, er beschreibt es auch in einigen Werken."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:65
+msgid "Passo Scelto Pirandello"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:66
+msgid "Novella Pirandello"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:62
+msgid "Arte VialeVittoria"
+msgstr " Die Viale della Vittoria wurde 1848 unter der Herrschaft der Bourbonen erbaut. Im unteren Teil, südlich der Straße, konnte man die Kirche und das Kapuzinerkloster sehen, das 1872 in einen Militärbezirk umgewandelt wurde, der im Inneren von großen Zypressen umgeben ist. Als die Gemeinde 1871 das östlich gelegene Land kaufte, wurde der Name Passeggiata della Libertà. Im Jahr 1873 wurde die südliche Stützmauer aus angepassten Quadern mit durchsetzten vertikalen Elementen, die den Tragrahmen bilden, neu errichtet. Im Jahr 1882 wurden neue Erweiterungen vorgenommen und die Passeggiata della Libertà wurde zur Passeggiata Cavour, auf deren Platz Abendkonzerte und Konzerte mit symphonischer Musik stattfanden. In den 1920er Jahren wurde an dieser Stelle eine Villa zum Gedenken an die Gefallenen des Ersten Weltkriegs errichtet Nehmen Sie den Namen Gedenkpark, heute Villa Bonfiglio, an, in dessen Mitte sich das Kriegsdenkmal befand, das dem Bildhauer Mario Rutelli aus Palermo in Auftrag gegeben wurde. Im ersten Teil der Avenue, am höchsten Punkt im Vergleich zur Straßenebene, wurde das Grand Hotel et Agrigentum von der Familie Altieri erbaut, deren Aussicht auf das Tal der Tempel es bei wohlhabenden Leuten und politischen Persönlichkeiten sehr beliebt machte Damals und von den obersten faschistischen Hierarchen errichtet. Nach dem Zweiten Weltkrieg wurde es zum Sitz der Finanzbehörde und das Gebäude wurde um ein Stockwerk erweitert. Am 12. Februar 1927 erhielt es endgültig den Namen Viale della Vittoria "
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:65
+msgid "Passo Scelto VialeVittoria"
+msgstr "Sie kannten sich so gut, dass schon eine leichte Geste, ein Blick, ein Wort genügten, damit der eine sofort den Gedanken des anderen verstand. So begann ihr Spaziergang jedes Mal mit einem kurzen Austausch von Sätzen und sie setzten ihn dann in Stille fort, als hätte der eine dem anderen etwas zum Nachdenken gegeben. Sie gingen mit gesenktem Kopf, wie müde Pferde; beide mit den Händen hinter dem Rücken. Keiner von beiden verspürte je die Versuchung, den Kopf ein wenig zur Geländerbrüstung des Weges zu drehen, um den Anblick der offenen Landschaft darunter zu genießen, gespickt mit Hügeln, Tälern und Ebenen, mit dem Meer am Horizont, das sich in den letzten Feuern des Sonnenuntergangs entzündete: eine Aussicht von solcher Schönheit, dass es sogar unglaublich schien, dass die beiden einfach daran vorbeigehen konnten, ohne sich auch nur umzudrehen."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:66
+msgid "Novella VialeVittoria"
+msgstr ""
