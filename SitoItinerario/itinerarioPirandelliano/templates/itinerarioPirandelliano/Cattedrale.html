@@ -1,0 +1,153 @@
+{% extends 'itinerarioPirandelliano/common.html' %}
+{% load i18n %}<!-- viene messo dove abbiamo frasi da tradurre, {% trans "frase da tradurre" %}-->
+
+{% block title %}ciao{% endblock %}
+
+{% block content %}
+<input type="hidden" name="pagina" id="pagina" value="secondaPagina">
+
+<div style="min-height: auto">
+
+  <div class="row text-center" id="sottoBarra">
+    <div class="col">
+      <h1 style="font-family:fantasy; margin-top: 8%;">Cattedrale Palazzo Vescovile</h1>
+    </div>
+  </div>
+  
+  <div class="row" style="margin:5% 5% 3%">
+    <div class="col">
+      <!--Carousel-->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="max-height: 60vh;">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../../../media/SanGerlando1.jpeg" class="\d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../../../media/SanGerlando2.jpg" class="d-block w-100 img-fluid" alt="..." style="object-fit: cover;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+  </div>
+  
+    <!--Bottoni Arte, Passo Scelto e Novella Completa-->
+  
+  <div class="row" style="margin: 2% 10% 3%">
+    <div class="container mt-3">
+      <div class="card" id="ciao" style="background-color: rgba(224, 159, 61, 0.644);">
+        <div style="font-family: fantasy; font-size: 130%;">
+        <ul class="nav nav-tabs" id="navTabDescription" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="arte-tab" data-bs-toggle="tab" data-bs-target="#arte-tab-pane" type="button" role="tab" aria-controls="arte-tab-pane" aria-selected="true">Arte</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="scelta-tab" data-bs-toggle="tab" data-bs-target="#scelta-tab-pane" type="button" role="tab" aria-controls="scelta-tab-pane" aria-selected="false">Passo Scelto</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="novella-tab" data-bs-toggle="tab" data-bs-target="#novella-tab-pane" type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella completa</button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content mt-3" id="myTabContent">
+          <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+            {%trans "Arte Cattedrale"%}
+
+
+          </div>
+          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab">{%trans "Passo Scelto Cattedrale"%}</div>
+          <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab">
+            VISTO CHE NON PIOVE
+Era ogni anno una sopraffazione indegna, una sconcia prepotenza di tutto il contadiname di Montelusa contro i poveri canonici della nostra gloriosa Cattedrale.
+La statua della SS. Immacolata, custodita tutto l’anno dentro un armadio a muro nella sagrestia della chiesa di S. Francesco d’Assisi, il giorno otto dicembre, tutta parata d’ori e di gemme, col manto azzurro di seta stellato d’argento, dopo le solenni funzioni in chiesa, era condotta sul fercolo in processione per le erte vie di Montelusa, tra le vecchie casupole screpolate, pigiate, quasi l’una sull’altra; su, su, fino alla Cattedrale in cima al colle; e lì lasciata, la sera, ospite del patrono S. Gerlando.
+Nella Cattedrale, la SS. Immacolata avrebbe dovuto rimanere dalla sera del giovedì alla mattina della domenica: due giorni e mezzo. Ma ormai, per consuetudine, parendo troppo breve questo tempo, si lasciava stare per quella prima domenica dopo la festa, e si aspettava la domenica seguente per ricondurla con una nuova e più pomposa processione alla chiesa di S. Francesco.
+Se non che, quasi ogni anno avveniva che il trasporto, quella seconda domenica, non si potesse fare per il cattivo tempo e si dovesse rimandare a un’altra domenica; e, di domenica in domenica, talvolta per più mesi di seguito.
+Ora, questo prolungamento d’ospitalità, per se stesso, non sarebbe stato niente, se la SS. Immacolata non avesse goduto per antichissimo privilegio d’una prebenda durante tutto il tempo della sua permanenza alla Cattedrale. Per tutti i giorni che la SS. Immacolata vi stava, era come se nel Capitolo ci fosse un canonico di più: tirava, su le esequie e su tutto, proprio quanto un canonico; e i deputati della Congregazione sorvegliavano con tanto d’occhi perché nulla Le fosse detratto di quanto Le spettava, affinché più splendida, anche coi frutti di quella prebenda, potesse ogni anno riuscire la festa in Suo onore. Questo, oltre a tutte le altre spese che gravavano sul Capitolo per quella permanenza; spese e fatiche: cioè, funzioni ogni giorno, ogni giorno predica, e spari di mortaretti e di razzi e, anche per il povero sagrestano, lunghe scampanate tutte le mattine e tutte le sere.
+Forse, per amore della SS. Vergine, i canonici della Cattedrale avrebbero sopportato in pace e sottrazione e spese e fatiche, se nel contadiname di Montelusa non si fosse radicata la credenza che la SS. Immacolata volesse rimanere nella Cattedrale uno e due mesi a loro marcio dispetto; e che essi ogni anno pregassero a mani giunte il cielo che non piovesse almeno la domenica che si doveva fare il trasporto.
+Giusto in quel tempo accadeva che i contadini per i loro seminati non fossero mai paghi dell’acqua che il cielo mandava; e se davvero qualche anno non pioveva, ecco che la colpa era dei canonici della Cattedrale, a cui non pareva l’ora di levarsi d’addosso la SS. Immacolata.
+Ebbene, a lungo andare e a furia di sentirselo ripetere, i canonici della Cattedrale in verità s’erano presi a dispetto, non propriamente la Vergine, ma quegli zotici villanacci, e più quei mezzi signori della Congregazione che, non contenti di tener desta nell’animo dei contadini quella sconcia credenza del loro dispetto per la Vergine, spingevano la tracotanza fino a spedirne tre o quattro ogni sabato, sul far della sera, tra i più sfrontati, su alla piazza innanzi alla Cattedrale, con l’incarico di mettersi a passeggiare con le mani dietro la schiena e il naso all’aria, in attesa che uno del Capitolo uscisse dalla chiesa, per domandargli con un riso scemo su le labbra:
+             – Scusi, signor Canonico, che prevede? pioverà o non pioverà domani?
+Era, come si vede, anche un’intollerabile irriverenza.
+Monsignor Partanna avrebbe dovuto farla cessare a ogni costo. Tanto più ch’era notorio a tutti che quei fratelloni della Congregazione, nella frenesia di far denari comunque, arrivavano fino a speculare indegnamente su la Madonna, mettendo anche in pegno alla banca cattolica di San Gaetano gli ori, le gemme e finanche il manto stellato, che la Madonna aveva ricevuto in dono dai fedeli divoti.
+Monsignor Vescovo avrebbe dovuto ordinare che il ritorno della SS. Immacolata alla chiesa di San Francesco non andasse mai oltre la seconda domenica dopo la festa, comunque fosse il tempo, piovesse o non piovesse. Tanto, non c’era pericolo che si bagnasse sotto il magnifico baldacchino sorretto a turno dai seminaristi di più robusta complessione.
+Erano invece le donne dei contadini, le femmine del popolo o – come ripetevano i reverendi canonici del Capitolo – le sgualdrinelle, le sgualdrinelle, che avevano paura di bagnarsi; e dicevano la Vergine! Non volevano sciuparsi gli abiti di seta, con cui si paravano per quella processione dando uno spettacolo di sacrilega vanità atteggiate tutte come la SS. Immacolata, con le mani un po’ levate e aperte innanzi al seno, piene d’anelli in tutte le dita, con lo scialle di seta appuntato con gli spilli alle spalle, gli occhi volti al cielo, e tutti i pendagli e tutti i lagrimoni degli orecchini e delle spille e dei braccialetti, ciondolanti a ogni passo.
+Ma Monsignor Vescovo non se ne voleva dar per inteso.
+Forse, ora ch’era vecchio e cadente, aveva paura di bagnarsi anche lui e di prendere un malanno, seguendo a capo scoperto il fercolo, sotto la pioggia; e poco gl’importava che il povero vicario capitolare, Monsignor Lentini, fosse ridotto, quell’anno, per le tante prediche, una al giorno, sempre su lo stesso argomento, in uno stato da far compassione finanche alle panche della chiesa.
+Erano già undici domeniche, undici, dall’otto dicembre, che il pover uomo, levando il capo dal guanciale, chiedeva con voce lamentosa alla Piconella, sua vecchia casiera, la quale ogni mattina veniva a recargli a letto il caffè:
+             – Piove?
+E la Piconella non sapeva più come rispondergli. Perché pareva veramente che il tempo si fosse divertito a straziare quel brav’uomo con una incredibile raffinatezza di crudeltà. Qualche domenica era aggiornato sereno, e allora la Piconella era corsa tutta esultante a darne l’annunzio al suo Monsignor Vicario:
+             – Il sole, il sole! Monsignor Vicario, il sole!
+E il sagrestano della Cattedrale dagli a sonare a festa le campane, din don dan, din don dan, che certo la SS. Immacolata quella mattina, prima di mezzogiorno, se ne sarebbe andata via.
+Se non che, quando già alla piazza della Cattedrale era cominciata ad affluir la gente per la processione e s’era finanche aperta la porta di ferro su la scalinata presso il seminario, donde la SS. Vergine soleva uscire ogni anno, e dal seminario erano arrivati a due a due in lungo ordine i seminaristi parati coi camici trapunti, e tutt’in giro alla piazza erano stati disposti i mortaretti, ecco sopravvenire in gran furia dal mare fra lampi e tuoni una nuova burrasca.
+Il sagrestano, dagli di nuovo a sonar tutte le campane per scongiurarla, sul fermento della folla che s’era messa intanto a protestare, indignata perché sotto quella incombente minaccia del tempo i canonici volessero mandar via a precipizio la Madonna.
+È fischi e urli e invettive sotto il palazzo vescovile, finché Monsignor Vescovo, per rimettere la calma, non aveva fatto annunziare da uno de’ suoi segretarii che la processione era rimandata alla domenica seguente, tempo permettendo.
+Per ben cinque domeniche su undici s’era ripetuta questa scena.
+Quell’undicesima domenica, appena la piazza fu sgombra, tutti i canonici del Capitolo irruppero furenti nella casa del vicario capitolare, Monsignor Lentini. A ogni costo, a ogni costo bisognava trovare un rimedio contro quella soperchieria brutale!
+Il povero vicario capitolare si reggeva la testa con le mani e guardava tutti in giro come se fosse intronato.
+S’erano avventati contro lui, più che contro gli altri, i fischi, gli urli, le minacce della folla. Ma non era intronato per questo il povero vicario capitolare. Dopo undici settimane, un’altra settimana di prediche su la SS. Immacolata! In quel momento il pover’uomo non poteva pensare ad altro, e a questo pensiero, si sentiva proprio levar di cervello.
+Il rimedio lo trovò Monsignor Landolina, il rettore terribile del Collegio degli Oblati. Bastò che egli proferisse un nome, perché d’improvviso si sedasse l’agitazione di tutti quegli animi.
+           – Il Mèola! Qua ci vuole il Mèola! Amici miei, bisogna ricorrere al Mèola! Marco Mèola, il feroce tribuno anticlericale, che quattr’anni addietro aveva giurato di salvar Montelusa da una temuta invasione di padri Liguorini, aveva ormai perduto ogni popolarità. Perché, pur essendo vero da una parte che il giuramento era stato mantenuto, non era men vero dall’altra che i mezzi adoperati e le arti che aveva dovuto usare per mantenerlo, e poi quel ratto, e poi la ricchezza che glien’era derivata, non erano valsi a dar credito alla dimostrazione ch’egli voleva fare, che il suo, cioè, era stato un sacrifizio eroico. Se la nipote di Monsignor Partanna, infatti, la educanda rapita, era brutta e gobba, belli e ballanti e sonanti erano i denari della dote che il Vescovo era stato costretto a dargli; e, in fondo, i pezzi grossi del clero montelusano, ai quali non era mai andata a sangue quella promessa del loro Vescovo di far tornare i padri Liguorini, se non amici apertamente, avevano di nascosto, anche dopo quella scappata, anzi appunto per quella scappata, seguitato a veder di buon occhio Marco Mèola. Tuttavia, ora, a costui doveva senza dubbio piacere che, senza rischio di guastarsi coi segreti amici, gli si offrisse un’occasione per riconquistar la stima degli antichi compagni, il prestigio perduto di tribuno anticlericale.
+Orbene, bisognava mandar furtivamente al Mèola due fidati amici a proporgli a nome dell’intero Capitolo di tenere per la ventura domenica una conferenza contro le feste religiose in genere, contro le processioni sacre in ispecie, togliendo a pretesto i deplorati disordini delle scorse domeniche, quegli urli, quei fischi, quelle minacce del popolo per impedire il trasporto della SS. Immacolata dalla Cattedrale alla chiesa di S. Francesco.
+Sparso per tutto il paese con molto rumore l’annunzio di quella conferenza, si sarebbe facilmente indotto il Vescovo a pubblicare un’indignata protesta contro la patente violazione che della libertà del culto avevano in animo di tentare i liberali di Montelusa, nemici della fede, e un invito sacro a tutti i fedeli della diocesi perché la ventura domenica, con qualunque tempo, piovesse o non piovesse, si raccogliessero nella piazza della Cattedrale a difendere da ogni possibile ingiuria la venerata immagine della SS. Immacolata.
+Questa proposta di Monsignor Landolina fu accolta e approvata unanimemente dai canonici del Capitolo.
+Solo quel sant’uomo del vicario, Monsignor Lentini, osò invitare i colleghi a considerare se non fosse imprudente sollevar disordini anche dall’altra parte, andare a stuzzicar quel vespajo. Ma, suggeritagli l’idea che da quella conferenza del Mèola avrebbe tratto argomento di predica per la settimana ventura contro l’intolleranza che voleva impedire ai fedeli di manifestare la propria divozione alla Vergine, con parecchi: – «Capisco, ma… capisco, ma…» – alla fine si arrese.
+La trovata di Monsignor Landolina ebbe un effetto di gran lunga superiore a quello che gli stessi canonici del Capitolo se ne ripromettessero.
+Dopo quattr’anni di silenzio, Marco Mèola si scagliò in piazza con le furie d’un leone affamato. Dopo due giorni di vociferazioni nel circolo degli impiegati civili, nel caffè di Pedoca, riuscì a promuovere una tale agitazione, che Monsignor Vescovo fu costretto veramente a rispondere con una fierissima pastorale e, nell’invito sacro, chiamò a raccolta per la ventura domenica non solo tutti i fedeli di Montelusa ma anche quelli dei paesi vicini.
+«Piova pure a diluvio,» concludeva l’invito, «noi siamo sicuri che la più fiera tempesta non smorzerà d’un punto il vostro sacro e fervidissimo ardore. Piova pure a diluvio, domenica ventura la SS. Immacolata uscirà dalla nostra gloriosa Cattedrale, e scortata e difesa da tutti i fedeli della Diocesi, la SS. Ospite rientrerà nella sua sede.»
+Ma, neanche a farlo apposta, quella dodicesima domenica recò, dopo tanta e così lunga intemperie, il riso della primavera, il primo riso, e con tale dolcezza, che ogni turbolenza cadde d’un tratto, come per incanto, dagli animi.
+Al suono festivo delle campane, nell’aria chiara, tutti i Montelusani uscirono a inebriarsi del voluttuoso tepore del primo sole della nuova stagione; ed era su tutte le labbra un liquido sorriso di beatitudine e in tutte le membra un delizioso languore, un’accorata voglia d’abbandonarsi in cordiali abbracci fraterni.
+Allora il vicario capitolare Monsignor Lentini, che dal lunedì al sabato di quella dodicesima settimana aveva dovuto fare altre sei prediche su la SS. Immacolata, con un filo di voce chiamò attorno a sé i canonici del Capitolo e domandò loro, se non si potesse in qualche modo impedire lo scandalo ormai inutile di quella conferenza anticlericale del Mèola, per cui si sentiva come una spina nel cuore.
+Si poteva esser certi che né per quel giorno sarebbe piovuto, né più per mesi. Non poteva il Mèola darsi per ammalato e rimandar la conferenza ad altro tempo, all’anno venturo magari, per la seconda domenica di pioggia dopo l’otto dicembre?
+             – Eh già! Sicuro! – riconobbero subito i canonici. – Così il rimedio non andrebbe sciupato!
+I due fidati amici dell’altra volta furono rimandati in gran fretta dal Mèola, Un raffreddore, una costipazione, un attacco di gotta, un improvviso abbassa mento di voce:
+             – Visto che non piove…
+Il Mèola recalcitrò, inferocito. Rinunziare? rimandare? Ah no, perdio, si pretendeva troppo da lui, ora ch’era riuscito a riacciuffare il favore dei liberali di Montelusa!
+             –    Va bene, – gli dissero quei due amici. – Se pioveva… Ma visto che non piove…
+             –    Visto che non piove, – tuonò il Mèola – il signor Prefetto della provincia che fa? Potrebbe lui solo, lui solo per ragioni d’ordine pubblico, proibire ormai la conferenza! Andate subito dal Prefetto, visto che non piove, e io potrò anche ricevere a letto, fra un’ora, con un febbrone da cavallo, l’annunzio della proibizione!
+Così la SS. Immacolata ritornò, senz’alcun disordine, alla chiesa di S. Francesco d’Assisi dopo dodici domeniche di permanenza alla Cattedrale, il giorno 25 di febbrajo. E il giubilo del popolo fu quell’anno veramente straordinario per la sconfitta data dal bel tempo ai liberali di Montelusa.
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  </div>
+
+  
+
+</div>
+
+
+
+
+
+<script>
+
+
+  function changeBackgroundImage(){
+      // Ottieni il body
+      var body = document.body;
+
+      // Nuovo URL dell'immagine di sfondo
+      var newBackgroundImageURL = 'url("../../../media/SanGerlando.jpg")';
+
+      // Imposta la nuova immagine di sfondo
+      body.style.backgroundImage = newBackgroundImageURL;
+    }
+
+    document.addEventListener("DOMContentLoaded", changeBackgroundImage)
+  
+</script>
+
+
+
+{% endblock %}

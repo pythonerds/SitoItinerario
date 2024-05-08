@@ -1,0 +1,413 @@
+{% extends 'itinerarioPirandelliano/common.html' %}
+{% load i18n %}<!-- viene messo dove abbiamo frasi da tradurre, {% trans "frase da tradurre" %}-->
+
+{% block title %}ciao{% endblock %}
+
+{% block content %}
+<input type="hidden" name="pagina" id="pagina" value="secondaPagina">
+
+<div style="min-height: auto">
+
+  <div class="row text-center" id="sottoBarra">
+    <div class="col">
+      <h1 style="font-family:fantasy; margin-top: 8%;">Viale della Vittoria</h1>
+    </div>
+  </div>
+  
+  <div class="row" style="margin:5% 5% 3%">
+    <div class="col">
+      <!--Carousel-->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="max-height: 60vh;">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../../../media/SanGerlando1.jpeg" class="\d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../../../media/SanGerlando2.jpg" class="d-block w-100 img-fluid" alt="..." style="object-fit: cover;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+  </div>
+  
+    <!--Bottoni Arte, Passo Scelto e Novella Completa-->
+  
+  <div class="row" style="margin: 2% 10% 3%">
+    <div class="container mt-3">
+      <div class="card" id="ciao" style="background-color: rgba(224, 159, 61, 0.644);">
+        <div style="font-family: fantasy; font-size: 130%;">
+        <ul class="nav nav-tabs" id="navTabDescription" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="arte-tab" data-bs-toggle="tab" data-bs-target="#arte-tab-pane" type="button" role="tab" aria-controls="arte-tab-pane" aria-selected="true">Arte</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="scelta-tab" data-bs-toggle="tab" data-bs-target="#scelta-tab-pane" type="button" role="tab" aria-controls="scelta-tab-pane" aria-selected="false">Passo Scelto</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="novella-tab" data-bs-toggle="tab" data-bs-target="#novella-tab-pane" type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella completa</button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content mt-3" id="myTabContent">
+          <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+            {%trans "Arte VialeVittoria"%}
+
+          </div>
+          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab">{%trans "Passo Scelto VialeVittoria"%}</div>
+          <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab">
+            SCIALLE NERO
+Aspetta qua, - disse il Bandi al D'Andrea. - Vado a prevenirla. Se s'ostina ancora, entrerai per forza.
+Miopi tutti e due, parlavano vicinissimi, in piedi, l'uno di fronte all'altro. Parevano fratelli, della stessa età, della stessa corporatura: alti, magri, rigidi, di quella rigidezza angustiosa di chi fa tutto a puntino, con meticolosità. Ed era raro il caso che, parlando così tra loro, l'uno non aggiustasse all'altro col dito il sellino delle lenti sul naso, o il nodo della cravatta sotto il mento, oppure, non trovando nulla da aggiustare, non toccasse all'altro i bottoni della giacca. Parlavano, del resto, pochissimo. E la tristezza taciturna della loro indole si mostrava chiaramente nello squallore dei volti.
+Cresciuti insieme, avevano studiato ajutandosi a vicenda fino all'Università, dove poi l'uno s'era laureato in legge, l'altro in medicina. Divisi ora, durante il giorno, dalle diverse professioni, sul tramonto facevano ancora insieme quotidianamente la loro passeggiata lungo il viale all'uscita del paese.
+Si conoscevano così a fondo, che bastava un lieve cenno, uno sguardo, una parola, perché l'uno comprendesse subito il pensiero dell'altro. Dimodoché quella loro passeggiata principiava ogni volta con un breve scambio di frasi e seguitavano poi in silenzio, come se l'uno avesse dato all'altro da ruminare per un pezzo. E andavano a testa bassa, come due cavalli stanchi; entrambi con le mani dietro la schiena. A nessuno dei due veniva mai la tentazione di volgere un po' il capo verso la ringhiera del viale per godere la vista dell'aperta campagna sottostante, svariata di poggi e di valli e di piani, col mare in fondo, che s'accendeva tutto agli ultimi fuochi del tramonto: vista di tanta bellezza, che pareva perfino incredibile che quei due vi potessero passar davanti così, senza neppure voltarsi a guardare.
+Giorni addietro il Bandi aveva detto al D'Andrea:
+- Eleonora non sta bene.
+Il D'Andrea aveva guardato negli occhi l'amico e compreso che il male della sorella doveva esser lieve:
+- Vuoi che venga a visitarla?
+- Dice di no.
+E tutti e due, passeggiando, s'erano messi a pensare con le ciglia aggrottate, quasi per rancore, a quella donna che aveva fatto loro da madre e a cui dovevano tutto.
+Il D'Andrea aveva perduto da ragazzo i genitori ed era stato accolto in casa d'uno zio, che non avrebbe potuto in alcun modo provvedere alla riuscita di lui. Eleonora Bandi, rimasta orfana anch'essa a diciotto anni col fratello molto più piccolo di lei, industriandosi dapprima con minute e sagge economie su quel po' che le avevano lasciato i genitori, poi lavorando, dando lezioni di pianoforte e di canto, aveva potuto mantenere agli studii il fratello, e anche l'amico indivisibile di lui.
+- In compenso però, - soleva dire ridendo ai due giovani - mi son presa tutta la carne che manca a voi due.
+Era infatti un donnone che non finiva mai; ma aveva tuttavia dolcissimi i lineamenti del volto, e l'aria ispirata di quegli angeloni di marmo che si vedono nelle chiese, con le tuniche svolazzanti. E lo sguardo dei begli occhi neri, che le lunghe ciglia quasi vellutavano, e il suono della voce armoniosa pareva volessero anch'essi attenuare, con un certo studio che le dava pena, l'impressione d'alterigia che quel suo corpo così grande poteva destare sulle prime; e ne sorrideva mestamente.
+Sonava e cantava, forse non molto correttamente ma con foga appassionata. Se non fosse nata e cresciuta fra i pregiudizii d'una piccola città e non avesse avuto l'impedimento di quel fratellino, si sarebbe forse avventurata alla vita di teatro. Era stato quello, un tempo, il suo sogno; nient'altro che un sogno però. Aveva ormai circa quarant'anni. La considerazione, del resto, di cui godeva in paese per quelle sue doti artistiche la compensavano, almeno in parte, del sogno fallito, e la soddisfazione d'averne invece attuato un altro, quello cioè d'avere schiuso col proprio lavoro l'avvenire a due poveri orfani, la compensavano del lungo sacrifizio di se stessa.
+Il dottor D'Andrea attese un buon pezzo nel salotto, che l'amico ritornasse a chiamarlo.
+Quel salotto pieno di luce, quantunque dal tetto basso, arredato di mobili già consunti, d'antica foggia, respirava quasi un'aria d'altri tempi e pareva s'appagasse, nella quiete dei due grandi specchi a riscontro, dell'immobile visione della sua antichità scolorita. I vecchi ritratti di famiglia appesi alle pareti erano, là dentro, i veri e soli inquilini. Di nuovo, c'era soltanto il pianoforte a mezzacoda, il pianoforte d'Eleonora, che le figure effigiate in quei ritratti pareva guardassero in cagnesco.
+Spazientito, alla fine, dalla lunga attesa, il dottore si alzò, andò fino alla soglia, sporse il capo, udì piangere nella camera di là, attraverso l'uscio chiuso. Allora si mosse e andò a picchiare con le nocche delle dita a quell'uscio.
+- Entra, - gli disse il Bandi, aprendo. - Non riesco a capire perché s'ostina così.
+- Ma perché non ho nulla! - gridò Eleonora tra le lagrime.
+Stava a sedere su un ampio seggiolone di cuojo, vestita come sempre di nero, enorme e pallida; ma sempre con quel suo viso di bambinona, che ora pareva più che mai strano, e forse più ambiguo che strano, per un certo indurimento negli occhi, quasi di folle fissità, ch'ella voleva tuttavia dissimulare.
+- Non ho nulla, v'assicuro, - ripeté più pacatamente. - Per carità, lasciatemi in pace: non vi date pensiero di me.
+- Va bene! - concluse il fratello, duro e cocciuto. - Intanto, qua c'è Carlo. Lo dirà lui quello che hai. - E uscì dalla camera, richiudendo con furia l'uscio dietro di sé.
+Eleonora si recò le mani al volto e scoppiò in violenti singhiozzi. Il D'Andrea rimase un pezzo a guardarla, fra seccato e imbarazzato; poi domandò:
+- Perché? Che cos'ha? Non può dirlo neanche a me?
+E come Eleonora seguitava a singhiozzare, le s'appressò, provò a scostarle con fredda delicatezza una mano dal volto:
+- Si calmi, via; lo dica a me; ci son qua io.
+Eleonora scosse il capo; poi, d'un tratto, afferrò con tutt'e due le mani la mano di lui, contrasse il volto, come per un fitto spasimo, e gemette:
+- Carlo! Carlo!
+Il D'Andrea si chinò su lei, un po' impacciato nel suo rigido contegno.
+- Mi dica...
+Allora ella gli appoggiò una guancia su la mano e pregò disperatamente, a bassa voce:
+- Fammi, fammi morire, Carlo; ajutami tu, per carità! non trovo il modo; mi manca il coraggio, la forza.
+- Morire? - domandò il giovane, sorridendo. - Che dice? Perché?
+- Morire, sì! - riprese lei, soffocata dai singhiozzi. - Insegnami tu il modo. Tu sei medico. Toglimi da questa agonia, per carità! Debbo morire. Non c'è altro rimedio per me. La morte sola.
+Egli la fissò, stupito. Anche lei alzò gli occhi a guardarlo, ma subito li richiuse, contraendo di nuovo il volto e restringendosi in sé, quasi colta da improvviso, vivissimo ribrezzo.
+- Sì, sì, - disse poi, risolutamente. - Io, sì, Carlo: perduta! perduta!
+Istintivamente il D'Andrea ritrasse la mano, ch'ella teneva ancora tra le sue.
+- Come! Che dice? - balbettò.
+Senza guardarlo, ella si pose un dito su la bocca, poi indicò la porta:
+- Se lo sapesse! Non dirgli nulla, per pietà! Fammi prima morire; dammi, dammi qualche cosa: la prenderò come una medicina; crederò che sia una medicina, che mi dai tu; purché sia subito! Ah, non ho coraggio, non ho coraggio! Da due mesi, vedi, mi dibatto in quest'agonia, senza trovar la forza, il modo di farla finita. Che ajuto puoi darmi, tu, Carlo, che dici?
+- Che ajuto? - ripeté il D'Andrea, ancora smarrito nello stupore.
+Eleonora stese di nuovo le mani per prendergli un braccio e, guardandolo con occhi supplichevoli, soggiunse:
+- Se non vuoi farmi morire, non potresti... in qualche altro modo... salvarmi?
+Il D'Andrea, a questa proposta, s'irrigidì più che mai, aggrottando severamente le ciglia.
+- Te ne scongiuro, Carlo! - insistette lei. - Non per me, non per me, ma perché Giorgio non sappia. Se tu credi che io abbia fatto qualche cosa per voi, per te, ajutami ora, salvami! Debbo finir così, dopo aver fatto tanto, dopo aver tanto sofferto? così, in questa ignominia, all'età mia? Ah, che miseria! che orrore!
+- Ma come, Eleonora? Lei! Com'è stato? Chi è stato? - fece il D'Andrea, non trovando, di fronte alla tremenda ambascia di lei, che questa domanda per la sua curiosità sbigottita.
+Di nuovo Eleonora indicò la porta e si coprì il volto con le mani:
+- Non mi ci far pensare! Non posso pensarci! Dunque, non vuoi risparmiare a Giorgio questa vergogna?
+- E come? - domandò il D'Andrea. - Delitto, sa! Sarebbe un doppio delitto. Piuttosto, mi dica: non si potrebbe in qualche altro modo... rimediare?
+- No! - rispose lei, recisamente, infoscandosi. - Basta. Ho capito. Lasciami! Non ne posso più...
+Abbandonò il capo su la spalliera del seggiolone, rilassò le membra: sfinita.
+Carlo D'Andrea, con gli occhi fissi dietro le grosse lenti da miope, attese un pezzo, senza trovar parole, non sapendo ancor credere a quella rivelazione, né riuscendo a immaginare come mai quella donna, finora esempio, specchio di virtù, d'abnegazione, fosse potuta cadere nella colpa. Possibile? Eleonora Bandi? Ma se aveva in gioventù, per amore del fratello, rifiutato tanti partiti, uno più vantaggioso dell'altro! Come mai ora, ora che la gioventù era tramontata... - Eh! ma forse per questo...
+La guardò, e il sospetto, di fronte a quel corpo così voluminoso, assunse all'improvviso, agli occhi di lui magro, un aspetto orribilmente sconcio e osceno.
+- Va', dunque, - gli disse a un tratto, irritata, Eleonora, che pur senza guardarlo, in quel silenzio, si sentiva addosso l'inerte orrore di quel sospetto negli occhi di lui. - Va', va', a dirlo a Giorgio, perché faccia subito di me quello che vuole. Va'.
+Il D'Andrea uscì, quasi automaticamente. Ella sollevò un poco il capo per vederlo uscire; poi, appena richiuso l'uscio, ricadde nella positura di prima.
+II.
+Dopo due mesi d'orrenda angoscia, quella confessione del suo stato la sollevò, insperatamente. Le parve che il più, ormai, fosse fatto.
+Ora, non avendo più forza di lottare, di resistere a quello strazio, si sarebbe abbandonata, così, alla sorte, qualunque fosse.
+Il fratello, tra breve, sarebbe entrato e l'avrebbe uccisa? Ebbene: tanto meglio! Non aveva più diritto a nessuna considerazione, a nessun compatimento. Aveva fatto, sì, per lui e per quell'altro ingrato, più del suo dovere, ma in un momento poi aveva perduto il frutto di tutti i suoi benefizi.
+Strizzò gli occhi, colta di nuovo dal ribrezzo.
+Nel segreto della propria coscienza, si sentiva pure miseramente responsabile del suo fallo. Sì, lei, lei che per tanti anni aveva avuto la forza di resistere a gli impulsi della gioventù, lei che aveva sempre accolto in sé sentimenti puri e nobili, lei che aveva considerato il proprio sacrifizio come un dovere: in un momento, perduta! Oh miseria! miseria!
+L'unica ragione che sentiva di potere addurre in sua discolpa, che valore poteva avere davanti al fratello? Poteva dirgli: «Guarda, Giorgio, che sono forse caduta per te»? Eppure la verità era forse questa.
+Gli aveva fatto da madre, è vero? a quel fratello. Ebbene: in premio di tutti i benefizi lietamente prodigati, in premio del sacrifizio della propria vita, non le era stato concesso neanche il piacere di scorgere un sorriso, anche lieve, di soddisfazione su le labbra di lui e dell'amico. Pareva che avessero entrambi l'anima avvelenata di silenzio e di noja, oppressa come da una scimunita angustia. Ottenuta la laurea, s'eran subito buttati al lavoro, come due bestie; con tanto impegno, con tanto accanimento che in poco tempo erano riusciti a bastare a se stessi. Ora, questa fretta di sdebitarsi in qualche modo, come se a entrambi non ne paresse l'ora, l'aveva proprio ferita nel cuore. Quasi d'un tratto, così, s'era trovata senza più scopo nella vita. Che le restava da fare, ora che i due giovani non avevano più bisogno di lei? E aveva perduto, irrimediabilmente, la gioventù.
+Neanche coi primi guadagni della professione era tornato il sorriso su le labbra del fratello. Sentiva forse ancora il peso del sacrifizio ch'ella aveva fatto per lui? si sentiva forse vincolato da questo sacrifizio per tutta la vita, condannato a sacrificare a sua volta la propria gioventù, la libertà dei proprii sentimenti alla sorella? E aveva voluto parlargli a cuore aperto:
+- Non prenderti nessun pensiero di me, Giorgio! Io voglio soltanto vederti lieto, contento... capisci?
+Ma egli le aveva troncato subito in bocca le parole:
+- Zitta, zitta! Che dici? So quel che debbo fare. Ora spetta a me.
+- Ma come? così? - avrebbe voluto gridargli, lei, che, senza pensarci due volte, s'era sacrificata col sorriso sempre su le labbra e il cuor leggero.
+Conoscendo la chiusa, dura ostinazione di lui, non aveva insistito. Ma, intanto, non si sentiva di durare in quella tristezza soffocante.
+Egli raddoppiava di giorno in giorno i guadagni della professione; la circondava d'agi; aveva voluto che smettesse di dar lezioni. In quell'ozio forzato, che la avviliva, aveva allora accolto, malauguratamente, un pensiero che, dapprincipio, quasi l'aveva fatta ridere:
+«Se trovassi marito!».
+Ma aveva già trentanove anni, e poi con quel corpo... oh via! - avrebbe dovuto fabbricarselo apposta, un marito. Eppure, sarebbe stato l'unico mezzo per liberar sé e il fratello da quell'opprimente debito di gratitudine.
+Quasi senza volerlo, s'era messa allora a curare insolitamente la persona, assumendo una cert'aria di nubile che prima non s'era mai data.
+Quei due o tre che un tempo l'avevano chiesta in matrimonio, avevano ormai moglie e figliuoli. Prima, non se n'era mai curata; ora, a ripensarci, ne provava dispetto; provava invidia di tante sue amiche che erano riuscite a procurarsi uno stato.
+Lei sola era rimasta così...
+Ma forse era in tempo ancora: chi sa? Doveva proprio chiudersi così la sua vita sempre attiva? in quel vuoto? doveva spegnersi così quella fiamma vigile del suo spirito appassionato? in quell'ombra?
+E un profondo rammarico l'aveva invasa, inasprito talvolta da certe smanie, che alteravano le sue grazie spontanee, il suono delle sue parole, delle sue risa. Era divenuta pungente, quasi aggressiva nei discorsi. Si rendeva conto lei stessa del cangiamento della propria indole; provava in certi momenti quasi odio per se stessa, repulsione per quel suo corpo vigoroso, ribrezzo dei desiderii insospettati in cui esso, ora, all'improvviso, le s'accendeva turbandola profondamente.
+Il fratello, intanto, coi risparmi, aveva di recente acquistato un podere e vi aveva fatto costruire un bel villino.
+Spinta da lui, vi era andata dapprima per un mese in villeggiatura; poi, riflettendo che il fratello aveva forse acquistato quel podere per sbarazzarsi di tanto in tanto di lei, aveva deliberato di ritirarsi colà per sempre. Così, lo avrebbe lasciato libero del tutto: non gli avrebbe più dato la pena della sua compagnia, della sua vista, e anche lei a poco a poco, là, si sarebbe tolta quella strana idea dal capo, di trovar marito all'età sua.
+I primi giorni eran trascorsi bene, e aveva creduto che le sarebbe stato facile seguitare così.
+Aveva già preso l'abitudine di levarsi ogni giorno all'alba e di fare una lunga passeggiata per i campi, fermandosi di tratto in tratto, incantata, ora per ascoltare nell'attonito silenzio dei piani, ove qualche filo d'erba vicino abbrividiva alla frescura dell'aria, il canto dei galli, che si chiamavano da un'aja all'altra; ora per ammirare qualche masso tigrato di gromme verdi, o il velluto del lichene sul vecchio tronco stravolto di qualche olivo saraceno.
+Ah, lì, così vicina alla terra, si sarebbe presto rifatta un'altr'anima, un altro modo di pensare e di sentire; sarebbe divenuta come quella buona moglie del mezzadro che si mostrava così lieta di tenerle compagnia e che già le aveva insegnato tante cose della campagna, tante cose pur così semplici della vita e che ne rivelano tuttavia un nuovo senso profondo, insospettato.
+Il mezzadro, invece, era insoffribile: si vantava d'aver idee larghe, lui: aveva girato il mondo, lui; era stato in America, otto anni a Benossarie; e non voleva che il suo unico figliuolo, Gerlando, fosse un vile zappaterra. Da tredici anni, pertanto, lo manteneva alle scuole; voleva dargli «un po' di lettera», diceva, per poi spedirlo in America, là, nel gran paese, dove senza dubbio avrebbe fatto fortuna.
+Gerlando aveva diciannove anni e in tredici di scuola era arrivato appena alla terza tecnica. Era un ragazzone rude, tutto d'un pezzo. Quella fissazione del padre costituiva per lui un vero martirio. Praticando coi compagni di scuola, aveva preso, senza volere, una cert'aria di città, che però lo rendeva più goffo.
+A forza d'acqua, ogni mattina, riusciva a rassettarsi i capelli ispidi, a tirarvi una riga da un lato; ma poi quei capelli, rasciugati, gli si drizzavan compatti e irsuti di qua e di là, come se gli schizzassero dalla cute del cranio; anche le sopracciglia pareva gli schizzassero poco più giù dalla fronte bassa, e già dal labbro e dal mento cominciavano a schizzare i primi peli dei baffi e della barba, a cespuglietti. Povero Gerlando! faceva compassione, così grosso, così duro, così ispido, con un libro aperto davanti. Il padre doveva sudare una camicia, certe mattine, per scuoterlo dai saporiti sonni profondi, di porcellone satollo e pago, e avviarlo ancora intontito e barcollante, con gli occhi imbambolati, alla vicina città; al suo martirio.
+Venuta in campagna la signorina, Gerlando le aveva fatto rivolgere dalla madre la preghiera di persuadere al padre che la smettesse di tormentarlo con questa scuola, con questa scuola, con questa scuola! Non ne poteva più!
+E difatti Eleonora s'era provata a intercedere; ma il mezzadro, - ah, nonononò - ossequio, rispetto, tutto il rispetto per la signorina; ma anche preghiera di non immischiarsi. Ed allora essa, un po' per pietà, un po' per ridere, un po' per darsi da fare, s'era messa ad ajutare quel povero giovanotto, fin dove poteva.
+Lo faceva, ogni dopo pranzo, venir su coi libri e i quaderni della scuola. Egli saliva impacciato e vergognoso, perché s'accorgeva che la padrona prendeva a goderselo per la sua balordaggine, per la sua durezza di mente; ma che poteva farci? il padre voleva così. Per lo studio, eh, sì: bestia; non aveva difficoltà a riconoscerlo; ma se si fosse trattato d'atterrare un albero, un bue, eh perbacco... - e Gerlando mostrava le braccia nerborute, con certi occhi teneri e un sorriso di denti bianchi e forti...
+Improvvisamente, da un giorno all'altro, ella aveva troncato quelle lezioni; non aveva più voluto vederlo; s'era fatto portare dalla città il pianoforte e per parecchi giorni s'era chiusa nella villa a sonare, a cantare, a leggere, smaniosamente. Una sera, in fine, s'era accorta che quel ragazzone, privato così d'un tratto dell'ajuto di lei, della compagnia ch'ella gli concedeva e degli scherzi che si permetteva con lui, s'appostava per spiarla, per sentirla cantare o sonare: e, cedendo a una cattiva ispirazione, aveva voluto sorprenderlo, lasciando d'un tratto il pianoforte e scendendo a precipizio la scala della villa.
+- Che fai lì?
+- Sto a sentire...
+- Ti piace?
+- Tanto, sì signora... Mi sento in paradiso.
+A questa dichiarazione era scoppiata a ridere; ma, all'improvviso, Gerlando, come sferzato in faccia da quella risata, le era saltato addosso, lì, dietro la villa, nel bujo fitto, oltre la zona di luce che veniva dal balcone aperto lassù.
+Così era stato.
+Sopraffatta a quel modo, non aveva saputo respingerlo; s'era sentita mancare - non sapeva più come - sotto quell'impeto brutale e s'era abbandonata, sì, cedendo pur senza voler concedere.
+Il giorno dopo, aveva fatto ritorno in città.
+E ora? come mai Giorgio non entrava a svergognarla? Forse il D'Andrea non gli aveva detto ancor nulla: forse pensava al modo di salvarla. Ma come?
+Si nascose il volto tra le mani, quasi per non vedere il vuoto che le s'apriva davanti. Ma era pur dentro di lei quel vuoto. E non c'era rimedio. La morte sola. Quando? come?
+L'uscio, a un tratto, s'aprì, e Giorgio apparve su la soglia scontraffatto, pallidissimo, coi capelli scompigliati e gli occhi ancora rossi di pianto. Il D'Andrea lo teneva per un braccio.
+- Voglio sapere questo soltanto, - disse alla sorella, a denti stretti, con voce fischiante, quasi scandendo le sillabe: - Voglio sapere chi è stato.
+Eleonora, a capo chino, con gli occhi chiusi, scosse lentamente il capo e riprese a singhiozzare.
+- Me lo dirai, - gridò il Bandi, appressandosi, trattenuto dall'amico. - E chiunque sia, tu lo sposerai!
+eADV
+- Ma no, Giorgio! - gemette allora lei, raffondando vie più il capo e torcendosi in grembo le mani. - No! non è possibile! non è possibile!
+- È ammogliato? - domandò lui, appressandosi di più, coi pugni serrati, terribile.
+- No, - s'affrettò a risponder lei. - Ma non è possibile, credi!
+- Chi è? - riprese il Bandi, tutto fremente, stringendola da presso. - Chi è? subito, il nome!
+Sentendosi addosso la furia del fratello, Eleonora si strinse nelle spalle, si provò a sollevare appena il capo e gemette sotto gli occhi inferociti di lui:
+- Non posso dirtelo...
+- Il nome, o t'ammazzo! - ruggì allora il Bandi, levando un pugno sul capo di lei.
+Ma il D'Andrea s'interpose, scostò l'amico, poi gli disse severamente:
+- Tu va'. Lo dirà a me. Va', va'...
+E lo fece uscire, a forza, dalla camera.
+III.
+Il fratello fu irremovibile.
+Ne' pochi giorni che occorsero per le pubblicazioni di rito, prima del matrimonio, s'accanì nello scandalo. Per prevenir le beffe che s'aspettava da tutti, prese ferocemente il partito d'andar sbandendo la sua vergogna, con orribili crudezze di linguaggio. Pareva impazzito; e tutti lo commiseravano.
+Gli toccò, tuttavia, a combattere un bel po' col mezzadro, per farlo condiscendere alle nozze del figliuolo.
+Quantunque d'idee larghe, il vecchio, dapprima, parve cascasse dalle nuvole: non voleva creder possibile una cosa simile. Poi disse:
+- Vossignoria non dubiti: me lo pesterò sotto i piedi; sa come? come si pigia l'uva. O piuttosto, facciamo così: glielo consegno, legato mani e piedi; e Vossignoria si prenderà tutta quella soddisfazione che vuole. Il nerbo, per le nerbate, glielo procuro io, e glielo tengo prima apposta tre giorni in molle, perché picchi più sodo.
+Quando però comprese che il padrone non intendeva questo, ma voleva altro, il matrimonio, trasecolò di nuovo:
+- Come! Che dice, Vossignoria? Una signorona di quella fatta col figlio d'un vile zappaterra?
+E oppose un reciso rifiuto.
+- Mi perdoni. Ma la signorina aveva il giudizio e l'età; conosceva il bene e il male; non doveva far mai con mio figlio quello che fece. Debbo parlare? Se lo tirava su in casa tutti i giorni. Vossignoria m'intende... Un ragazzaccio... A quell'età, non si ragiona, non si bada... Ora ci posso perdere così il figlio, che Dio sa quanto mi costa? La signorina. Con rispetto parlando, gli può esser madre...
+eADV
+Il Bandi dovette promettere la cessione in dote del podere e un assegno giornaliero alla sorella.
+Così il matrimonio fu stabilito; e, quando ebbe luogo, fu un vero avvenimento per quella cittaduzza.
+Parve che tutti provassero un gran piacere nel far pubblicamente strazio dell'ammirazione, del rispetto per tanti anni tributati a quella donna; come se tra l'ammirazione e il rispetto, di cui non la stimavano più degna, e il dileggio, con cui ora la accompagnavano a quelle nozze vergognose, non ci potesse esser posto per un po' di commiserazione.
+La commiserazione era tutta per il fratello; il quale, s'intende, non volle prender parte alla cerimonia. Non vi prese parte neanche il D'Andrea, scusandosi che doveva tener compagnia, in quel triste giorno, al suo povero Giorgio.
+Un vecchio medico della città, ch'era già stato di casa dei genitori d'Eleonora, e a cui il D'Andrea, venuto di fresco dagli studii, con tutti i fumi e le sofisticherie della novissima terapeutica, aveva tolto gran parte della clientela, si profferse per testimonio e condusse con sé un altro vecchio, suo amico, per secondo testimonio.
+Con essi Eleonora si recò in vettura chiusa al Municipio; poi in una chiesetta fuorimano, per la cerimonia religiosa.
+In un'altra vettura era lo sposo, Gerlando, torbido e ingrugnato, coi genitori.
+Questi, parati a festa, stavano su di sé, gonfi e serii, perché, alla fin fine, il figlio sposava una vera signora, sorella d'un avvocato, e gli recava in dote una campagna con una magnifica villa, e denari per giunta. Gerlando, per rendersi degno del nuovo stato, avrebbe seguitato gli studii. Al podere avrebbe atteso lui, il padre, che se n'intendeva. La sposa era un po' anzianotta? Tanto meglio! L'erede già c'era per via. Per legge di natura ella sarebbe morta prima, e Gerlando allora sarebbe rimasto libero e ricco.
+Queste e consimili riflessioni facevano anche, in una terza vettura, i testimonii dello sposo, contadini amici del padre, in compagnia di due vecchi zii materni. Gli altri parenti e amici dello sposo innumerevoli, attendevano nella villa, tutti parati a festa, con gli abiti di panno turchino, gli uomini; con le mantelline nuove e i fazzoletti dai colori più sgargianti, le donne; giacché il mezzadro, d'idee larghe, aveva preparato un trattamento proprio coi fiocchi.
+Al Municipio, Eleonora, prima d'entrare nell'aula dello Stato civile, fu assalita da una convulsione di pianto; lo sposo che si teneva discosto, in crocchio coi parenti, fu spinto da questi ad accorrere; ma il vecchio medico lo pregò di non farsi scorgere, di star lontano, per il momento.
+Non ben rimessa ancora da quella crisi violenta, Eleonora entrò nell'aula; si vide accanto quel ragazzo, che l'impaccio e la vergogna rendevano più ispido e goffo; ebbe un impeto di ribellione; fu per gridare: «No! No!» e lo guardò come per spingerlo a gridar così anche lui. Ma poco dopo dissero sì tutti e due, come condannati a una pena inevitabile. Sbrigata in gran fretta l'altra funzione nella chiesetta solitaria, il triste corteo s'avviò alla villa. Eleonora non voleva staccarsi dai due vecchi amici; ma le fu forza salire in vettura con lo sposo e coi suoceri.
+Strada facendo, non fu scambiata una parola nella vettura.
+Il mezzadro e la moglie parevano sbigottiti: alzavano di tanto in tanto gli occhi per guardar di sfuggita la nuora; poi si scambiavano uno sguardo e riabbassavano gli occhi. Lo sposo guardava fuori, tutto ristretto in sé, aggrottato.
+In villa, furono accolti con uno strepitoso sparo di mortaretti e grida festose e battimani. Ma l'aspetto e il contegno della sposa raggelarono tutti i convitati, per quanto ella si provasse anche a sorridere a quella buona gente, che intendeva farle festa a suo modo, come usa negli sposalizi.
+Chiese presto licenza di ritirarsi sola; ma nella camera in cui aveva dormito durante la villeggiatura, trovando apparecchiato il letto nuziale, s'arrestò di botto, su la soglia: - Lì? con lui? No! Mai! Mai! - E, presa da ribrezzo, scappò in un'altra camera: vi si chiuse a chiave; cadde a sedere su una seggiola, premendosi forte, forte, il volto con tutt'e due le mani.
+Le giungevano, attraverso l'uscio, le voci, le risa dei convitati, che aizzavano di là Gerlando, lodandogli, più che la sposa, il buon parentado che aveva fatto e la bella campagna.
+Gerlando se ne stava affacciato al balcone e, per tutta risposta, pieno d'onta, scrollava di tratto in tratto le poderose spalle.
+Onta sì, provava onta d'esser marito a quel modo, di quella signora: ecco! E tutta la colpa era del padre, il quale, per quella maledetta fissazione della scuola, lo aveva fatto trattare al modo d'un ragazzaccio stupido e inetto dalla signorina, venuta in villeggiatura, abilitandola a certi scherzi che lo avevano ferito. Ed ecco, intanto, quel che n'era venuto. Il padre non pensava che alla bella campagna. Ma lui, come avrebbe vissuto d'ora in poi, con quella donna che gl'incuteva tanta soggezione, e che certo gliene voleva per la vergogna e il disonore? Come avrebbe ardito d'alzar gli occhi in faccia a lei? E, per giunta, il padre pretendeva ch'egli seguitasse a frequentar la scuola! Figurarsi la baja che gli avrebbero data i compagni! Aveva venti anni più di lui, la moglie, e pareva una montagna, pareva...
+Mentre Gerlando si travagliava con queste riflessioni, il padre e la madre attendevano a gli ultimi preparativi del pranzo. Finalmente l'uno e l'altra entrarono trionfanti nella sala, dove già la mensa era apparecchiata. Il servizio da tavola era stato fornito per l'avvenimento da un trattore della città che aveva anche inviato un cuoco e due camerieri per servire il pranzo.
+Il mezzadro venne a trovar Gerlando al balcone e gli disse:
+eADV
+- Va' ad avvertire tua moglie che a momenti sarà pronto.
+- Non ci vado, gnornò! - grugnì Gerlando, pestando un piede. - Andateci voi.
+- Spetta a te, somarone! - gli gridò il padre. - Tu sei il marito: va'!
+- Grazie tante... Gnornò! non ci vado! - ripeté Gerlando, cocciuto, schermendosi.
+Allora il padre, irato, lo tirò per il bavero della giacca e gli diede uno spintone.
+- Ti vergogni, bestione? Ti ci sei messo, prima? E ora ti vergogni? Va'! È tua moglie!
+I convitati accorsero a metter pace, a persuadere Gerlando a andare.
+- Che male c'è? Le dirai che venga a prendere un boccone...
+- Ma se non so neppure come debba chiamarla! - gridò Gerlando, esasperato.
+Alcuni convitati scoppiarono a ridere, altri furono pronti a trattenere il mezzadro che s'era lanciato per schiaffeggiare il figlio imbecille che gli guastava così la festa preparata con tanta solennità e tanta spesa.
+- La chiamerai col suo nome di battesimo, - gli diceva intanto, piano e persuasiva, la madre. - Come si chiama? Eleonora, è vero? e tu chiamala Eleonora. Non è tua moglie? Va', figlio mio, va'... E, così dicendo, lo avviò alla camera nuziale.
+Gerlando andò a picchiare all'uscio. Picchiò una prima volta, piano. Attese. Silenzio. Come le avrebbe detto? Doveva proprio darle del tu, così alla prima? Ah, maledetto impiccio! E perché, intanto, ella non rispondeva? Forse non aveva inteso. Ripicchiò più forte. Attese. Silenzio.
+Allora, tutto impacciato, si provò a chiamare a bassa voce, come gli aveva suggerito la madre. Ma gli venne fuori un Eneolora così ridicolo, che subito, come per cancellarlo, chiamò forte, franco:
+- Eleonora!
+Intese alla fine la voce di lei che domandava dietro l'uscio di un'altra stanza:
+- Chi è?
+S'appressò a quell'uscio, col sangue tutto rimescolato.
+- Io, - disse - io Ger... Gerlando... È pronto.
+- Non posso, - rispose lei. - Fate senza di me.
+Gerlando tornò in sala, sollevato da un gran peso.
+eADV
+- Non viene! Dice che non viene! Non può venire!
+- Viva il bestione! - esclamò allora il padre, che non lo chiamava altrimenti. - Le hai detto ch'era in tavola? E perché non l'hai forzata a venire?
+La moglie s'interpose: fece intendere al marito che sarebbe stato meglio. forse, lasciare in pace la sposa, per quel giorno. I convitati approvarono.
+- L'emozione... il disagio... si sa!
+Ma il mezzadro che s'era inteso di dimostrare alla nuora che, all'occorrenza, sapeva far l'obbligo suo, rimase imbronciato e ordinò con mala grazia che il pranzo fosse servito.
+C'era il desiderio dei piatti fini, ch'ora sarebbero venuti in tavola, ma c'era anche in tutti quei convitati una seria costernazione per tutto quel superfluo che vedevano luccicar sulla tovaglia nuova, che li abbagliava: quattro bicchieri di diversa forma e forchette e forchettine, coltelli e coltellini, e certi pennini, poi, dentro gl'involtini di cartavelina.
+Seduti ben discosti dalla tavola, sudavano anche per i grevi abiti di panno della festa, e si guardavano nelle facce dure, arsicce, svisate dall'insolita pulizia; e non osavano alzar le grosse mani sformate dai lavori della campagna per prendere quelle forchette d'argento (la piccola o la grande?) e quei coltelli, sotto gli occhi dei camerieri che, girando coi serviti, con quei guanti di filo bianco incutevano loro una terribile soggezione.
+Il mezzadro, intanto, mangiando, guardava il figlio e scrollava il capo, col volto atteggiato di derisoria commiserazione:
+- Guardatelo, guardatelo! - borbottava tra sé. - Che figura ci fa, lì solo, spajato, a capo tavola? Come potrà la sposa aver considerazione per uno scimmione così fatto? Ha ragione, ha ragione di vergognarsi di lui. Ah, se fossi stato io al posto suo!
+Finito il pranzo fra la musoneria generale, i convitati, con una scusa o con un'altra, andarono via. Era già quasi sera.
+- E ora? - disse il padre a Gerlando, quando i due camerieri finirono di sparecchiar la tavola, e tutto nella villa ritornò tranquillo. - Che farai, ora? Te la sbroglierai tu!
+E ordinò alla moglie di seguirlo nella casa colonica, ove abitavano, poco discosto dalla villa.
+Rimasto solo, Gerlando si guardò attorno, aggrondato, non sapendo che fare.
+Sentì nel silenzio la presenza di quella che se ne stava chiusa di là. Forse, or ora, non sentendo più alcun rumore, sarebbe uscita dalla stanza. Che avrebbe dovuto far lui, allora?
+Ah, come volentieri se ne sarebbe scappato a dormire nella casa colonica, presso la madre, o anche giù all'aperto. Sotto un albero, magari!
+E se lei intanto s'aspettava d'esser chiamata? Se, rassegnata alla condanna che aveva voluto infliggerle il fratello, si riteneva in potere di lui, suo marito, e aspettava che egli la... sì, la invitasse a...
+Tese l'orecchio. Ma no: tutto era silenzio. Forse s'era già addormentata. Era già bujo. Il lume della luna entrava, per il balcone aperto, nella sala.
+Senza pensar d'accendere il lume, Gerlando prese una seggiola e si recò a sedere al balcone, che guardava tutt'intorno, dall'alto, l'aperta campagna declinante al mare laggiù in fondo, lontano.
+Nella notte chiara splendevano limpide le stelle maggiori; la luna accendeva sul mare una fervida fascia d'argento; dai vasti piani gialli di stoppia si levava tremulo il canto dei grilli, come un fitto, continuo scampanellio. A un tratto, un assiolo, da presso, emise un chiù languido, accorante; da lontano un altro gli rispose, come un'eco, e tutti e due seguitarono per un pezzo a singultar così, nella chiara notte.
+Con un braccio appoggiato alla ringhiera del balcone, egli allora, istintivamente, per sottrarsi all'oppressione di quell'incertezza smaniosa, fermò l'udito a quei due chiù che si rispondevano nel silenzio incantato dalla luna; poi, scorgendo laggiù in fondo un tratto del muro che cingeva tutt'intorno il podere, pensò che ora tutta quella terra era sua; suoi quegli alberi: olivi, mandorli, carrubi, fichi, gelsi; sua quella vigna.
+Aveva ben ragione d'esserne contento il padre, che d'ora in poi non sarebbe stato più soggetto a nessuno.
+Alla fin fine, non era tanto stramba l'idea di fargli seguitare gli studii. Meglio lì, meglio a scuola, che qua tutto il giorno, in compagnia della moglie. A tenere a posto quei compagni che avessero voluto ridere alle sue spalle, ci avrebbe pensato lui. Era un signore, ormai, e non gl'importava più se lo cacciavano via dalla scuola. Ma questo non sarebbe accaduto. Anzi egli si proponeva di studiare d'ora innanzi con impegno, per potere un giorno, tra breve, figurare tra i «galantuomini» del paese, senza più sentirne soggezione, e parlare e trattare con loro, da pari a pari. Gli bastavano altri quattro anni di scuola per aver la licenza dell'Istituto tecnico: e poi, perito agronomo o ragioniere. Suo cognato allora, il signor avvocato, che pareva avesse buttato là, ai cani, la sorella, avrebbe dovuto fargli tanto di cappello. Sissignori. E allora egli avrebbe avuto tutto il diritto di dirgli: «Che mi hai dato? A me, quella vecchia? Io ho studiato, ho una professione da signore e potevo aspirare a una bella giovine, ricca e di buoni natali come lei!».
+Così pensando, s'addormentò con la fronte sul braccio appoggiato alla ringhiera.
+I due chiù seguitavano, l'uno qua presso, l'altro lontano; il loro alterno lamentio voluttuoso; la notte chiara pareva facesse tremolar su la terra il suo velo di luna sonoro di grilli, e arrivava ora da lontano, come un'oscura rampogna, il borboglio profondo del mare.
+A notte avanzata, Eleonora apparve, come un'ombra, su la soglia del balcone.
+Non s'aspettava di trovarvi il giovine addormentato. Ne provò pena e timore insieme. Rimase un pezzo a pensare se le convenisse svegliarlo per dirgli quanto aveva tra sé stabilito e toglierlo di lì; ma, sul punto di scuoterlo, di chiamarlo per nome, sentì mancarsi l'animo e si ritrasse pian piano, come un'ombra, nella camera dond'era uscita.
+IV.
+L'intesa fu facile.
+Eleonora, la mattina dopo, parlò maternamente a Gerlando: lo lasciò padrone di tutto, libero di fare quel che gli sarebbe piaciuto, come se tra loro non ci fosse alcun vincolo. Per sé domandò solo d'esser lasciata lì, da canto, in quella cameretta, insieme con la vecchia serva di casa, che l'aveva vista nascere.
+Gerlando, che a notte inoltrata s'era tratto dal balcone tutto indurito dall'umido a dormire sul divano della sala da pranzo, ora, così sorpreso nel sonno, con una gran voglia di stropicciarsi gli occhi coi pugni, aprendo la bocca per lo sforzo d'aggrottar le ciglia, perché voleva mostrare non tanto di capire, quanto d'esser convinto, disse a tutto di sì, di sì, col capo. Ma il padre e la madre, quando seppero di quel patto, montarono su tutte le furie, e invano Gerlando si provò a far intender loro che gli conveniva così, che anzi ne era più che contento.
+Per quietare in certo qual modo il padre, dovette promettere formalmente che, ai primi d'ottobre, sarebbe ritornato a scuola. Ma, per ripicco, la madre gl'impose di scegliersi la camera più bella per dormire, la camera più bella per studiare, la camera più bella per mangiare... tutte le camere più belle!
+- E comanda tu, a bacchetta, sai! Se no, vengo io a farti ubbidire e rispettare.
+Giurò infine che non avrebbe mai più rivolto la parola a quella smorfiosa che le disprezzava così il figlio, un così bel pezzo di giovanotto, che colei non era neanco degna di guardare.
+Da quel giorno stesso, Gerlando si mise a studiare, a riprendere la preparazione interrotta per gli esami di riparazione. Era già tardi, veramente: aveva appena ventiquattro giorni innanzi a sé; ma, chi sa! mettendoci un po' d'impegno, forse sarebbe riuscito a prendere finalmente quella licenza tecnica, per cui si torturava da tre anni.
+Scosso lo sbalordimento angoscioso dei primi giorni, Eleonora, per consiglio della vecchia serva, si diede a preparare il corredino per il nascituro.
+Non ci aveva pensato, e ne pianse.
+Gesa, la vecchia serva, la ajutò, la guidò in quel lavoro, per cui era inesperta: le diede la misura per le prime camicine, per le prime cuffiette... Ah, la sorte le serbava questa consolazione, e lei non ci aveva ancora pensato; avrebbe avuto un piccino, una piccina a cui attendere, a cui consacrarsi tutta! Ma Dio doveva farle la grazia di mandarle un maschietto. Era già vecchia, sarebbe morta presto, e come avrebbe lasciato a quel padre una femminuccia, a cui lei avrebbe ispirato i suoi pensieri, i suoi sentimenti? Un maschietto avrebbe sofferto meno di quella condizione d'esistenza, in cui fra poco la mala sorte lo avrebbe messo.
+Angosciata da questi pensieri, stanca del lavoro, per distrarsi, prendeva in mano uno di quei libri che l'altra volta s'era fatti spedire dal fratello, e si metteva a leggere. Ogni tanto, accennando col capo, domandava alla serva:
+- Che fa?
+Gesa si stringeva nelle spalle, sporgeva il labbro. poi rispondeva:
+- Uhm! Sta con la testa sul libro. Dorme? Pensa? Chi sa!
+Pensava, Gerlando: pensava che, tirate le somme, non era molto allegra la sua vita.
+Ecco qua: aveva il podere, ed era come se non lo avesse; la moglie, e come se non l'avesse; in guerra coi parenti; arrabbiato con se stesso, che non riusciva a ritener nulla, nulla, nulla di quanto studiava.
+E in quell'ozio smanioso, intanto, si sentiva dentro come un fermento d'acri desiderii; fra gli altri, quello della moglie, perché gli s'era negata. Non era più desiderabile, è vero, quella donna. Ma... che patto era quello? Egli era il marito, e doveva dirlo lui, se mai.
+Si alzava; usciva dalla stanza; passava innanzi all'uscio della camera di lei; ma subito, intravedendola, sentiva cadersi ogni proposito di ribellione. Sbuffava e, tanto per non riconoscere che sul punto gliene mancava l'animo, diceva a se stesso che non ne valeva la pena.
+Uno di quei giorni, finalmente tornò dalla città sconfitto, bocciato, bocciato ancora una volta agli esami di licenza tecnica. E ora basta! basta davvero! Non voleva più saperne! Prese libri, quaderni, disegni, squadre, astucci, matite e li portò giù, innanzi alla villa per farne un falò. Il padre accorse per impedirglielo; ma Gerlando, imbestialito, si ribellò:
+- Lasciatemi fare! Sono il padrone!
+Sopravvenne la madre; accorsero anche alcuni contadini che lavoravano nella campagna. Una fumicaja prima rada, poi a mano a mano più densa si sprigionò, tra le grida degli astanti, da quel mucchio di carte; poi un bagliore; poi crepitò la fiamma e si levò. Alle grida, si fecero al balcone Eleonora e la serva.
+Gerlando, livido e gonfio come un tacchino, scagliava alle fiamme, scamiciato, furibondo, gli ultimi libri che teneva sotto il braccio, gli strumenti della sua lunga inutile tortura.
+Eleonora si tenne a stento di ridere, a quello spettacolo, e si ritrasse in fretta dal balcone. Ma la suocera se ne accorse e disse al figlio:
+- Ci prova gusto, sai? la signora; la fai ridere.
+- Piangerà! - gridò allora Gerlando, minaccioso, levando il capo verso il balcone.
+Eleonora intese la minaccia e impallidì: comprese che la stanca e mesta quiete, di cui aveva goduto finora, era finita per lei. Nient'altro che un momento di tregua le aveva concesso la sorte. Ma che poteva voler da lei quel bruto? Ella era già esausta: un altro colpo, anche lieve, l'avrebbe atterrata.
+Poco dopo, si vide innanzi Gerlando, fosco e ansante.
+- Si cangia vita da oggi! - le annunziò. - Mi son seccato. Mi metto a fare il contadino, come mio padre; e dunque tu smetterai di far la signora costà. Via, via tutta codesta biancheria! Chi nascerà sarà contadino anche lui, e dunque senza tanti lisci e tante gale. Licenzia la serva: farai tu da mangiare e baderai alla casa, come fa mia madre. Inteso?
+Eleonora si levò, pallida e vibrante di sdegno:
+- Tua madre è tua madre, - gli disse, guardandolo fieramente negli occhi. - Io sono io, e non posso diventare con te, villano, villana.
+- Mia moglie sei! - gridò allora Gerlando, appressandosi violento e afferrandola per un braccio. - E farai ciò che voglio io; qua comando io, capisci?
+Poi si volse alla vecchia serva e le indicò l'uscio:
+- Via! Voi andate subito via! Non voglio serve per la casa!
+- Vengo con te, Gesa! - gridò Eleonora cercando di svincolare il braccio che egli le teneva ancora afferrato.
+Ma Gerlando non glielo lasciò; glielo strinse più forte; la costrinse a sedere.
+- No! Qua! Tu rimani qua, alla catena, con me! Io per te mi son prese le beffe: ora basta! Vieni via, esci da codesto tuo covo. Non voglio star più solo a piangere la mia pena. Fuori! Fuori!
+E la spinse fuori della camera.
+- E che hai tu pianto finora? - gli disse lei con le lagrime a gli occhi. - Che ho preteso, io da te?
+- Che hai preteso? Di non aver molestie, di non aver contatto con me, quasi che io fossi... che non meritassi confidenza da te, matrona! E m'hai fatto servire a tavola da una salariata, mentre toccava a te a servirmi, di tutto punto, come fanno le mogli.
+- Ma che n'hai da fare tu, di me? - gli domandò, avvilita, Eleonora. - Ti servirò, se vuoi, con le mie mani, d'ora in poi. Va bene?
+Ruppe, così dicendo, in singhiozzi, poi sentì mancarsi le gambe e s'abbandonò. Gerlando, smarrito, confuso, la sostenne insieme con Gesa, e tutt'e due la adagiarono su una seggiola.
+Verso sera, improvvisamente, fu presa dalle doglie. Gerlando, pentito, spaventato, corse a chiamar la madre: un garzone fu spedito in città per una levatrice; mentre il mezzadro, vedendo già in pericolo il podere, se la nuora abortiva, bistrattava il figlio:
+- Bestione, bestione, che hai fatto? E se ti muore. adesso? Se non hai più figli? Sei in mezzo a una strada! Che farai? Hai lasciato la scuola e non sai neppur tenere la zappa in mano. Sei rovinato!
+- Che me ne importa? - gridò Gerlando. - Purché non abbia nulla lei!
+Sopravvenne la madre, con le braccia per aria:
+- Un medico! Ci vuole subito un medico! La vedo male!
+- Che ha? - domandò Gerlando, allibito.
+Ma il padre lo spinse fuori:
+- Corri! Corri!
+Per via, Gerlando, tutto tremante, s'avvilì, si mise a piangere, sforzandosi tuttavia di correre. A mezza strada s'imbatté nella levatrice che veniva in vettura col garzone.
+- Caccia! caccia! - gridò. - Vado pel medico, muore!
+Inciampò, stramazzò; tutto impolverato, riprese a correre, disperatamente, addentandosi la mano che s'era scorticata.
+Quando tornò col medico alla villa, Eleonora stava per morire, dissanguata.
+- Assassino! assassino! - nicchiava Gesa, attendendo alla padrona. - Lui è stato! Ha osato di metterle le mani addosso.
+Eleonora però negava col capo. Si sentiva a mano a mano, col sangue, mancar la vita, a mano a mano le forze raffievolendo scemare; era già fredda... Ebbene: non si doleva di morire; era pur dolce così la morte, un gran sollievo, dopo le atroci sofferenze. E, col volto come di cera, guardando il soffitto, aspettava che gli occhi le si chiudessero da sé, pian piano, per sempre. Già non distingueva più nulla. Come in sogno rivide il vecchio medico che le aveva fatto da testimonio; e gli sorrise.
+V.
+Gerlando non si staccò dalla sponda del letto, né giorno né notte, per tutto il tempo che Eleonora vi giacque tra la vita e la morte.
+Quando finalmente dal letto poté esser messa a sedere sul seggiolone, parve un'altra donna: diafana, quasi esangue. Si vide innanzi Gerlando, che sembrava uscito anch'esso da una mortale malattia, e premurosi attorno i parenti di lui. Li guardava coi begli occhi neri ingranditi e dolenti nella pallida magrezza, e le pareva che ormai nessuna relazione esistesse più tra essi e lei, come se ella fosse or ora tornata, nuova e diversa, da un luogo remoto, dove ogni vincolo fosse stato infranto, non con essi soltanto, ma con tutta la vita di prima.
+Respirava con pena; a ogni menomo rumore il cuore le balzava in petto e le batteva con tumultuosa repenza; una stanchezza greve la opprimeva.
+Allora, col capo abbandonato su la spalliera del seggiolone, gli occhi chiusi, si rammaricava dentro di sé di non esser morta. Che stava più a farci, lì? perché ancora quella condanna per gli occhi di veder quei visi attorno e quelle cose, da cui gli si sentiva tanto, tanto lontana? Perché quel ravvicinamento con le apparenze opprimenti e nauseanti della vita passata, ravvicinamento che talvolta le pareva diventasse più brusco, come se qualcuno la spingesse di dietro, per costringerla a vedere, a sentir la presenza, la realtà viva e spirante della vita odiosa, che più non le apparteneva?
+Credeva fermamente che non si sarebbe rialzata mai più da quel seggiolone; credeva che da un momento all'altro sarebbe morta di crepacuore. E no, invece; dopo alcuni giorni, poté levarsi in piedi, muovere, sorretta, qualche passo per la camera; poi, col tempo, anche scendere la scala e recarsi all'aperto, a braccio di Gerlando e della serva. Prese infine l'abitudine di recarsi sul tramonto fino all'orlo del ciglione che limitava a mezzogiorno il podere.
+S'apriva di là la magnifica vista della piaggia sottostante all'altipiano, fino al mare laggiù. Vi si recò i primi giorni accompagnata, al solito, da Gerlando e da Gesa; poi, senza Gerlando; infine, sola.
+Seduta su un masso, all'ombra d'un olivo centenario, guardava tutta la riviera lontana che s'incurvava appena, a lievi lunate, a lievi seni, frastagliandosi sul mare che cangiava secondo lo spirare dei venti; vedeva il sole ora come un disco di fuoco affogarsi lentamente tra le brume muffose sedenti sul mare tutto grigio, a ponente, ora calare in trionfo su le onde infiammate, tra una pompa meravigliosa di nuvole accese; vedeva nell'umido cielo crepuscolare sgorgar liquida e calma la luce di Giove, avvivarsi appena la luna diafana e lieve; beveva con gli occhi la mesta dolcezza della sera imminente, e respirava, beata, sentendosi penetrare fino in fondo all'anima il fresco, la quiete, come un conforto sovrumano.
+Intanto, di là, nella casa colonica, il vecchio mezzadro e la moglie riprendevano a congiurare a danno di lei, istigando il figliuolo a provvedere a' suoi casi.
+- Perché la lasci sola? - badava a dirgli il padre. - Non t'accorgi che lei, ora, dopo la malattia, t'è grata dell'affezione che le hai dimostrata? Non la lasciare un momento, cerca d'entrarle sempre più nel cuore; e poi... e poi ottieni che la serva non si corichi più nella stessa camera con lei. Ora lei sta bene e non ne ha più bisogno, la notte.
+Gerlando, irritato, si scrollava tutto, a questi suggerimenti.
+- Ma neanche per sogno! Ma se non le passa più neanche per il capo che io possa... Ma che! Mi tratta come un figliuolo... Bisogna sentire che discorsi mi fa! Si sente già vecchia, passata e finita per questo mondo. Che!
+- Vecchia? - interloquiva la madre. - Certo, non è più una bambina; ma vecchia neppure; e tu...
+- Ti levano la terra! - incalzava il padre. - Te l'ho già detto: sei rovinato, in mezzo a una strada. Senza figli, morta la moglie, la dote torna ai parenti di lei. E tu avrai fatto questo bel guadagno; avrai perduto la scuola e tutto questo tempo, così, senza nessuna soddisfazione... Neanche un pugno di mosche! Pensaci, pensaci a tempo: già troppo ne hai perduto... Che speri?
+- Con le buone, - riprendeva, manierosa, la madre. - Tu devi andarci con le buone, e magari dirglielo: «Vedi? che n'ho avuto io, di te? t'ho rispettato, come tu hai voluto; ma ora pensa un po' a me, tu: come resto io? che farò, se tu mi lasci così?». Alla fin fine, santo Dio, non deve andare alla guerra!
+- E puoi soggiungere, - tornava a incalzare il padre. - puoi soggiungere: «Vuoi far contento tuo fratello che t'ha trattata così? farmi cacciar via di qua come un cane, da lui?». È la santa verità, questa, bada! Come un cane sarai cacciato, a pedate, e io e tua madre, poveri vecchi, con te.
+Gerlando non rispondeva nulla. Ai consigli della madre provava quasi un sollievo, ma irritante, come una vellicazione; le previsioni del padre gli movevano la bile, lo accendevano d'ira. Che fare? Vedeva la difficoltà dell'impresa e ne vedeva pure la necessità impellente. Bisognava a ogni modo tentare.
+Eleonora, adesso, sedeva a tavola con lui. Una sera, a cena, vedendolo con gli occhi fissi su la tovaglia, pensieroso, gli domandò:
+- Non mangi? che hai?
+Quantunque da alcuni giorni egli s'aspettasse questa domanda provocata dal suo stesso contegno, non seppe sul punto rispondere come aveva deliberato, e fece un gesto vago con la mano.
+- Che hai? - insistette Eleonora.
+- Nulla, - rispose, impacciato, Gerlando. - Mio padre, al solito...
+- Daccapo con la scuola? - domandò lei sorridendo, per spingerlo a parlare.
+- No: peggio, - diss'egli. - Mi pone... mi pone davanti tante ombre, m'affligge col... col pensiero del mio avvenire, poiché lui è vecchio, dice, e io così, senza né arte né parte: finché ci sei tu, bene; ma poi... poi, niente, dice...
+- Di' a tuo padre, - rispose allora, con gravità, Eleonora, socchiudendo gli occhi, quasi per non vedere il rossore di lui, - di' a tuo padre che non se ne dia pensiero. Ho provveduto io a tutto, digli, e che stia dunque tranquillo. Anzi, giacché siamo a questo discorso, senti: se io venissi a mancare d'un tratto - siamo della vita e della morte - nel secondo cassetto del canterano, nella mia camera, troverai in una busta gialla una carta per te.
+- Una carta? - ripeté Gerlando, non sapendo che dire, confuso di vergogna.
+Eleonora accennò di sì col capo, e soggiunse:
+- Non te ne curare.
+Sollevato e contento, Gerlando, la mattina dopo, riferì ai genitori quanto gli aveva detto Eleonora; ma quelli, specialmente il padre, non ne furono per nulla soddisfatti.
+- Carta? Imbrogli!
+Che poteva essere quella carta? Il testamento: la donazione cioè del podere al marito. E se non era fatta in regola e con tutte le forme? Il sospetto era facile, atteso che si trattava della scrittura privata d'una donna, senza l'assistenza d'un notajo. E poi, non si doveva aver da fare col cognato, domani, uomo di legge, imbroglione?
+- Processi, figlio mio? Dio te ne scampi e liberi! La giustizia non è per i poverelli. E quello là, per la rabbia, sarà capace di farti bianco il nero e nero il bianco.
+E inoltre, quella carta, c'era davvero, là, nel cassetto del canterano? O glie l'aveva detto per non esser molestata?
+- Tu l'hai veduta? No. E allora? Ma, ammesso che te la faccia vedere, che ne capisci tu? che ne capiamo noi? Mentre con un figliuolo... là! Non ti lasciare infinocchiare: da' ascolto a noi! Carne! carne! che carta!
+Così un giorno Eleonora, mentre se ne stava sotto a quell'olivo sul ciglione, si vide all'improvviso accanto Gerlando, venuto furtivamente.
+Era tutta avvolta in un ampio scialle nero. Sentiva freddo, quantunque il febbrajo fosse così mite, che già pareva primavera. La vasta piaggia, sotto, era tutta verde di biade; il mare, in fondo, placidissimo, riteneva insieme col cielo una tinta rosea un po' sbiadita, ma soavissima, e le campagne in ombra parevano smaltate.
+Stanca di mirare, nel silenzio, quella meravigliosa armonia di colori, Eleonora aveva appoggiato il capo al tronco dell'olivo. Dallo scialle nero tirato sul capo si scopriva soltanto il volto, che pareva anche più pallido.
+- Che fai? - le domandò Gerlando. - Mi sembri una Madonna Addolorata.
+- Guardavo... - gli rispose lei, con un sospiro, socchiudendo gli occhi.
+Ma lui riprese:
+- Se vedessi come... come stai bene così, con codesto scialle nero...
+- Bene? - disse Eleonora, sorridendo mestamente. - Sento freddo!
+- No, dico, bene di... di... di figura, - spiegò egli, balbettando, e sedette per terra accanto al masso.
+Eleonora, col capo appoggiato al tronco, richiuse gli occhi, sorrise per non piangere, assalita dal rimpianto della sua gioventù perduta così miseramente. A diciott'anni, sì, era stata pur bella, tanto!
+A un tratto, mentre se ne stava così assorta, s'intese scuotere leggermente.
+- Dammi una mano, - le chiese egli da terra, guardandola con occhi lustri.
+Ella comprese; ma finse di non comprendere.
+- La mano? Perché? - gli domandò. - Io non posso tirarti su: non ho più forza, neanche per me... È già sera, andiamo.
+E si alzò.
+- Non dicevo per tirarmi su, - spiegò di nuovo Gerlando, da terra. - Restiamo qua, al bujo; è tanto bello...
+Così dicendo, fu lesto ad abbracciarle i ginocchi, sorridendo nervosamente, con le labbra aride.
+- No! - gridò lei. - Sei pazzo? Lasciami!
+Per non cadere, s'appoggiò con le braccia a gli omeri di lui e lo respinse indietro. Ma lo scialle, a quell'atto, si svolse, e, com'ella se ne stava curva su lui sorto in ginocchio, lo avvolse, lo nascose dentro.
+- No: ti voglio! ti voglio! - diss'egli, allora, com'ebbro, stringendola vieppiù con un braccio, mentre con l'altro le cercava, più su, la vita, avvolto nell'odore del corpo di lei.
+Ma ella, con uno sforzo supremo, riuscì a svincolarsi; corse fino all'orlo del ciglione; si voltò; gridò:
+- Mi butto!
+In quella, se lo vide addosso, violento; si piegò indietro, precipitò giù dal ciglione.
+Egli si rattenne a stento, allibito, urlando, con le braccia levate. Udì un tonfo terribile, giù. Sporse il capo. Un mucchio di vesti nere, tra il verde della piaggia sottostante. E lo scialle, che s'era aperto al vento, andava a cadere mollemente, così aperto, più in là.
+Con le mani tra i capelli, si voltò a guardare verso la casa campestre; ma fu colpito negli occhi improvvisamente dall'ampia faccia pallida della Luna sorta appena dal folto degli olivi lassù; e rimase atterrito a mirarla, come se quella dal cielo avesse veduto e lo accusasse.
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  </div>
+
+  
+
+</div>
+
+
+
+
+
+<script>
+
+
+  function changeBackgroundImage(){
+      // Ottieni il body
+      var body = document.body;
+
+      // Nuovo URL dell'immagine di sfondo
+      var newBackgroundImageURL = 'url("../../../media/SanGerlando.jpg")';
+
+      // Imposta la nuova immagine di sfondo
+      body.style.backgroundImage = newBackgroundImageURL;
+    }
+
+    document.addEventListener("DOMContentLoaded", changeBackgroundImage)
+  
+</script>
+
+
+
+{% endblock %}

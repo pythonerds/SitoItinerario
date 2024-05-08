@@ -133,6 +133,15 @@
     height: 50%;
   }
 
+  #novella-tab-pane{
+    max-height: 40vh; 
+    overflow-y: scroll;
+
+    
+  }
+  ::-webkit-scrollbar{
+    background-color: transparent;
+  }
 
   
   </style>
@@ -162,11 +171,11 @@
               Luoghi Pirandelliani
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Cattedrale - Palazzo Vescovile</a></li>
-              <li><a class="dropdown-item" href="{%url 'secondaPagina'%}">Piano San Gerlando - Arco Spoto</a></li>
-              <li><a class="dropdown-item" href="#">Basilica dell'immacolata</a></li>
-              <li><a class="dropdown-item" href="#">Via Pirandello - Casa Natale Luigi Pirandello</a></li>
-              <li><a class="dropdown-item" href="#">Viale della Vittoria</a></li>
+              <li><a class="dropdown-item" href="{%url 'Cattedrale' %}">Cattedrale - Palazzo Vescovile</a></li>
+              <li><a class="dropdown-item" href="{%url 'PianoSanGerlando'%}">Piano San Gerlando - Arco Spoto</a></li>
+              <li><a class="dropdown-item" href="{%url 'Basilica'%}">Basilica dell'immacolata</a></li>
+              <li><a class="dropdown-item" href="{%url 'Pirandello'%}">Via Pirandello - Casa Natale Luigi Pirandello</a></li>
+              <li><a class="dropdown-item" href="{%url 'VialeVittoria'%}">Viale della Vittoria</a></li>
               
             </ul>
           </li>
@@ -305,6 +314,13 @@
     document.getElementById("sottoBarra").style.marginTop = navBarHeight + "px";
   }
   document.addEventListener("DOMContentLoaded", dimensions);
+
+  document.addEventListener('DOMContentLoaded', function() {
+        var novellaTabPane = document.getElementById('novella-tab-pane');
+        if (novellaTabPane) {
+            novellaTabPane.innerHTML = novellaTabPane.innerHTML.replace(/\n/g, '<br>');
+        }
+    });
     
 </script>
 

@@ -6,6 +6,12 @@ urlpatterns = [
     
     path('', views.home, name='home'),
     path('home/', views.home, name='home'),
-    path('secondaPagina/', views.secondaPagina, name='secondaPagina'),
+    path('PianoSanGerlando/', views.PianoSanGerlando, name='PianoSanGerlando'),
+    path('Basilica-Immacolata/', views.Basilica, name='Basilica'),
+    path('Cattedrale-Palazzo-Vescovile/', views.Cattedrale, name='Cattedrale'),
+    path('Viale-Vittoria/', views.VialeVittoria, name='VialeVittoria'),
+    path('Casa-Pirandello/', views.Pirandello, name='Pirandello'),
+
+
    
 ]

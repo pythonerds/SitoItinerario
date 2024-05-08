@@ -1,0 +1,303 @@
+{% extends 'itinerarioPirandelliano/common.html' %}
+{% load i18n %}<!-- viene messo dove abbiamo frasi da tradurre, {% trans "frase da tradurre" %}-->
+
+{% block title %}ciao{% endblock %}
+
+{% block content %}
+<input type="hidden" name="pagina" id="pagina" value="secondaPagina">
+
+<div style="min-height: auto">
+
+  <div class="row text-center" id="sottoBarra">
+    <div class="col">
+      <h1 style="font-family:fantasy; margin-top: 8%;">Piano San Gerlando - Arco Spoto</h1>
+    </div>
+  </div>
+
+  <div class="row" style="margin:5% 5% 3%">
+    <div class="col">
+      <!--Carousel-->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="max-height: 60vh;">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../../../media/SanGerlando1.jpeg" class="\d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../../../media/SanGerlando2.jpg" class="d-block w-100 img-fluid" alt="..."
+              style="object-fit: cover;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Bottoni Arte, Passo Scelto e Novella Completa-->
+
+  <div class="row" style="margin: 2% 10% 3%">
+    <div class="container mt-3">
+      <div class="card" id="ciao" style="background-color: rgba(224, 159, 61, 0.644);">
+        <div style="font-family: fantasy; font-size: 130%;">
+          <ul class="nav nav-tabs" id="navTabDescription" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="arte-tab" data-bs-toggle="tab" data-bs-target="#arte-tab-pane"
+                type="button" role="tab" aria-controls="arte-tab-pane" aria-selected="true">Arte</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="scelta-tab" data-bs-toggle="tab" data-bs-target="#scelta-tab-pane"
+                type="button" role="tab" aria-controls="scelta-tab-pane" aria-selected="false">Passo Scelto</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="novella-tab" data-bs-toggle="tab" data-bs-target="#novella-tab-pane"
+                type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella
+                completa</button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content mt-3" id="myTabContent">
+          <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab"
+            style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+            {%trans "Arte Piano San Gerlando"%}
+
+          </div>
+          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab">{%trans "Passo Scelto Piano San Gerlando" %}</div>
+          <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab">La verità
+            Saru Argentu, inteso Tarara, appena introdotto nella gabbia della squallida Corte d’Assise, per prima cosa
+            cavò di tasca un ampio fazzoletto rosso di cotone a fiorami gialli, e lo stese accuratamente su uno dei
+            gradini della panca, per non sporcarsi, sedendo, l’abito delle feste, di greve panno turchino. Nuovo
+            l’abito, e nuovo il fazzoletto.
+            Seduto, volse la faccia e sorrise a tutti i contadini che gremivano, dalla ringhiera in giù, la parte
+            dell’aula riservata al pubblico. L’irto grugno raschioso, raso di fresco, gli dava l’aspetto d’uno
+            scimmione. Gli pendevano dagli orecchi due catenaccetti d’oro.
+            Dalla folla di tutti quei contadini si levava denso, ammorbante, un sito di stalla e di sudore, un lezzo
+            caprino, un tanfo di bestie inzafardate, che accorava.
+            Qualche donna, vestita di nero, con la mantellina di panno tirata fin sopra gli orecchi, si mise a piangere
+            perdutamente alla vista dell’imputato, il quale invece, guardando dalla gabbia, seguitava a sorridere e ora
+            alzava una scabra manaccia terrosa, ora piegava il collo di qua e di là, non propriamente a salutare, ma a
+            fare a questo e a quello degli amici e compagni di lavoro un cenno di riconoscimento, con una certa
+            compiacenza.
+            Perché per lui era quasi una festa, quella, dopo tanti e tanti mesi di carcere preventivo. E s’era parato
+            come di domenica, per far buona comparsa. Povero era, tanto che non aveva potuto neanche pagarsi un
+            avvocato, e ne aveva uno d’ufficio; ma per quello che dipendeva da lui, ecco, pulito almeno, sbarbato,
+            pettinato e con l’abito delle feste.
+            Dopo le prime formalità, costituita la giuria, il presidente invitò l’imputato ad alzarsi.
+            - Come vi chiamate?
+            - Tarara.
+            - Questo è un nomignolo. Il vostro nome?
+            - Ah, sissignore. Argentu, Saru Argentu, Eccellenza. Ma tutti mi conoscono per Tarara.
+            - Va bene. Quant’anni avete?
+            - Eccellenza, non lo so.
+            - Come non lo sapete?
+            Tarara si strinse nelle spalle e significò chiaramente con l’atteggiamento del volto, che gli sembrava quasi
+            una vanità, ma proprio superflua, il computo degli anni. Rispose:
+            - Abito in campagna, Eccellenza. Chi ci pensa?
+            Risero tutti, e il presidente chinò il capo a cercare nelle carte che gli stavano aperte davanti:
+            - Siete nato nel 1873. Avete dunque trentanove anni. Tarara aprì le braccia e si rimise:
+            - Come comanda Vostra Eccellenza.
+            Per non provocare nuove risate, il presidente fece le altre interrogazioni, rispondendo da sé a ognuna: - È
+            vero? - è vero? - Infine disse:
+            - Sedete. Ora sentirete dal signor cancelliere di che cosa siete accusato.
+            Il cancelliere si mise a leggere l’atto d’accusa; ma a un certo punto dovette interrompere la lettura,
+            perché il capo dei giurati stava per venir meno a causa del gran lezzo ferino che aveva empito tutta l’aula.
+            Bisognò dar ordine agli uscieri che fossero spalancate porte e finestre.
+            Apparve allora lampante e incontestabile la superiorità dell’imputato di fronte a coloro che dovevano
+            giudicarlo.
+            Seduto su quel suo fazzolettone rosso fiammante, Tarara non avvertiva affatto quel lezzo, abituale al suo
+            naso, e poteva sorridere; Tarara non sentiva caldo, pur vestito com’era di quel greve abito di panno
+            turchino; Tarara infine non aveva alcun fastidio dalle mosche, che facevano scattare in gesti irosi i
+            signori giurati, il procuratore del re, il presidente, il cancelliere, gli avvocati, gli uscieri, e finanche
+            i carabinieri. Le mosche gli si posavano su le mani, gli svolavano ronzanti sonnacchiose attorno alla
+            faccia, gli s’attaccavano voraci su la fronte, agli angoli della bocca e perfino a quelli degli occhi: non
+            le sentiva, non le cacciava, e poteva seguitare a sorridere.
+            Il giovane avvocato difensore, incaricato d’ufficio, gli aveva detto che poteva essere sicuro
+            dell’assoluzione, perché aveva ucciso la moglie, di cui era provato l’adulterio.
+            Nella beata incoscienza delle bestie, non aveva neppur l’ombra del rimorso. Perché dovesse rispondere di ciò
+            che aveva fatto, di una cosa, cioè, che non riguardava altri che lui, non capiva. Accettava l’azione della
+            giustizia, come una fatalità inovviabile.
+            Nella vita c’era la giustizia, come per la campagna le cattive annate.
+            E la giustizia, con tutto quell’apparato solenne di scanni maestosi, di tocchi, di toghe e di pennacchi, era
+            per Tarara come quel nuovo grande molino a vapore, che s’era inaugurato con gran festa l’anno avanti.
+            Visitandone con tanti altri curiosi il macchinario, tutto quell’ingranaggio di ruote, quel congegno
+            indiavolato di stantuffi e di pulegge, Tarara, l’anno avanti, s’era sentita sorgere dentro e a mano a mano
+            ingrandire, con lo stupore, la diffidenza. Ciascuno avrebbe portato il suo grano a quel molino; ma chi
+            avrebbe poi assicurato agli avventori che la farina sarebbe stata quella stessa del grano versato? Bisognava
+            che ciascuno chiudesse gli occhi e accettasse con rassegnazione la farina che gli davano.
+            Così ora, con la stessa diffidenza, ma pur con la stessa rassegnazione, Tarara recava il suo caso
+            nell’ingranaggio della giustizia.
+            Per conto suo, sapeva che aveva spaccato la testa alla moglie con un colpo d’accetta, perché, ritornato a
+            casa fradicio e inzaccherato, una sera di sabato, dalla campagna sotto il borgo di Montaperto nella quale
+            lavorava tutta la settimana da garzone, aveva trovato uno scandalo grosso nel vicolo dell’Arco di Spoto, ove
+            abitava, su le alture di San Gerlando.
+            Poche ore avanti, sua moglie era stata sorpresa in flagrante adulterio insieme col cavaliere don Agatino
+            Fiorìca.
+            La signora donna Graziella Fiorìca, moglie del cavaliere, con le dita piene d’anelli, le gote tinte di uva
+            turca, e tutta infiocchettata come una di quelle mule che recano a suon di tamburo un carico di frumento
+            alla chiesa, aveva guidato lei stessa in persona il delegato di pubblica sicurezza Spanò e due guardie di
+            questura, là nel vicolo dell’Arco di Spoto, per la constatazione dell’adulterio.
+            Il vicinato non aveva potuto nascondere a Tarara la sua disgrazia, perché la moglie era stata trattenuta in
+            arresto, col cavaliere, tutta la notte. La mattina seguente Tarara, appena se la era vista ricomparire zitta
+            zitta davanti all’uscio di strada, prima che le vicine avessero tempo d’accorrere, le era saltato addosso
+            con l’accetta in pugno e le aveva spaccato la testa.
+            Chi sa che cosa stava a leggere adesso il signor cancelliere…
+            Terminata la lettura, il presidente fece alzare di nuovo l’imputato per l’interrogatorio.
+            - Imputato Argentu, avete sentito di che siete accusato?
+            Tarara fece un atto appena appena con la mano e, col suo solito sorriso, rispose:
+            - Eccellenza, per dire la verità, non ci ho fatto caso. Il presidente allora lo redarguì con molta severità:
+            - Siete accusato d’aver assassinato con un colpo d’accetta, la mattina del 10 dicembre 1911, Rosaria
+            Femminella, vostra moglie. Che avete a dire in vostra discolpa? Rivolgetevi ai signori giurati e parlate
+            chiaramente e col dovuto ri spetto alla giustizia.
+            Tarara si recò una mano al petto, per significare che non aveva la minima intenzione di mancare di rispetto
+            alla giustizia. Ma tutti, ormai, nell’aula, avevano disposto l’animo all’ilarità e lo guardavano col sorriso
+            preparato in attesa d’una sua risposta. Tarara lo avvertì e rimase un pezzo sospeso e smarrito.
+            - Su, dite, insomma, - lo esortò il presidente. - Dite ai signori giurati quel che avete da dire.
+            Tarara si strinse nelle spalle e disse:
+            - Ecco, Eccellenza. Loro signori sono alletterati, e quello che sta scritto in codeste carte, lo avranno
+            capito. Io abito in campagna, Eccellenza. Ma se in codeste carte sta scritto, che ho ammazzato mia moglie, è
+            la verità. E non se ne parla più.
+            Questa volta scoppiò a ridere, senza volerlo, anche il presidente.
+            - Non se ne parla più? Aspettate e sentirete, caro, se se ne parlerà…
+            - Intendo dire, Eccellenza, - spiegò Tarara, riponendosi la mano sul petto, - intendo dire, che l’ho
+            fatto, ecco; e basta. L’ho fatto… sì, Eccellenza, mi rivolgo ai signori giurati, l’ho fatto propriamente,
+            signori giurati, perché non ne ho potuto far di meno, ecco; e basta.
+            - Serietà! serietà, signori! serietà! - si mise a gridare il presidente, scrollando furiosamente il
+            campanello. - Dove siamo? Qua siamo in una Corte di giustizia! E si tratta di giudicare un uomo che ha
+            ucciso! Se qualcuno si attenta un’altra volta a ridere, farò sgombrare l’aula! E mi duole di dover
+            richiamare anche i signori giurati a considerare la gravità del loro compito!
+            Poi, rivolgendosi con fiero cipiglio all’imputato:
+            - Che intendete dire, voi, che non ne avete potuto far di meno?
+            Tarara, sbigottito in mezzo al violento silenzio sopravvenuto, rispose:
+            - Intendo dire, Eccellenza, che la colpa non è stata mia.
+            - Ma come non è stata vostra?
+            Il giovane avvocato, incaricato d’ufficio, credette a questo punto suo dovere ribellarsi contro il tono
+            aggressivo assunto dal presidente verso il giudicabile.
+            - Perdoni, signor presidente, ma così finiremo d’imbalordire questo pover uomo! Mi pare ch’egli abbia
+            ragione di dire che la colpa non è stata sua, ma della moglie che lo tradiva col cavalier Fiorìca. È chiaro!
+            - Signor avvocato, prego, - ripigliò, risentito, il presidente. - Lasciamo parlare l’accusato. A voi,
+            Tarara: intendete dir questo?
+            Tarara negò prima con un gesto del capo, poi con la voce:
+            - Nossignore, Eccellenza. La colpa non è stata neanche di quella povera disgraziata. La colpa è stata della
+            signora… della moglie del signor cavaliere Fiorìca, che non ha voluto lasciare le cose quiete. Che
+            c’entrava, signor presidente, andare a fare uno scandalo così grande davanti alla porta di casa mia, che
+            finanche il selciato della strada, signor presidente, è diventato rosso dalla vergogna a vedere un degno
+            galantuomo, il cavaliere Fiorìca, che sappiamo tutti che signore è, scovato lì, in maniche di camicia e coi
+            calzoni in mano, signor presidente, nella tana d’una sporca contadina? Dio solo sa, signor presidente,
+            quello che siamo costretti a fare per procurarci un tozzo di pane!
+            Tarara disse queste cose con le lagrime agli occhi e nella voce, scotendo le mani innanzi al petto, con le
+            dita intrecciate, mentre le risate scoppiavano irrefrenabili in tutta l’aula e molti anche si torcevano in
+            convulsione. Ma, pur tra le risa, il presidente colse subito a volo la nuova posizione in cui l’imputato
+            veniva a mettersi di fronte alla legge, dopo quanto aveva detto. Se n’accorse anche il giovane avvocato
+            difensore, e di scatto, vedendo crollare tutto l’edificio della sua difesa, si voltò verso la gabbia a far
+            cenno a Tarara di fermarsi.
+            Troppo tardi. Il presidente, tornando a scampanellare furiosamente, domandò all’imputato:
+            - Dunque voi confessate che vi era già nota la tresca di vostra moglie col cavaliere Fiorìca?
+            - Signor presidente, - insorse l’avvocato difensore, balzando in piedi, - scusi… ma io così… io così…
+            - Che così e così! - lo interruppe, gridando, il presidente. - Bisogna che io metta in chiaro questo, per
+            ora!
+            - Mi oppongo alla domanda, signor presidente!
+            - Lei non può mica opporsi, signor avvocato. L’interrogatorio lo faccio io!
+            - E io allora depongo la toga!
+            - Ma faccia il piacere, avvocato! Dice sul serio? Se l’imputato stesso confessa…
+            - Nossignore, nossignore! Non ha confessato ancora nulla, signor presidente! Ha detto soltanto che la
+            colpa, secondo lui, è della signora Fiorìca, che è andata a far uno scandalo innanzi alla sua abitazione.
+            - Va bene! E può lei impedirmi, adesso, di domandare all’imputato se gli era nota la tresca della moglie
+            col Fiorìca?
+            Da tutta l’aula si levarono, a questo punto, verso Tarara pressanti, violenti cenni di diniego. Il
+            presidente montò su tutte le furie e minacciò di nuovo lo sgombro dell’aula.
+            - Rispondete, imputato Argentu: vi era nota, sì o no, la tresca di vostra moglie?
+            Tarara, smarrito, combattuto, guardò l’avvocato, guardò l’uditorio, e alla fine:
+            - Debbo… debbo dire di no? - balbettò.
+            - Ah, broccolo! - gridò un vecchio contadino dal fondo dell’aula.
+            Il giovane avvocato diede un pugno sul banco e si voltò, sbuffando, a sedere da un’altra parte.
+            - Dite la verità, nel vostro stesso interesse! - esortò il presidente l’imputato.
+            - Eccellenza, dico la verità, - riprese Tarara, questa volta con tutt’e due le mani sul petto. – E la
+            verità è questa: che era come se io non lo sapessi! Perché la cosa… sì, Eccellenza, mi rivolgo ai signori
+            giurati; perché la cosa, signori giurati, era tacita, e nessuno dunque poteva venirmi a sostenere in faccia
+            che io la sapevo. Io parlo così, perché abito in campagna, signori giurati. Che può sapere un pover uomo che
+            butta sangue in campagna dalla mattina del lunedì alla sera del sabato? Sono disgrazie che possono capitare
+            a tutti! Certo, se in campagna qualcuno fosse venuto a dirmi: «Tarara, bada che tua moglie se l’intende col
+            cavaliere Fiorìca», io non ne avrei potuto fare di meno, e sarei corso a casa con l’accetta a spaccarle la
+            testa. Ma nessuno era mai venuto a dirmelo, signor presidente; e io, a ogni buon fine, se mi capitava
+            qualche volta di dover ritornare al paese in mezzo della settimana, mandavo avanti qualcuno per avvertirne
+            mia moglie. Questo, per far vedere a Vostra Eccellenza, che la mia intenzione era di non fare danno. L’uomo
+            è uomo, Eccellenza, e le donne sono donne. Certo l’uomo deve considerare la donna, che l’ha nel sangue
+            d’essere traditora, anche senza il caso che resti sola, voglio dire col marito assente tutta la settimana;
+            ma la donna, da parte sua, deve considerare l’uomo, e capire che l’uomo non può farsi beccare la faccia
+            dalla gente, Eccellenza! Certe ingiurie… sì, Eccellenza, mi rivolgo ai signori giurati; certe ingiurie,
+            signori giurati, altro che beccare, tagliano la faccia all’uomo! E l’uomo non le può sopportare! Ora io,
+            padroni miei, sono sicuro che quella disgraziata avrebbe avuto sempre per me questa considerazione; e tant’è
+            vero, che io non le avevo mai torto un capello. Tutto il vicinato può venire a testimoniare! Che ci ho da
+            fare io, signori giurati, se poi quella benedetta signora, all’improvviso… Ecco, signor presidente, Vostra
+            Eccellenza dovrebbe farla venire qua, questa signora, di fronte a me, che saprei parlarci io! Non c’è
+            peggio… mi rivolgo a voi, signori giurati, non c’è peggio delle donne cimentose! «Se suo marito», direi a
+            questa signora, avendola davanti, «se suo marito si fosse messo con una zitella, vossignoria si poteva
+            prendere il gusto di fare questo scandalo, che non avrebbe portato nessuna conseguenza, perché non ci
+            sarebbe stato un marito di mezzo. Ma con quale diritto vossignoria è venuta a inquietare me, che mi sono
+            stato sempre quieto; che non c’entravo né punto, né poco; che non avevo voluto mai né vedere, né sentire
+            nulla; quieto, signori giurati, ad affannarmi il pane in campagna, con la zappa in mano dalla mattina alla
+            sera? Vossignoria scherza?» le direi, se l’avessi qua davanti questa signora. «Che cosa è stato lo scandalo
+            per vossignoria? Niente! Uno scherzo! Dopo due giorni ha rifatto pace col marito. Ma non ha pensato
+            vossignoria, che c’era un altro uomo di mezzo? e che quest’uomo non poteva lasciarsi beccare la faccia dal
+            prossimo, e che doveva far l’uomo? Se vossignoria fosse venuta da me, prima, ad avvertirmi, io le avrei
+            detto: “Lasci andare, signorina! Uomini siamo! E l’uomo, si sa, è cacciatore! Può aversi a male vossignoria
+            d’una sporca contadina? Il cavaliere, con lei, mangia sempre pane fino, francese; lo compatisca se, di tanto
+            in tanto, gli fa gola un tozzo di pane di casa, nero e duro!”». Così le avrei detto, signor presidente, e
+            forse non sarebbe accaduto nulla, di quello che purtroppo, non per colpa mia, ma per colpa di questa
+            benedetta signora, è accaduto.
+            Il presidente troncò con una nuova e più lunga scampanellata i commenti, le risa, le svariate esclamazioni,
+            che seguirono per tutta l’aula la confessione fervorosa di Tarara.
+            - Questa dunque è la vostra tesi? - domandò poi all’imputato. Tarara, stanco, anelante, negò col capo.
+            - Nossignore. Che tesi? Questa è la verità, signor presidente.
+            E in grazia della verità, così candidamente confessata, Tarara fu condannato a tredici anni di reclusione.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+</div>
+
+
+
+
+
+<script>
+
+
+  function changeBackgroundImage() {
+    // Ottieni il body
+    var body = document.body;
+
+    // Nuovo URL dell'immagine di sfondo
+    var newBackgroundImageURL = 'url("../../../media/SanGerlando.jpg")';
+
+    // Imposta la nuova immagine di sfondo
+    body.style.backgroundImage = newBackgroundImageURL;
+  }
+
+  document.addEventListener("DOMContentLoaded", changeBackgroundImage)
+
+  document.addEventListener('DOMContentLoaded', function() {
+        var novellaTabPane = document.getElementById('novella-tab-pane');
+        if (novellaTabPane) {
+            novellaTabPane.innerHTML = novellaTabPane.innerHTML.replace(/\n/g, '<br>');
+        }
+    });
+</script>
+
+
+
+{% endblock %}

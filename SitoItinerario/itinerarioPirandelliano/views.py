@@ -30,13 +30,48 @@ def home(request):
     #paragrafo=_("paragrafo")
     return render(request, 'itinerarioPirandelliano/home.html',{"pagina":pagina})
 
-def secondaPagina(request):
-    pagina="secondaPagina"
+def PianoSanGerlando(request):
+    pagina="PianoSanGerlando"
 
 
     logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
     #paragrafo=_("paragrafo")
-    return render(request, 'itinerarioPirandelliano/secondaPagina.html',{"pagina":pagina})
+    return render(request, 'itinerarioPirandelliano/PianoSanGerlando.html',{"pagina":pagina})
+
+def Basilica(request):
+    pagina="Basilica"
+
+
+    logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
+    #paragrafo=_("paragrafo")
+    return render(request, 'itinerarioPirandelliano/Basilica.html',{"pagina":pagina})
+
+def Cattedrale(request):
+    pagina="Cattedrale"
+
+
+    logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
+    #paragrafo=_("paragrafo")
+    return render(request, 'itinerarioPirandelliano/Cattedrale.html',{"pagina":pagina})
+
+def Pirandello(request):
+    pagina="Pirandello"
+
+
+    logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
+    #paragrafo=_("paragrafo")
+    return render(request, 'itinerarioPirandelliano/Pirandello.html',{"pagina":pagina})
+
+def VialeVittoria(request):
+    pagina="VialeVittoria"
+
+
+    logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
+    #paragrafo=_("paragrafo")
+    return render(request, 'itinerarioPirandelliano/VialeVittoria.html',{"pagina":pagina})
+
+
+
 
 
 
