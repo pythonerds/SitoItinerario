@@ -11,6 +11,7 @@ urlpatterns = [
     path('Cattedrale-Palazzo-Vescovile/', views.Cattedrale, name='Cattedrale'),
     path('Viale-Vittoria/', views.VialeVittoria, name='VialeVittoria'),
     path('Casa-Pirandello/', views.Pirandello, name='Pirandello'),
+    path('Casa-Ravanusella/', views.CasaRavanusella, name='CasaRavanusella'),
 
 
    

@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-01 08:05+0000\n"
+"POT-Creation-Date: 2024-06-06 08:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,20 +18,69 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/secondaPagina.html:2
 msgid "frase da tradurre"
 msgstr ""
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:10
-#| msgid "Questo è un paragrafo da tradurre"
-msgid "Questo è un paragrafo"
-msgstr "Merci"
-
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:11
-msgid "Questo è un paragrafo2"
-msgstr "Merci"
-
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/secondaPagina.html:8
-msgid "cisaosa"
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:61
+msgid "Arte Basilica"
 msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:64
+msgid "Passo Scelto Basilica"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:61
+msgid "Arte Ravanusella"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:64
+msgid "Passo Ravanusella"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:65
+msgid "Arte Cattedrale"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:68
+msgid "Passo Scelto Cattedrale"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:70
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/secondaPagina.html:62
+msgid "Arte Piano San Gerlando"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:73
+msgid "Passo Scelto Piano San Gerlando"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:62
+msgid "Arte Pirandello"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:65
+msgid "Passo Scelto Pirandello"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:67
+msgid "Arte VialeVittoria"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:70
+msgid "Passo Scelto VialeVittoria"
+msgstr ""
+
+#~| msgid "Questo è un paragrafo da tradurre"
+#~ msgid "Questo è un paragrafo"
+#~ msgstr "Merci"
+
+#~ msgid "Questo è un paragrafo2"
+#~ msgstr "Merci"

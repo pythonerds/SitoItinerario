@@ -76,8 +76,14 @@ def VialeVittoria(request):
 
 
 
+def CasaRavanusella(request):
+    pagina= "CasaRavanusella"
+    language = request.LANGUAGE_CODE
 
-
+    
+    logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
+    #paragrafo=_("paragrafo")
+    return render(request, 'itinerarioPirandelliano/CasaRavanusella.html',{"pagina":pagina, "lang_name":language})
 
 
 
