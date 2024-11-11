@@ -115,7 +115,8 @@
 
 
 .card-home{
-    width: 60%;
+    padding: 3%;
+    width: 70%;
     height: 61vh;
     margin-left: 12%;
     margin-top: 5%;
@@ -162,6 +163,12 @@
 }
 
 
+
+  .introduzione {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 175%;
+  }
+
   
   </style>
 </head>
@@ -193,18 +200,18 @@
               <li><a class="dropdown-item" href="{%url 'Cattedrale' %}">Cattedrale - Palazzo Vescovile</a></li>
               <li><a class="dropdown-item" href="{%url 'PianoSanGerlando'%}">Piano San Gerlando - Arco Spoto</a></li>
               <li><a class="dropdown-item" href="{%url 'Basilica'%}">Basilica dell'immacolata</a></li>
-              <li><a class="dropdown-item" href="{%url 'Pirandello'%}">Via Pirandello - Casa Natale Luigi Pirandello</a></li>
+              <li><a class="dropdown-item" href="{%url 'Pirandello'%}">Via Pirandello - Casa Luigi Pirandello</a></li>
               <li><a class="dropdown-item" href="{%url 'VialeVittoria'%}">Viale della Vittoria</a></li>
               <li><a class="dropdown-item" href="{%url 'CasaRavanusella'%}">Casa Ravanusella</a></li>
               
             </ul>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="">visita citta</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="">Cibo Tipico</a>
-          </li>
+          </li> -->
         </ul>
         <span class="d-flex">
           <div class="dropdown">
@@ -233,7 +240,7 @@
   {% block content %}
 
   {% endblock %}
-  <footer class="text-center" style="background: #baa93f; margin-bottom: 0px;">
+  <footer class="text-center" style="background: #baa93f; margin-bottom: 0px; padding-top: 3%;">
     <!-- Grid container -->
     <div class="container pt-4">
       <!-- Section: Social media -->
