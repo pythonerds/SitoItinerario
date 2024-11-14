@@ -1,0 +1,304 @@
+{% extends 'itinerarioPirandelliano/common.html' %}
+{% load i18n %}<!-- viene messo dove abbiamo frasi da tradurre, {% trans "frase da tradurre" %}-->
+
+{% block title %}ItinerarioPirandelliano{% endblock %}
+
+{% block content %}
+<input type="hidden" name="pagina" id="pagina" value="secondaPagina">
+
+<div style="min-height: auto">
+
+  <div class="row text-center" id="sottoBarra">
+    <div class="col">
+      <h1 style="font-family:fantasy; margin-top: 8%;">Casa Granella</h1>
+    </div>
+  </div>
+  
+  <div class="row" style="margin:5% 5% 3%">
+    <div class="col">
+      <!--Carousel-->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner fixed-carousel-size" style="max-height: 60vh;">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../../../media/CasaGranella.jpg" class="\d-block w-50 img-fluid custom-carousel-image center-image" alt="...">
+          </div>
+      <!--    <div class="carousel-item" data-bs-interval="2000">
+            <img src="../../../media/SanGerlando2.jpg" class="d-block w-100 img-fluid custom-carousel-image" alt="..." style="object-fit: cover;">
+          </div>  -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+  </div>
+  
+    <!--Bottoni Arte, Passo Scelto e Novella Completa-->
+  
+  <div class="row" style="margin: 2% 10% 3%">
+    <div class="container mt-3">
+      <div class="card" id="ciao" style="background-color: rgba(224, 159, 61, 0.644);">
+        <div style="font-family: fantasy; font-size: 130%;">
+        <ul class="nav nav-tabs" id="navTabDescription" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="arte-tab" data-bs-toggle="tab" data-bs-target="#arte-tab-pane" type="button" role="tab" aria-controls="arte-tab-pane" aria-selected="true">Arte</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="scelta-tab" data-bs-toggle="tab" data-bs-target="#scelta-tab-pane" type="button" role="tab" aria-controls="scelta-tab-pane" aria-selected="false">Passo Scelto</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="novella-tab" data-bs-toggle="tab" data-bs-target="#novella-tab-pane" type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella completa</button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content mt-3" id="myTabContent">
+          <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+            {%trans "Arte Ravanusella"%}
+
+          </div>
+          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab">{%trans "Passo Scelto Ravanusella"%}</div>
+          <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab">
+            LA CASA DEL GRANELLA
+QUARTIERE BIBBIRRIA E VIA PEBIS REA
+ 
+I topi non sospettano l'insidia della trappola. Vi cascherebbero, se la sospettassero? Ma non se ne capacitano neppure quando vi son cascati. S'arrampicano squittendo su per le gretole; cacciano il musetto aguzzo tra una gretola e l'altra; girano; rigirano senza requie, cercando l'uscita.
+L'uomo che ricorre alla legge sa, invece, di cacciarsi in una trappola. Il topo vi si dibatte. L'uomo, che sa, sta fermo. Fermo, col corpo, s'intende. Dentro, cioè con l'anima, fa poi come il topo, e peggio.
+E così facevano, quella mattina d'agosto, nella sala d'aspetto dell'avvocato Zummo i numerosi clienti, tutti in sudore, mangiati dalle mosche e dalla noja.
+Nel caldo soffocante, la loro muta impazienza, assillata dai pensieri segreti, si esasperava di punto in punto. Fermi però, là, si lanciavano tra loro occhiatacce feroci.
+Ciascuno avrebbe voluto tutto per sé, per la sua lite, il signor avvocato, ma prevedeva che questi, dovendo dare udienza a tanti nella mattinata, gli avrebbe accordato pochissimo tempo, e che, stanco, esausto dalla troppa fatica, con quella temperatura di quaranta gradi, confuso, frastornato dall'esame di tante questioni, non avrebbe più avuto per il suo caso la solita lucidità di mente, il solito acume.
+E ogni qualvolta lo scrivano, che copiava in gran fretta una memoria, col colletto sbottonato e un fazzoletto sotto il mento, alzava gli occhi all'orologio a pendolo, due o tre sbuffavano e più d'una seggiola scricchiolava. Altri, già sfiniti dal caldo e dalla lunga attesa, guardavano oppressi le alte scansie polverose, sovraccariche d'incartamenti: litigi antichi, procedure, flagello e rovina di tante povere famiglie! Altri ancora, sperando di distrarsi, guardavano le finestre dalle stuoie verdi abbassate, donde venivano i rumori della via, della gente che andava spensierata e felice mentr'essi qua... auff! E con un gesto furioso scacciavano le mosche, le quali, poverine, obbedendo alla loro natura, si provavano a infastidirli un po' più e a profittare dell'abbondante sudore che l'agosto e il tormento smanioso delle brighe giudiziarie spremono dalle fronti e dalle mani degli uomini.
+Eppure c'era qualcuno più molesto delle mosche nella sala d'aspetto, quella mattina: il figlio dell'avvocato, brutto ragazzotto di circa dieci anni, il quale era certo scappato di soppiatto dalla casa annessa allo studio, senza calze, scamiciato, col viso sporco, per rallegrare i clienti di papà.
+- Tu come ti chiami? Vincenzo? Oh che brutto nome! E questo ciondolo è d'oro? si apre? come si apre? e che c'è dentro? Oh, guarda... capelli... E di chi sono? e perché ce li tieni?
+Poi, sentendo dietro l'uscio dello studio i passi di papà che veniva ad accompagnare fino alla porta qualche cliente di conto, si cacciava sotto il tavolino, tra le gambe dello scrivano. Tutti nella sala d'aspetto si levavano in piedi e guardavano con occhi supplici l'avvocato, il quale, alzando le mani, diceva, prima di rientrare nello studio:
+- Un po' di pazienza, signori miei. Uno per volta.
+Il fortunato, a cui toccava, lo seguiva ossequioso e richiudeva l'uscio; per gli altri ricominciava più smaniosa e opprimente l'attesa.
+II.
+Tre soltanto, che parevano marito, moglie e figliuola, non davano alcun segno d'impazienza.
+L'uomo, su i sessant'anni, aveva un aspetto funebre; non s'era voluto levar dal capo una vecchia tuba dalle tese piatte, spelacchiata e inverdita, forse per non scemar solennità all'abito nero, all'ampia, greve, antica finanziera, che esalava un odore acuto di naftalina.
+Evidentemente s'era parato così perché aveva stimato di non poterne fare a meno, venendo a parlare col signor avvocato.
+Ma non sudava.
+Pareva non avesse più sangue nelle vene, tanto era pallido; e che avesse le gote e il mento ammuffiti, per una peluria grigia e rada che voleva esser barba. Aveva gli occhi strabi, chiari, accostati a un gran naso a scarpa; e sedeva curvo, col capo basso, come schiacciato da un peso insopportabile; le mani scarne, diafane, appoggiate al bastoncino.
+Accanto a lui, la moglie aveva invece un atteggiamento fierissimo nella lampante balordaggine. Grassa, popputa, prosperosa, col faccione affocato e un po' anche baffuto e un pajo d'occhi neri spalancati, volti al soffitto.
+Con la figliuola, dall'altro lato, si ricascava nel medesimo squallore contegnoso del padre. Magrissima, pallida, con gli occhi strabi anche lei, sedeva come una gobbina. Tanto la figlia quanto il padre pareva non cascassero a terra perché nel mezzo avevano quel donnone atticciato che in qualche modo li teneva su.
+Tutti e tre erano osservati dagli altri clienti con intensa curiosità, mista d'una certa costernazione ostile, quantunque essi già tre volte, poverini, avessero ceduto il passo, lasciando intendere che avevano da parlare a lungo col signor avvocato.
+Quale sciagura li aveva colpiti? Chi li perseguitava? L'ombra d'una morte violenta, che gridava loro vendetta? La minaccia della miseria?
+La miseria, no, di certo. La moglie era sovraccarica d'oro: grossi orecchini le pendevano dagli orecchi; una collana doppia le stringeva il collo; un gran fermaglio a lagrimoni le andava su e giù col petto, che pareva un mantice, e una lunga catena le reggeva il ventaglio e tanti e tanti anelli massicci quasi le toglievano l'uso delle tozze dita sanguigne.
+Ormai nessuno più domandava loro il permesso di passare avanti: era già inteso ch'essi sarebbero entrati dopo di tutti. Ed essi aspettavano, pazientissimi, assorti, anzi sprofondati nel loro cupo affanno segreto. Solo, di tanto in tanto, la moglie si faceva un po' di vento, e poi lasciava ricadere il ventaglio, e l'uomo si protendeva per ripetere alla figlia:
+- Tinina, ricordati del ditale.
+Più d'un cliente aveva cercato di spingere il molestissimo figlio dell'avvocato verso quei tre; ma il ragazzo, adombrato da quel funebre squallore, s'era tratto indietro, arricciando il naso.
+L'orologio a pendolo segnava già quasi le dodici, quando, andati via più o meno soddisfatti tutti gli altri clienti, lo scrivano, vedendoli ancora lì immobili come statue, domandò loro:
+- E che aspettano per entrare?
+- Ah, - fece l'uomo, levandosi in piedi con le due donne. - Possiamo?
+- Ma sicuro che possono! - sbuffò lo scrivano. - Avrebbero potuto già da tanto tempo! Si sbrighino, perché l'avvocato desina a mezzogiorno. Scusino, il loro nome?
+L'uomo si tolse finalmente la tuba e, all'improvviso, scoprendo il capo calvo, scoprì anche il martirio che quella terribile finanziera gli aveva fatto soffrire: infiniti rivoletti di sudore gli sgorgarono dal roseo cranio fumante e gl'inondarono la faccia esangue, spiritata. S'inchinò, sospirando il suo nome:
+- Piccirilli Serafino.
+III.
+L'avvocato Zummo credeva d'aver finito per quel giorno, e rassettava le carte su la scrivania, per andarsene, quando si vide innanzi quei tre nuovi, ignoti clienti.
+- Lor signori? - domandò di mala grazia.
+- Piccirilli Serafino, - ripeté l'uomo funebre, inchinandosi più profondamente e guardando la moglie e la figliuola per vedere come facevano la riverenza.
+La fecero bene, e istintivamente egli accompagnò col corpo la loro mossa da bertucce ammaestrate.
+- Seggano, seggano, - disse l'avvocato Zummo, sbarrando tanto d'occhi allo spettacolo di quella mimica. - È tardi. Debbo andare.
+I tre sedettero subito innanzi alla scrivania, imbarazzatissimi. La contrazione del timido sorriso, nella faccia cerea del Piccirilli, era orribile: stringeva il cuore. Chi sa da quanto tempo non rideva più quel pover uomo!
+- Ecco, signor avvocato...
+- Siamo venuti, - cominciò contemporaneamente la figlia.
+E la madre, con gli occhi al soffitto, sbuffò:
+- Cose dell'altro mondo!
+- Insomma, parli uno, - disse Zummo, accigliato. - Chiaramente e brevemente. Di che si tratta?
+- Ecco, signor avvocato, - riprese il Piccirilli, dando un'ingollatina. - Abbiamo ricevuto una citazione.
+- Assassinio, signor avvocato! - proruppe di nuovo la moglie.
+- Mammà, - fece timidamente la figlia, per esortarla a tacere o a parlar più pacata.
+Il Piccirilli guardò la moglie, e, con quella autorità che la meschinissima corporatura gli poteva conferire, aggiunse:
+- Mararo', ti prego: parlo io! Una citazione, signor avvocato. Noi abbiamo dovuto lasciar la casa in cui abitavamo, perché...
+- Ho capito. Sfratto? - domandò Zummo per tagliar corto.
+- Nossignore, - rispose umilmente il Piccirilli. - Al contrario. Abbiamo pagato sempre la pigione, puntualmente, anticipata. Ce ne siamo andati da noi, contro la volontà del proprietario, anzi. E il proprietario ora ci chiama a rispettare il contratto di locazione e, per di più, responsabili di danni e interessi, perché, dice, la casa noi gliel'abbiamo infamata.
+- Come come? - fece Zummo, rabbujandosi e guardando, questa volta, la moglie. - Ve ne siete andati da voi; gli avete infamato la casa, e il proprietario... Non capisco. Parliamoci chiaro, signori miei! L'avvocato è come il confessore. Commercio illecito?
+- Nossignore! - s'affrettò a rispondere il Piccirilli, ponendosi le mani sul petto. - Che commercio? Niente! Noi non siamo commercianti. Solo mia moglie dà qualche cosina... così.. in prestito, ma a un interesse...
+- Onesto, ho capito!
+- Creda, sissignore, consentito finanche dalla Santa Chiesa... Ma questo non c'entra. Il Granella, proprietario della casa, dice che noi gliel'abbiamo infamata, perché in tre mesi, in quella casa maledetta, ne abbiamo vedute di tutti i colori, signor avvocato! Mi vengono... mi vengono i brividi solo a pensarci!
+- Oh Signore, scampatene e liberatene tutte le creature della terra! - esclamò con un formidabile sospiro la moglie, levandosi in piedi, levando le braccia e poi facendosi con la mano piena d'anelli il segno della croce.
+La figlia, col capo basso e con le labbra strette, aggiunse:
+- Una persecuzione... (Siedi, mammà.)
+- Perseguitati, sissignore - rincalzò il padre. - (Siedi, Mararo'!) Perseguitati, è la parola. Noi siamo stati per tre mesi perseguitati a morte, in quella casa.
+- Perseguitati da chi? - gridò Zummo, perdendo alla fine la pazienza.
+- Signor avvocato, - rispose piano il Piccirilli, protendendosi verso la scrivania e ponendosi una mano presso la bocca, mentre con l'altra imponeva silenzio alle due donne, - (Ssss...) Signor avvocato, dagli spiriti!
+- Da chi? - fece Zummo, credendo d'aver sentito male.
+- Dagli spiriti, sissignore! - raffermò forte, coraggiosamente, la moglie, agitando in aria le mani.
+Zummo scattò in piedi, su le furie:
+- Ma andate là! Non mi fate ridere! Perseguitati dagli spiriti? Io devo andare a mangiare, signori miei!
+Quelli, allora, alzandosi anche loro, lo circondarono per trattenerlo, e presero a parlare tutti e tre insieme, supplici:
+- Sissignore, sissignore! Vossignoria non ci crede? Ma ci ascolti... Spiriti, spiriti infernali! Li abbiamo veduti noi, coi nostri occhi. Veduti e sentiti... Siamo stati martoriati, tre mesi!
+E Zummo, scrollandosi rabbiosamente:
+- Ma andate, vi dico! Sono pazzie! Siete venuti da me? Al manicomio, al manicomio, signori miei!
+- Ma se ci hanno citato... - gemette a mani giunte il Piccirilli.
+- Hanno fatto benone! - gli gridò Zummo sul muso.
+- Che dice, signor avvocato? - s'intromise la moglie, scostando tutti. - È questa l'assistenza che Vossignoria presta alla povera gente perseguitata? Oh Signore! Vossignoria parla così perché non ha veduto come noi! Ci sono, creda pure, ci sono, gli spiriti! ci sono! E nessuno meglio di noi lo può sapere!
+- Voi li avete veduti? - le domandò Zummo con un sorriso di scherno.
+- Sissignore, con gli occhi miei, - affermò subito, non interrogato, il Piccirilli.
+- Anch'io, coi miei, - aggiunse la figlia, con lo stesso gesto.
+- Ma forse coi vostri! - non poté tenersi dallo sbuffare l'avvocato Zummo con gl'indici tesi verso i loro occhi strabi.
+- E i miei, allora? - saltò a gridare la moglie, dandosi una manata furiosa sul petto e spalancando gli occhiacci. - Io ce li ho giusti, per grazia di Dio, e belli grossi, signor avvocato! E li ho veduti anch'io, sa, come ora vedo Lei!
+- Ah sì? - fece Zummo. - Come tanti avvocati?
+- E va bene! - sospirò la donna. - Vossignoria non ci crede; ma abbiamo tanti testimoni, sa? tutto il vicinato che potrebbe venire a deporre...
+Zummo aggrottò le ciglia:
+- Testimoni che hanno veduto?
+- Veduto e udito, sissignore!
+- Ma veduto... che cosa per esempio? - domandò Zummo, stizzito.
+- Per esempio, seggiole muoversi, senza che nessuno le toccasse...
+- Seggiole?
+- Sissignore.
+- Quella seggiola là, per esempio?
+- Sissignore, quella seggiola là, mettersi a far le capriole per la stanza, come fanno i ragazzacci per istrada; e poi, per esempio... che debbo dire? un portaspilli, per esempio, di velluto, in forma di melarancia, fatto da mia figlia Tinina, volare dal cassettone su la faccia del povero mio marito, come lanciato... come lanciato da una mano invisibile; l'armadio a specchio scricchiolare e tremar tutto, come avesse le convulsioni, e dentro... dentro l'armadio, signor avvocato... mi s'aggricciano le carni solo a pensarci... risate!
+- Risate! - aggiunse la figlia.
+- Risate! - il padre.
+E la moglie, senza perder tempo, seguitò:
+- Tutte queste cose, signor avvocato mio, le hanno vedute e udite le nostre vicine, che sono pronte, come le ho detto, a testimoniare. Noi abbiamo veduto e udito ben altro!
+- Tinina, il ditale, - suggerì, a questo punto, il padre.
+- Ah, sissignore,- prese a dire la figlia, riscotendosi con un sospiro. - Avevo un ditalino d'argento, ricordo della nonna, sant'anima! Lo guardavo, come la pupilla degli occhi. Un giorno, lo cerco nella tasca e non lo trovo! lo cerco per tutta la casa e non lo trovo. Tre giorni a cercarlo, che a momenti ci perdevo anche la testa. Niente! Quando una notte, mentre stavo a letto, sotto la zanzariera...
+- Perché ci sono anche le zanzare, in quella casa, signor avvocato! - interruppe la madre.
+- E che zanzare! - appoggiò il padre, socchiudendo gli occhi e tentennando il capo.
+- Sento, - riprese la figlia, - sento qualcosa che salta sul cielo della zanzariera...
+A questo punto il padre la fece tacere con un gesto della mano. Doveva attaccar lui. Era un pezzo concertato, quello.
+- Sa, signor avvocato? tal quale come si fanno saltare le palle di gomma, che si dà loro un colpetto e rivengono alla mano.
+- Poi, - seguitò la figlia, - come lanciato più forte, il mio ditalino dal cielo della zanzariera va a schizzare al soffitto e casca per terra, ammaccato.
+- Ammaccato, - ripeté la madre.
+E il padre:
+- Ammaccato!
+- Scendo dal letto, tutta tremante, per raccoglierlo e, appena mi chino, al solito, dal tetto...
+- Risate, risate, risate... - terminò la madre.
+L'avvocato Zummo restò a pensare, col capo basso e le mani dietro la schiena, poi si riscosse, guardò negli occhi i tre clienti, si grattò il capo con un dito e disse con un risolino nervoso:
+- Spiriti burloni, dunque! Seguitate, seguitate... mi diverto.
+- Burloni? Ma che burloni, signor avvocato! - ripigliò la donna. - Spiriti infernali, deve dire Vossignoria! Tirarci le coperte del letto; sederci su lo stomaco, la notte; percuoterci alle spalle; afferrarci per le braccia; e poi scuotere tutti i mobili, sonare i campanelli, come se, Dio liberi e scampi, ci fosse il terremoto; avvelenarci i bocconi, buttando la cenere nelle pentole e nelle casseruole... Li chiama burloni Lei? Non ci hanno potuto né il prete né l'acqua benedetta! Allora ne abbiamo parlato al Granella, scongiurandolo di scioglierci dal contratto, perché non volevamo morire là, dallo spavento, dal terrore... Sa che ci ha risposto quell'assassino? Storie! ci ha risposto. Gli spiriti.? Mangiate, dice, buone bistecche, dice, e curatevi i nervi. Lo abbiamo invitato a vedere con gli occhi suoi, a sentire con le sue orecchie. Niente. Non ha voluto saperne; anzi ci ha minacciati: «Guardatevi bene» dice «dal fame chiasso, o vi fulmino!». Proprio così.
+- E ci ha fulminato! - concluse il marito, scotendo il capo amaramente. - Ora, signor avvocato, noi ci mettiamo nelle sue mani. Vossignoria può fidarsi di noi: siamo gente dabbene: sapremo fare il nostro dovere.
+L'avvocato Zummo finse, al solito, di non udire queste ultime parole: si stirò per un pezzo ora un baffo ora l'altro, poi guardò l'orologio. Era presso il tocco. La famiglia, di là, lo aspettava da un'ora per il desinare.
+- Signori miei, - disse, - capirete benissimo che io non posso credere ai vostri spiriti. Allucinazioni... storielle da femminucce. Guardo il caso, adesso, dal lato giuridico. Voi dite d'aver veduto... non diciamo spiriti, per carità! dite d'avere anche testimoni, e va bene; dite che l'abitazione in quella casa vi era resa intollerabile da questa specie di persecuzione... diciamo, strana... ecco! Il caso è nuovo e speciosissimo; e mi tenta, ve lo confesso. Ma bisognerà trovare nel codice un qualche appoggio, mi spiego? un fondamento giuridico alla causa. Lasciatemi vedere, studiare, prima di prendermene l'accollo. Ora è tardi. Ritornate domani e vi saprò dare una risposta. Va bene così?
+IV
+Subito il pensiero di quella strana causa si mise a girar nella mente dell'avvocato Zummo come una ruota di molino. A tavola, non poté mangiare; dopo tavola, non poté riposare come soleva d'estate, ogni giorno, buttato sul letto.
+«Gli spiriti!» ripeteva tra sé di tratto in tratto; e le labbra gli s'aprivano a un sorriso canzonatorio, mentre davanti a gli occhi gli si ripresentavano le comiche figure dei tre nuovi clienti, che giuravano e spergiuravano d'averli veduti.
+Tante volte aveva sentito parlar di spiriti; e, per certi racconti delle serve, ne aveva avuto anche lui una gran paura, da ragazzo. Ricordava ancora le angosce che gli avevano strizzato il coricino atterrito nelle terribili insonnie di quelle notti lontane.
+- L'anima! - sospirò a un certo punto, stirando le braccia verso il cielo della zanzariera, e lasciandole poi ricader pesantemente sul letto. - L'anima immortale... Eh già! Per ammetter gli spiriti bisogna presupporre l'immortalità dell'anima; c'è poco da dire. L'immortalità dell'anima... Ci credo, o non ci credo? Dico e ho detto sempre di no. Dovrei ora, almeno, ammettere il dubbio, contro ogni mia precedente asserzione. E che figura ci faccio? Vediamo un po'. Noi spesso fingiamo con noi stessi, come con gli altri. Io lo so bene. Sono molto nervoso e, qualche volta, sissignore, trovandomi solo, io ho avuto paura. Paura di che? Non lo so. Ho avuto paura! Noi... ecco, noi temiamo di indagare il nostro intimo essere, perché una tale indagine potrebbe scoprirci diversi da quelli che ci piace di crederci o di esser creduti. Io non ho mai pensato sul serio a queste cose. La vita ci distrae. Faccende, bisogni, abitudini, tutte le minute brighe cotidiane non ci lasciano tempo di riflettere a queste cose, che pure dovrebbero interessarci sopra tutte le altre. Muore un amico? Ci arrestiamo la, davanti alla sua morte, come tante bestie restie, e preferiamo di volgere indietro il pensiero, alla sua vita, rievocando qualche ricordo, per vietarci d'andare oltre con la mente, oltre il punto cioè che ha segnato per noi la fine del nostro amico. Buona notte! Accendiamo un sigaro per cacciar via col fumo il turbamento e la malinconia. La scienza s'arresta anch'essa, là, ai limiti della vita, come se la morte non ci fosse e non ci dovesse dare alcun pensiero. Dice: «Voi siete ancora qua; attendete a vivere, vojaltri: l'avvocato pensi a far l'avvocato; l'ingegnere a far l'ingegnere...». E va bene! Io faccio l'avvocato. Ma ecco qua: l'anima immortale, i signori spiriti che fanno? vengono a bussare alla porta del mio studio: «Ehi, signor avvocato, ci siamo anche noi, sa? Vogliamo ficcare anche noi il naso nel suo codice civile! Voi, gente positiva, non volete curarvi di noi? Non volete più darvi pensiero della morte? E noi, allegramente, dal regno della morte, veniamo a bussare alle porte dei vivi, a sghignazzar dentro gli armadii, a far rotolare sotto gli occhi vostri le seggiole, come se fossero tanti monellacci, ad atterrir la povera gente e a mettere in imbarazzo, oggi, un avvocato che passa per dotto; domani, un tribunale chiamato a dar su noi una novissima sentenza...».
+L'avvocato Zummo lasciò il letto in preda a una viva eccitazione e rientrò nello studio per compulsare il codice civile.
+Due soli articoli potevano offrire un certo fondamento alla lite: l'articolo 1575 e il 1577.
+Il primo diceva:
+Il locatore è tenuto per la natura del contratto e senza bisogno di speciale stipulazione:
+1° a consegnare al Conduttore la cosa locata;
+2° a mantenerla in istato di servire all'uso per cui viene locata;
+3° a garantirne al conduttore il pacifico godimento per tutto il tempo della locazione.
+L' altro articolo diceva:
+Il conduttore debb'essere garantito per tutti quei vizii o difetti della cosa locata che ne impediscano l'uso, quantunque non fossero noti al locatore al tempo della locazione. Se da questi vizii, o difetti proviene qualche danno al conduttore, il locatore è tenuto a farnelo indenne, salvo che provi d'averli ignorati.
+Se non che, eccependo questi due articoli, non c'era via di mezzo, bisognava provare l'esistenza reale degli spiriti.
+C'erano i fatti e c'erano le testimonianze. Ma fino a qual punto erano queste attendibili? e che spiegazione poteva dare la scienza di quei fatti?
+L'avvocato Zummo interrogò di nuovo, minutamente, i Piccirilli; raccolse le testimonianze indicategli e, accettata la causa, si mise a studiarla appassionatamente.
+Lesse dapprima una storia sommaria dello Spiritismo, dalle origini delle mitologie fino ai dì nostri, e il libro del Iaccolliot su i prodigi del fachirismo, poi tutto quanto avevano pubblicato i più illustri e sicuri sperimentatori, dal Crookes al Wagner, all'Aksakof; dal Gibier allo Zoellner al Janet, al de Rochas, al Richet, al Morselli; e con suo sommo stupore venne a conoscere che ormai i fenomeni così detti spiritici, per esplicita dichiarazione degli scienziati più scettici e più positivi, erano innegabili.
+- Ah, perdio! - esclamò Zummo, già tutto acceso e vibrante. - Qua la cosa cambia d'aspetto!
+Finché quei fenomeni gli erano stati riferiti da gentuccia come i Piccirilli e i loro vicini, egli, uomo serio, uomo colto, nutrito di scienza positiva, li aveva derisi e senz'altro respinti. Poteva accettarli? Seppure glieli avessero fatti vedere e toccar con mano, avrebbe piuttosto confessato d'essere un allucinato anche lui. Ma ora, ora che li sapeva confortati dall'autorità di scienziati come il Lombroso, come il Richet, ah perdio, la cosa cambiava d"aspetto!
+Zummo, per il momento, non pensò più alla lite dei Piccirilli, e si sprofondò tutto, a mano a mano sempre più convinto e con fervore crescente, ne' nuovi studii.
+Da un pezzo non trovava più nell'esercizio dell'avvocatura, che pur gli aveva dato qualche soddisfazione e ben lauti guadagni, non trovava più nella vita ristretta di quella cittaduzza di provincia nessun pascolo intellettuale, nessuno sfogo a tante scomposte energie che si sentiva fremere dentro, e di cui egli esagerava a se stesso l'intensità, esaltandole come documenti del proprio valore, via! quasi sprecato lì, tra le meschinità di quel piccolo centro. Smaniava da un pezzo, scontento di sé, di tutto e di tutti; cercava un puntello, un sostegno morale e intellettuale, una qualche fede, sì, un pascolo per l'anima, uno sfogo per tutte quelle energie. Ed ecco, ora, leggendo quei libri... Perdio! Il problema della morte, il terribile essere o non essere d'Amleto, la terribile questione era dunque risolta? Poteva l'anima d'un trapassato tornare per un istante a «materializzarsi» e venire a stringergli la mano? S', a stringere la mano a lui, Zummo, incredulo, cieco fino a jeri, per dirgli: «Zummo, sta' tranquillo; non ti curare più delle miserie di codesta tua meschinissima vita terrena! C'è ben altro, vedi? ben altra vita tu vivrai un giorno! Coraggio! Avanti!».
+Ma Serafino Piccirilli veniva anche lui, ora con la moglie ora con la figliuola, quasi ogni giorno, a sollecitarlo, a raccomandarglisi.
+- Studio! studio! - rispondeva loro Zummo, su le furie. - Non mi distraete, perdio! state tranquilli; sto pensando a voi.
+Non pensava più a nessuno, invece. Rinviava le cause, rimandava anche tutti gli altri clienti.
+Per debito di gratitudine, tuttavia, verso quei poveri Piccirilli, i quali, senza saperlo, gli avevano aperto innanzi allo spirito la via della luce, si risolse alla fine a esaminare attentamente il loro caso.
+Una grave questione gli si parò davanti e lo sconcertò non poco, su le prime. In tutti gli esperimenti, la manifestazione dei fenomeni avveniva costantemente per la virtù misteriosa d'un medium. Certo, uno dei tre Piccirilli doveva esser medium senza saperlo. Ma in questo caso il vizio non sarebbe stato più della casa del Granella, bensì degli inquilini; e tutto il processo crollava. Però, ecco, se uno dei Piccirilli era medium senza saperlo, la manifestazione dei fenomeni non sarebbe avvenuta anche nella nuova casa presa da essi in affitto? Invece, no! E anche nelle case precedentemente abitate i Piccirilli assicuravano d'essere stati sempre tranquilli. Perché dunque nella sola casa del Granella si erano verificate quelle paurose manifestazioni? Evidentemente, doveva esserci qualcosa di vero nella credenza popolare delle case abitate dagli spiriti. E poi c'era la prova di fatto. Negando nel modo più assoluto la dote della medianità alla famiglia Piccirilli, egli avrebbe dimostrato falsa la spiegazione biologica, che alcuni scienziati schizzinosi avevan tentato di dare dei fenomeni spiritici. Che biologia d'Egitto! Bisognava senz'altro ammettere l'ipotesi metafisica. O che era forse medium, lui, Zummo? Eppure parlava col tavolino. Non aveva mai composto un verso in vita sua; eppure il tavolino gli parlava in versi, coi piedi. Che biologia d'Egitto!
+Del resto, giacché a lui più che la causa dei Piccirilli premeva ormai d'accertare la verità, avrebbe fatto qualche esperimento in casa dei suoi clienti.
+Ne parlò ai Piccirilli; ma questi si ribellarono, impauriti. Egli allora s'inquietò e diede loro a intendere che quell'esperimento era necessario, per la lite, anzi imprescindibile! Fin dalle prime sedute, la signorina Piccirilli, Tinina, si rivelò un medium portentoso. Zummo, convulso, coi capelli irti su la fronte, atterrito e beato, poté assistere a tutte, o quasi, le manifestazioni più stupefacenti registrate e descritte nei libri da lui letti con tanta passione. La causa crollava, è vero; ma egli, fuori di sé, gridava ai suoi clienti a ogni fine di seduta:
+- Ma che ve n'importa, signori miei? Pagate, pagate... Miserie! Sciocchezze! Qua, perdio, abbiamo la rivelazione dell'anima immortale!
+Ma potevano quei poveri Piccirilli condividere questo generoso entusiasmo del loro avvocato? Lo presero per matto. Da buoni credenti, essi non avevano mai avuto il minimo dubbio su l'immortalità delle loro afflitte e meschine animelle. Quegli esperimenti, a cui si prestavano da vittime, per obbedienza, sembravano loro pratiche infernali. E invano Zummo cercava di rincorarli. Fuggendo dalla casa del Granella, essi credevano d'essersi liberati dalla tremenda persecuzione; e ora, nella nuova casa, per opera del signor avvocato, eccoli di nuovo in commercio coi demonii, in preda ai terrori di prima! Con voce piagnucolosa scongiuravano l'avvocato di non farne trapelar nulla, di quelle sedute, di non tradirli, per carità!
+- Ma va bene, va bene! - diceva loro Zummo, sdegnato. - Per chi mi prendete? per un ragazzino? State tranquilli, signori miei! Io esperimento qua, per conto mio. L'uomo di legge, poi, saprà fare il suo dovere in tribunale, che diamine! Sosterremo il vizio occulto della casa, non dubitate!
+V.
+Lo sostenne, di fatti, il vizio occulto della casa, ma senz'alcun calore di convinzione, certo com'era ormai della medianità della signorina Piccirilli.
+Invece sbalordì i giudici, i colleghi, il pubblico che stipava l'aula del tribunale, con una inaspettata, estrosa, fervida professione di fede. Parlò di Allan Kardech come d'un novello messia; definì lo spiritismo la religione nuova dell'umanità; disse che la scienza co' suoi saldi ma freddi ordigni, col suo formalismo troppo rigoroso aveva sopraffatto la natura; che l'albero della vita, allevato artificialmente dalla scienza, aveva perduto il verde, s'era isterilito o dava frutti che imbozzacchivano e sapevano di cenere e tosco, perché nessun calore di fede più li maturava. Ma ora, ecco, il mistero cominciava a schiudere le sue porte tenebrose: le avrebbe spalancate domani! Intanto, da questo primo spiraglio all'umanità sgomenta, in angosciosa ansia, venivano ombre ancora incerte e paurose a rivelare il mondo di là: strane luci, strani segni...
+E qui l'avvocato Zummo, con drammaticissima eloquenza, entrò a parlare delle più meravigliose manifestazioni spiritiche, attestate, controllate, accettate dai più grandi luminari della scienza: fisici, chimici, psicologi, fisiologi, antropologi, psichiatri; soggiogando e spesso atterrendo addirittura il pubblico che ascoltava a bocca aperta e con gli occhi spalancati.
+Ma i giudici, purtroppo, si vollero tenere terra terra, forse per reagire ai voli troppo sublimi dell'avvocato difensore. Con irritante presunzione, sentenziarono che le teorie, tuttora incerte, dedotte dai fenomeni così detti spiritici, non erano ancora ammesse e accettate dalla scienza moderna, eminentemente positiva; che, del resto, venendo a considerar più da vicino il processo, se per l'articolo 1575 il locatore è tenuto a garantire al conduttore il pacifico godimento della cosa locata, nel caso in esame, come avrebbe potuto il locatore stesso garantir la casa dagli spiriti, che sono ombre vaganti e incorporee? come scacciare le ombre? E, d'altra parte, riguardo all'articolo 1577, potevano gli spiriti costituire uno di quei vizii occulti che impediscono l'uso dell'abitazione? Erano forse ingombranti? E quali rimedii avrebbe potuto usare il locatore contro di essi? Senz'altro, dunque, dovevano essere respinte le eccezioni dei convenuti.
+Il pubblico, commosso ancora e profondamente impressionato dalle rivelazioni dell'avvocato Zummo, disapprovò unanimemente questa sentenza, che nella sua meschinità, pur presuntuosa, sonava come un'irrisione. Zummo inveì contro il tribunale con tale scoppio d'indignazione che per poco non fu tratto in arresto. Furibondo, sottrasse alla commiserazione generale i Picciril!i, proclamandoli in mezzo alla folla plaudente martiri della nuova religione.
+Il Granella intanto, proprietario della casa, gongolava di gioja maligna.
+Era un omaccione di circa cinquant'anni, adiposo e sanguigno. Con le mani in tasca, gridava forte a chiunque volesse sentirlo, che quella sera stessa sarebbe andato a dormire nella casa degli spiriti - solo! Solo, solo, sì, perché la vecchia serva che stava da tant'anni con lui, grazie all'infamia dei Piccirilli, lo aveva piantato, dichiarandosi pronta a servirlo dovunque, foss'anche in una grotta, tranne che in quella povera casa infamata da quei signori là. E non gli era riuscito di trovare in tutto il paese un'altra serva o un servo che fosse, i quali avessero il coraggio di stare con lui. Ecco il bel servizio che gli avevano reso quegli impostori! E una casa perduta, come andata in rovina!
+Ma ora egli avrebbe dimostrato a tutto il paese che il tribunale, condannando alle spese e al risarcimento dei danni quegli imbecilli, gli aveva reso giustizia. Là, egli solo! Voleva vederli in faccia questi signori spiriti!
+E sghignazzava.
+VI.
+La casa sorgeva nel quartiere più alto della città, in cima al colle.
+La città aveva lassù una porta, il cui nome arabo, divenuto stranissimo nella pronunzia popolare: Bibirrìa, voleva dire Porta dei Venti.
+Fuori di questa porta era un largo spiazzo sterrato; e qui sorgeva solitaria la casa del Granella. Dirimpetto aveva soltanto un fondaco abbandonato, il cui portone imporrito e sgangherato non riusciva più a chiudersi bene, e dove solo di tanto in tanto qualche carrettiere s'avventurava a passar la notte a guardia del carro e della mula.
+Un solo lampioncino a petrolio stenebrava a mala pena, nelle notti senza luna, quello spiazzo sterrato. Ma, a due passi, di qua dalla porta, il quartiere era popolatissimo, oppresso anzi di troppe abitazioni.
+La solitudine della casa del Granella non era dunque poi tanta, e appariva triste (più che triste, ora, paurosa) soltanto di notte. Di giorno, poteva essere invidiata da tutti coloro che abitavano in quelle case ammucchiate. Invidiata la solitudine, e anche la casa per se stessa, non solo per la libertà della vista e dell'aria, ma anche per il modo com'era fabbricata, per l'agiatezza e i comodi che offriva, a molto minor prezzo di quelle altre, che non ne avevano né punto né poco.
+Dopo l'abbandono del Piccirilli, il Granella l'aveva rimessa tutta a nuovo; carte da parato nuove; pavimenti nuovi, di mattoni di Valenza; ridipinti i soffitti; rinverniciati gli usci, le finestre, i balconi e le persiane. Invano! Eran venuti tanti a visitarla, per curiosità; nessuno aveva voluto prenderla in affitto. Ammirandola, così pulita, così piena d'aria e di luce, pensando a tutte le spese fatte, quasi quasi il Granella piangeva dalla rabbia e dal dolore.
+Ora egli vi fece trasportare un letto, un cassettone, un lavamano e alcune seggiole, che allogò in una delle tante camere vuote; e, venuta la sera, dopo aver fatto il giro del quartiere per far vedere a tutti che manteneva la parola, andò a dormire solo in quella sua povera casa infamata.
+Gli abitanti del quartiere notarono che s'era armato di ben due pistole. E perché?
+Se la casa fosse stata minacciata dai ladri, eh, quelle armi avrebbero potuto servirgli, ed egli avrebbe potuto dire che se le portava per prudenza. Ma contro gli spiriti, caso mai, a che gli sarebbero servite? Uhm!
+Aveva tanto riso, là, in tribunale, che ancora nel faccione sanguigno aveva l'impronta di quelle risa.
+In fondo in fondo, però... ecco, una specie di vellicazione irritante allo stomaco se la sentiva, per tutti quei discorsi che si erano fatti, per tutte quelle chiacchiere dell'avvocato Zummo.
+Uh, quanta gente, anche gente per bene, spregiudicata, che in presenza sua aveva dichiarato più volte di non credere a simili fandonie, ora, prendendo ardire dalla fervida affermazione di fede dell'avvocato Zummo e dall'autorità dei nomi citati e dalle prove documentate, non s'era messa di punto in bianco a riconoscere che... sì, qualche cosa di vero infine poteva esserci, doveva esserci, in quelle esperienze... (ecco, esperienze ora, non più fandonie!).
+Ma che più? Uno degli stessi giudici, dopo la sentenza, uscendo dal tribunale, s'era avvicinato all'avvocato Zummo che aveva ancora un diavolo per capello, e - sissignori - aveva ammesso anche lui che non pochi fatti riferiti in certi giornali, col presidio di insospettabili testimonianze di scienziati famosi, lo avevano scosso, sicuro! E aveva narrato per giunta che una sua sorella, maritata a Roma, fin da ragazza, una o due volte l'anno, di pieno giorno, trovandosi sola, era visitata, com'ella asseriva, da un certo ometto rosso misterioso, che le confidava tante cose e le recava finanche doni curiosi...
+Figurarsi Zummo, a una tale dichiarazione, dopo la sentenza contraria! E allora quel giudice imbecille s'era stretto nelle spalle e gli aveva detto:
+- Ma, capirà, caro avvocato, allo stato delle cose...
+Insomma, tutta la cittadinanza era rimasta profondamente scossa dalle affermazioni e dalle rivelazioni di Zummo. E Granella ora si sentiva solo: solo e stizzito, come se tutti lo avessero abbandonato, vigliaccamente.
+La vista dello sterrato deserto, dopo il quale l'alto colle su cui sorge la città strapiomba in ripidissimo pendio su un'ampia vallata, con quell'unico lampioncino, la cui fiammella vacillava come impaurita dalla tenebra densa che saliva dalla valle, non era fatta certamente per rincorare un uomo dalla fantasia un po' alterata. Né poté rincorarlo poi di più il lume d'una sola candela stearica, la quale - chi sa perché - friggeva, ardendo, come se qualcuno vi soffiasse su, per spegnerla. (Non s'accorgeva Granella che aveva un ansito da cavallo, e che soffiava lui, con le nari, su la candela.)
+Attraversando le molte stanze vuote, silenziose, rintronanti, per entrare in quella nella quale aveva allogato i pochi mobili, tenne fisso lo sguardo su la fiamma tremolante riparata con una mano, per non veder l'ombra del proprio corpo mostruosamente ingrandita, fuggente lungo le pareti e sul pavimento.
+Il letto, le seggiole, il cassettone, il lavamano gli parvero come sperduti in quella camera rimessa a nuovo. Posò la candela sul cassettone, vietandosi di allungar lo sguardo all'uscio, oltre al quale le altre camere vuote eran rimaste buje. Il cuore gli batteva forte. Era tutto in un bagno di sudore.
+Che fare adesso? Prima di tutto, chiudere quell'uscio e metterci il paletto. Sì, perché sempre, per abitudine, prima d'andare a letto, egli si chiudeva così, in camera. È vero che, di là, adesso, non c'era nessuno, ma... l'abitudine, ecco! E perché in tanto aveva ripreso in mano la candela per andare a chiudere quell'uscio nella stessa stanza? Ah... già, distratto!...
+Non sarebbe stato bene, ora, aprire un tantino il balcone? Auff! si soffocava dal caldo, là dentro... E poi, c'era ancora un tanfo di vernice... Sì sì, un tantino, il balcone. E nel mentre che la camera prendeva un po' d'aria, egli avrebbe rifatto il letto con la biancheria che s'era portata.
+Così fece. Ma appena steso il primo lenzuolo su le materasse, gli parve di sentire come un picchio all'uscio. I capelli gli si drizzarono su la fronte, un brivido gli spaccò le reni, come una rasojata a tradimento. Forse il pomo della lettiera di ferro aveva urtato contro la parete? Attese un po', col cuore in tumulto. Silenzio! Ma gli parve misteriosamente animato, quel silenzio...
+Granella raccolse tutte le forze, aggrottò le ciglia, cavò dalla cintola una delle pistole, riprese in mano la candela, riaprì l'uscio e, coi capelli che gli fremevano sul capo, gridò:
+- Chi è là?
+Rimbombò cupamente il vocione nelle vuote camere. E quel rimbombo fece indietreggiare il Granella. Ma subito egli si riprese; batté un piede; avanzò il braccio con la pistola impugnata. Attese un tratto, poi si mise a ispezionare dalla soglia quella camera accanto.
+C'era solamente una scala, in quella camera, appoggiata alla parete di contro: la scala di cui s'erano serviti gli operai per riattaccar la carta da parato nelle stanze. Nient'altro. Ma sì, via, non ci poteva esser dubbio: il pomo della lettiera aveva urtato contro la parete.
+E Granella rientrò nella camera, ma con le membra d'un subito rilassate e appesantite così, che non poté più per il momento rimettersi a rifare il letto.
+Prese una seggiola e andò a sedere al balcone, al fresco.
+- Zrì!
+Accidenti al pipistrello! Ma riconobbe subito, eh, che quello era uno strido di pipistrello attirato dal lume della candela che ardeva nella camera. E rise Granella della paura che, questa volta, non aveva avuto, e alzò gli occhi per discerner nel bujo lo svolazzio del pipistrello. In quel mentre, gli giunse all'orecchio dalla camera uno scricchiolio. Ma riconobbe subito ugualmente che quello scricchiolio era della carta appiccicata di fresco alle pareti, e ci si divertì un mondo! Ah, erano uno spasso gli spiriti, a quella maniera... Se non che, nel voltarsi, così sorridente, a guardar dentro la camera, vide... - non comprese bene, che fosse, in prima: balzò in piedi, esterrefatto; s'afferrò, rinculando, alla ringhiera del balcone. Una lingua spropositata, bianca, s'allungava silenziosamente lungo il pavimento, dall'uscio dell'altra camera, rimasto aperto!
+Maledetto, maledetto, maledetto! un rotolo di carta da parato, un rotolo di carta da parato che gli operai forse avevano lasciato lì, in capo a quella scala... Ma chi lo aveva fatto precipitare di là e poi scivolare così, svolgendosi, lungo il pavimento di due stanze, imbroccando perfettamente l'uscio aperto?
+Granella non poté più reggere. Rientrò con la sedia; richiuse di furia il balcone; prese il cappello, la candela, e scappò via, giù per la scala. Aperto pian piano il portone, guardò nello sterrato. Nessuno! Tirò a sé il portone e, rasentando il muro della casa, sgattajolò per il viottolo fuori delle mura al bujo.
+Che doveva perderci la salute, lui, per amor della casa? Fantasia alterata, sì; non era altro... dopo tutte quelle chiacchiere... Gli avrebbe fatto bene passare una notte all'aperto, con quel caldo. La notte, del resto, era brevissima. All'alba, sarebbe rincasato. Di giorno, con tutte le finestre aperte, non avrebbe avuto più, di certo, quella sciocchissima paura; e, venendo di nuovo la sera, avendo già preso confidenza con la casa, sarebbe stato tranquillo, senza dubbio, che diamine! Aveva fatto male, ecco, ad andarci a dormire, così, in prima, per una bravata. Domani sera...
+Credeva il Granella che nessuno si fosse accorto della sua fuga. Ma in quel fondaco dirimpetto alla casa, un carrettiere era ricoverato quella sera, che lo vide uscire con tanta paura e tanta cautela, e lo vide poi rientrare ai primi albori. Impressionato del fatto e di quei modi, costui ne parlò nel vicinato con alcuni che, il giorno avanti, erano andati a testimoniare in favore dei Piccirilli. E questi testimoni allora si recarono in gran segreto dall'avvocato Zummo ad annunziargli la fuga del Granella spaventato.
+Zummò accolse la notizia con esultanza.
+- Lo avevo previsto! - gridò loro, con gli occhi che gli schizzavano fiamme. - Vi giuro, signori miei, che lo avevo previsto! E ci contavo. Farò appellare i Piccirilli, e mi avvarrò di questa testimonianza dello stesso Granella! A noi, adesso! Tutti d'accordo, ohé, signori miei!
+Complottò subito, per quella notte stessa, l'agguato. Cinque o sei, con lui, cinque o sei: non si doveva essere in più! Tutto stava a cacciarsi in quel fondaco, senza farsi scorgere dal Granella. E zitti, per carità! Non una parola con nessuno, durante tutta la giornata.
+- Giurate!
+- Giuriamo!
+Più viva soddisfazione di quella non poteva dare a Zummo l'esercizio della sua professione d'avvocato! Quella notte stessa, poco dopo le undici, egli sorprese il Granella che usciva scalzo dal portone della sua casa, proprio scalzo, quella notte, in maniche di camicia, con le scarpe e la giacca in una mano, mentre con l'altra si reggeva su la pancia i calzoni che, sopraffatto dal terrore, non era riuscito ad abbottonarsi.
+Gli balzò addosso, dall'ombra, come una tigre, gridando:
+- Buon passeggio, Granella!
+Il pover uomo, alle risa sgangherate degli altri appostati, si lasciò cader le scarpe di mano, prima una e poi l'altra; e restò, con le spalle al muro, avvilito, basito addirittura.
+- Ci credi ora, imbecille, all'anima immortale? - gli ruggì Zummo, scrollandolo per il petto. - La giustizia cieca ti ha dato ragione. Ma tu ora hai aperto gli occhi. Che hai visto? Parla!
+Ma il povero Granella, tutto tremante, piangeva, e non poteva parlare.
+            </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  </div>
+
+  
+
+</div>
+
+
+
+
+
+<script>
+
+
+  function changeBackgroundImage(){
+      // Ottieni il body
+      var body = document.body;
+
+      // Nuovo URL dell'immagine di sfondo
+      var newBackgroundImageURL = 'url("../../../media/SanGerlando.jpg")';
+
+      // Imposta la nuova immagine di sfondo
+      body.style.backgroundImage = newBackgroundImageURL;
+    }
+
+    document.addEventListener("DOMContentLoaded", changeBackgroundImage)
+  
+</script>
+
+
+
+{% endblock %}

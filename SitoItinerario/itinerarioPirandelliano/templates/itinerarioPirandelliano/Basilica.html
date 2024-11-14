@@ -1,7 +1,7 @@
 {% extends 'itinerarioPirandelliano/common.html' %}
 {% load i18n %}<!-- viene messo dove abbiamo frasi da tradurre, {% trans "frase da tradurre" %}-->
 
-{% block title %}ciao{% endblock %}
+{% block title %}ItinerarioPirandelliano{% endblock %}
 
 {% block content %}
 <input type="hidden" name="pagina" id="pagina" value="secondaPagina">
@@ -10,21 +10,20 @@
 
   <div class="row text-center" id="sottoBarra">
     <div class="col">
-      <h1 style="font-family:fantasy; margin-top: 8%;">Basilica</h1>
-    </div>
+      <h1 style="font-family:fantasy; margin-top: 8%;">Basilica</h1> 
   </div>
   
   <div class="row" style="margin:5% 5% 3%">
     <div class="col">
       <!--Carousel-->
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" style="max-height: 60vh;">
+        <div class="carousel-inner fixed-carousel-size" style="max-height: 60vh;">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="../../../media/SanGerlando1.jpeg" class="\d-block w-100 img-fluid" alt="...">
+            <img src="../../../media/Chiesa-Immacolata.jpg" class="\d-block img-fluid custom-carousel-image center-image" style="width: 30vw;" alt="...">
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="../../../media/SanGerlando2.jpg" class="d-block w-100 img-fluid" alt="..." style="object-fit: cover;">
-          </div>
+          <!-- <div class="carousel-item" data-bs-interval="2000">
+            <img src="../../../media/SanGerlando2.jpg" class="d-block w-100 img-fluid custom-carousel-image" alt="..." style="object-fit: cover;">
+          </div> -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -61,8 +60,8 @@
           <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
             {%trans "Arte Basilica"%}
 
-          </div>
-          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab">{%trans "Passo Scelto Basilica"%}</div>
+          </div> 
+          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab">{%trans "Passo Scelto Cattedrale"%}</div>
           <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab">
             VISTO CHE NON PIOVE
 Era ogni anno una sopraffazione indegna, una sconcia prepotenza di tutto il contadiname di Montelusa contro i poveri canonici della nostra gloriosa Cattedrale.

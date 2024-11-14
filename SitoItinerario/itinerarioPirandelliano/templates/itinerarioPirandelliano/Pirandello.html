@@ -1,7 +1,7 @@
 {% extends 'itinerarioPirandelliano/common.html' %}
 {% load i18n %}<!-- viene messo dove abbiamo frasi da tradurre, {% trans "frase da tradurre" %}-->
 
-{% block title %}ciao{% endblock %}
+{% block title %}ItinerarioPirandelliano{% endblock %}
 
 {% block content %}
 <input type="hidden" name="pagina" id="pagina" value="secondaPagina">
@@ -10,7 +10,7 @@
 
   <div class="row text-center" id="sottoBarra">
     <div class="col">
-      <h1 style="font-family:fantasy; margin-top: 8%;">Via Pirandello - Casa Natale Luigi Pirandello</h1>
+      <h1 style="font-family:fantasy; margin-top: 8%;">Via Pirandello - Casa Luigi Pirandello</h1>
     </div>
   </div>
   
@@ -18,12 +18,9 @@
     <div class="col">
       <!--Carousel-->
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner" style="max-height: 60vh;">
+        <div class="carousel-inner fixed-carousel-size" style="max-height: 60vh;">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="../../../media/SanGerlando1.jpeg" class="\d-block w-100 img-fluid" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="../../../media/SanGerlando2.jpg" class="d-block w-100 img-fluid" alt="..." style="object-fit: cover;">
+            <img src="../../../media/CasaPirandello3.jpg" class="\d-block img-fluid custom-carousel-image center-image" style="width: 60vw;" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
