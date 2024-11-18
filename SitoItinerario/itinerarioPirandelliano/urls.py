@@ -12,6 +12,7 @@ urlpatterns = [
     path('Viale-Vittoria/', views.VialeVittoria, name='VialeVittoria'),
     path('Casa-Pirandello/', views.Pirandello, name='Pirandello'),
     path('CasaRavanusella/', views.CasaRavanusella, name='CasaRavanusella'),
+    path('Rabato/', views.Rabato, name='Rabato'),
 
 
    

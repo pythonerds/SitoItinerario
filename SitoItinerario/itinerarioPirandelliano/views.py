@@ -83,7 +83,14 @@ def CasaRavanusella(request):
     #paragrafo=_("paragrafo")
     return render(request, 'itinerarioPirandelliano/CasaRavanusella.html',{"pagina":pagina, "lang_name":language})
 
+def Rabato(request):
+    pagina="Rabato"
+    language = request.LANGUAGE_CODE
 
+
+    logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
+    #paragrafo=_("paragrafo")
+    return render(request, 'itinerarioPirandelliano/Rabato.html',{"pagina":pagina, "lang_name":language})
 
 
 
