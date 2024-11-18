@@ -35,7 +35,7 @@ msgid "French"
 msgstr ""
 
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:2
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:2
@@ -89,7 +89,7 @@ msgstr ""
 "domenica dopo la festa, e si aspettava la domenica seguente per ricondurla "
 "con una nuova e più pomposa processione alla chiesa di S. Francesco"
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:62
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:62
 msgid "Arte Ravanusella"
 msgstr ""
 "BIBBIRRIA PALAZZO QUARTANA La “casa Granella” o meglio il palazzo Quartana "
@@ -137,7 +137,7 @@ msgstr ""
 "improbabile che il santo martire avesse pronunciato questa imprecazione e "
 "maledizione."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:65
 msgid "Passo Scelto Ravanusella"
 msgstr ""
 "La casa sorgeva nel quartiere più alto della città, in cima al colle. La "

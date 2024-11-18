@@ -35,7 +35,7 @@ msgid "French"
 msgstr ""
 
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:2
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:2
@@ -89,7 +89,7 @@ msgstr ""
 "Sunday after the feast, and the following Sunday was awaited to bring her "
 "back with a new and more pompous procession to the church of St. Francis."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:62
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:62
 msgid "Arte Ravanusella"
 msgstr ""
 " The 'Granella House,' or more accurately Palazzo Quartana, takes its name "
@@ -135,7 +135,7 @@ msgstr ""
 "no document attesting to his beheading in this square, and it is highly "
 "improbable that the martyred saint uttered this curse and imprecation"
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:65
 msgid "Passo Scelto Ravanusella"
 msgstr ""
 "he house stood in the highest district of the city, atop the hill. Up there, "

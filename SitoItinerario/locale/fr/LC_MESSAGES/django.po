@@ -35,7 +35,7 @@ msgid "French"
 msgstr ""
 
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:2
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:2
@@ -86,7 +86,7 @@ msgstr ""
 "était attendu pour la ramener avec une nouvelle et plus pompeuse procession "
 "à l'église de Saint-François."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:62
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:62
 msgid "Arte Ravanusella"
 msgstr ""
 "La maison Granella, ou mieux le palais Quartana, prend le nom du riche et "
@@ -132,7 +132,7 @@ msgstr ""
 "prouvant sa décapitation sur cette place et il est très peu probable que le "
 "saint martyr ait prononcé ce juron et cette malédiction."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:65
 msgid "Passo Scelto Ravanusella"
 msgstr ""
 "La maison se dressait dans le quartier le plus élevé de la ville, au sommet "

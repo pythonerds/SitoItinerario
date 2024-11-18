@@ -35,7 +35,7 @@ msgid "French"
 msgstr ""
 
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:2
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:2
@@ -93,7 +93,7 @@ msgstr ""
 "Sonntag, um sie mit einer neuen und pompöseren Prozession zur Kirche von S. "
 "Franziskus zu führen."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:62
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:62
 msgid "Arte Ravanusella"
 msgstr ""
 "Das 'Casa Granella' oder besser der Palazzo Quartana trägt den Namen des "
@@ -104,7 +104,7 @@ msgstr ""
 "wurde, weil sie als Geliebte von Nicolò Gallo entdeckt wurde. Dieser Vorfall "
 "inspirierte Luigi Pirandello zu seinem Werk 'L’esclusa'. Noch heute sind die "
 "Fensterläden immer geschlossen und das Haus steht leer, mit der Ausnahme, "
-"dass es vor etwa 40 Jahren als Grundschule genutzt wurde; (es scheint, dass "
+"dass es vor etwa 40 Jahren als Grundschule genutzt wurde; es scheint, dass "
 "die Schule nur kurzlebig war, gerade wegen der Geister! Ein Umstand, der "
 "erklärt, warum es noch heute unbewohnt ist. Die literarische Beschreibung "
 "der Novelle ist eine sehr gelungene Darstellung des Hauses, des Platzes und "
@@ -142,7 +142,7 @@ msgstr ""
 "Enthauptung auf diesem Platz belegt, und es ist sehr unwahrscheinlich, dass "
 "der Märtyrer diese Verwünschung und Fluch ausgesprochen hat."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:65
 msgid "Passo Scelto Ravanusella"
 msgstr ""
 "Das Haus entstand im höchsten Viertel der Stadt, auf der Spitze des Hügels. "
