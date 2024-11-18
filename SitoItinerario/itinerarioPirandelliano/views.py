@@ -30,6 +30,7 @@ def home(request):
     #paragrafo=_("paragrafo")
     return render(request, 'itinerarioPirandelliano/home.html',{"pagina":pagina})
 
+
 def PianoSanGerlando(request):
     pagina="PianoSanGerlando"
     language = request.LANGUAGE_CODE
@@ -84,6 +85,14 @@ def Bibbirria(request):
     return render(request, 'itinerarioPirandelliano/Bibbirria.html',{"pagina":pagina, "lang_name":language})
 
 
+def ChiesaSanNicola(request):
+    pagina="ChiesaSanNicola"
+    language = request.LANGUAGE_CODE
+
+
+    logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
+    #paragrafo=_("paragrafo")
+    return render(request, 'itinerarioPirandelliano/ChiesaSanNicola.html',{"pagina":pagina, "lang_name":language})
 
 
 

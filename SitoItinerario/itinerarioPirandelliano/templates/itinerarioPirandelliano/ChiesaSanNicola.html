@@ -1,0 +1,110 @@
+{% extends 'itinerarioPirandelliano/common.html' %}
+{% load i18n %}<!-- viene messo dove abbiamo frasi da tradurre, {% trans "frase da tradurre" %}-->
+
+{% block title %}ItinerarioPirandelliano{% endblock %}
+
+{% block content %}
+<input type="hidden" name="pagina" id="pagina" value="secondaPagina">
+
+<div style="min-height: auto">
+
+  <div class="row text-center" id="sottoBarra">
+    <div class="col">
+      <h1 style="font-family:fantasy; margin-top: 8%;">Chiesa San Nicola e Il Signore della Nave</h1> 
+  </div>
+  </div>
+  <div class="row" style="margin:5% 5% 3%">
+    <div class="col">
+      <!--Carousel-->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner fixed-carousel-size" style="max-height: 60vh;">
+          <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../../../media/ChiesaSanNicola.jpg" class="\d-block img-fluid custom-carousel-image center-image" style="width: 30vw;" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="../../../media/SignoreDellaNave.jpg" class="\d-block img-fluid custom-carousel-image center-image" style="width: 30vw;" alt="...">
+            </div>
+          <!-- <div class="carousel-item" data-bs-interval="2000">
+            <img src="../../../media/SanGerlando2.jpg" class="d-block w-100 img-fluid custom-carousel-image" alt="..." style="object-fit: cover;">
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+  </div>
+  
+    <!--Bottoni Arte, Passo Scelto e Novella Completa-->
+  
+  <div class="row" style="margin: 2% 10% 3%">
+    <div class="container mt-3">
+      <div class="card" id="ciao" style="background-color: rgba(224, 159, 61, 0.644);">
+        <div style="font-family: fantasy; font-size: 130%;">
+        <ul class="nav nav-tabs" id="navTabDescription" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="arte-tab" data-bs-toggle="tab" data-bs-target="#arte-tab-pane" type="button" role="tab" aria-controls="arte-tab-pane" aria-selected="true">Arte</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="scelta-tab" data-bs-toggle="tab" data-bs-target="#scelta-tab-pane" type="button" role="tab" aria-controls="scelta-tab-pane" aria-selected="false">Passo Scelto</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="novella-tab" data-bs-toggle="tab" data-bs-target="#novella-tab-pane" type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella completa</button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content mt-3" id="myTabContent">
+          <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+            {%trans "Arte ChiesaSanNicola"%}
+
+          </div> 
+          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab" style=" font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">{%trans "Passo Scelto ChiesaSanNicola"%}</div>
+          <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab" style=" font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+
+
+            
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  </div>
+
+  
+
+</div>
+
+
+
+
+
+<script>
+
+
+  function changeBackgroundImage(){
+      // Ottieni il body
+      var body = document.body;
+
+      // Nuovo URL dell'immagine di sfondo
+      var newBackgroundImageURL = 'url("../../../media/SanGerlando.jpg")';
+
+      // Imposta la nuova immagine di sfondo
+      body.style.backgroundImage = newBackgroundImageURL;
+    }
+
+    document.addEventListener("DOMContentLoaded", changeBackgroundImage)
+  
+</script>
+
+
+
+{% endblock %}
