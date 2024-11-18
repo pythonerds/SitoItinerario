@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-11 15:19+0100\n"
+"POT-Creation-Date: 2024-11-18 16:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,25 +18,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: SitoItinerario/settings.py:34
+#: SitoItinerario/settings.py:35
 msgid "Italian"
 msgstr ""
 
-#: SitoItinerario/settings.py:35
+#: SitoItinerario/settings.py:36
 msgid "English"
 msgstr ""
 
-#: SitoItinerario/settings.py:36
+#: SitoItinerario/settings.py:37
 msgid "Germany"
 msgstr ""
 
-#: SitoItinerario/settings.py:37
+#: SitoItinerario/settings.py:38
 msgid "French"
 msgstr ""
 
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/ChiesaSanNicola.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:2
@@ -201,7 +202,23 @@ msgstr ""
 "été placée dans une niche. A l’intérieur du Palais, sont conservés les "
 "portraits des évêques d’Agrigente."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:66
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/ChiesaSanNicola.html:64
+msgid "Arte ChiesaSanNicola"
+msgstr ""
+"ÉGLISE DE SAN NICOLA (LE SEIGNEUR DU NAVIRE) La petite église de San Nicola se dresse sur le Poggio S. Nicola, au cœur de la Vallée des Temples, où se trouvait l’ancienne Agora supérieure. Depuis sa position en balcon, on profite d’un panorama magnifique sur la Vallée des Temples et la mer. L’église actuelle constitue le côté sud du transept d’une grande église en croix latine qui n’a jamais été réalisée et qui devait s’étendre jusqu’à l’Oratoire de Phalaris. En effet, l’église est orientée au sud et non à l’ouest, comme il est habituel pour les églises médiévales. Cela se confirme par la présence des chapelles uniquement sur le côté droit. En 1219, les Pères cisterciens fondent l’église et le monastère hors des murs de la ville. En 1322, l’église passe aux moines bénédictins, et en 1426, le bienheureux Matteo Cimarra y fonde un monastère franciscain. Il reconstruit presque entièrement l’église et le couvent, en réutilisant les ruines du temple voisin de Jupiter et en intégrant le portail et les chapelles de l’époque précédente. En 1442, Matteo Cimarra devient évêque d’Agrigente, et le monastère franciscain est transféré au nouveau couvent de San Vito, l’ancienne prison d’Agrigente. En 1567, le couvent est dirigé par le franciscain frère Bonoventura Sciascia, qui construit les voûtes ogivales abaissées et leurs piliers portants, la corniche saillante, les deux panneaux extérieurs, et les cinq petites arcades de style Renaissance. Ces dernières sont décorées de fresques du XVIe siècle représentant Saint Sébastien, Saint Roch, Saint Jean-Baptiste, Sainte Marie de Jésus, Saint François recevant les stigmates, et Saint Jérôme. En dessous, on trouve des fresques de Saint Onuphre et de Saint Conrad, réalisées en 1575 par Innocenzo Mascarella. Construite en tuf, l’église est un bel exemple de style gothique-cistercien : simple, dépouillé mais monumental. La façade, sobre mais imposante, est encadrée par deux grands panneaux qui protègent le beau portail à quatre arcs en ogive, surmonté d’une corniche saillante. La grande porte en bois a été réalisée par Angelo Blundo en 1531. La façade conserve trois des quatre petites plaques blanches originales sculptées dans un style inspiré de Gagini, représentant Saint Georges ou Saint Michel Archange terrassant le dragon, les Saints Pierre et Paul, et deux bras qui se rejoignent comme symbole de fraternité franciscaine. La façade était autrefois surmontée d’un clocher aujourd’hui disparu. L’intérieur, austère et évocateur, présente une seule nef surmontée d’une voûte nervurée. La deuxième chapelle à droite abritait autrefois le célèbre sarcophage de Phèdre et Hippolyte, désormais restitué au Musée diocésain. Goethe le considérait comme ‘un des exemples les plus gracieux de l’art grec’, bien qu’il soit en réalité romain et remonte au IIIe siècle ap. J.-C. Ce sarcophage en marbre, parfaitement conservé, a été découvert en 1740 par le prêtre Libertino Sciascia à Porto Empedocle, dans la région d’Inficherna. Le côté droit de l’église comporte quatre chapelles communicantes, tandis que les arcs du côté gauche sont aveugles. L’église n’a pas d’abside et adopte une forme quadrangulaire qui s’ouvre sur un cloître carré. Au centre du cloître se trouve un puits entouré d’une galerie dont il ne reste que les côtés est et sud. Au-dessus du maître-autel, on trouve le Crucifix ancien en bois du ‘Seigneur du Navire’, entouré d’ex-voto. La fête populaire avait lieu le premier dimanche de septembre en l’honneur du Crucifix miraculeux et très vénéré. Les célébrations débutaient dans l’église et se poursuivaient par une procession sur l’espace devant l’église, où des cochons étaient abattus, grillés et consommés. Cette fête champêtre, qui s’est poursuivie jusqu’aux années 1960, est décrite par Luigi Pirandello. L’esplanade se remplissait d’étals, de tables de bouchers et de grilles pour griller saucisses et côtes de porc. Les cochons étaient abattus sur place dans une ambiance joyeuse et bruyante, avec des odeurs puissantes. La fête religieuse prenait des airs de foire porcine et gastronomique. La viande était consommée sur place ou dans la taverne voisine ‘U Bagianu’, accompagnée de vin. Le Crucifix était porté en procession par des pêcheurs et marins jusqu’à la ville, où il bénissait la vallée et la mer. Le ‘Seigneur du Navire’ est un Crucifix en bois lié à un miracle : il se serait détaché pour sauver des naufragés qui s’y étaient accrochés. En 2022, des efforts ont été faits pour relancer la fête, tant du point de vue religieux que théâtral. À l’angle sud-est du cloître, une petite porte mène à un groupe de salles médiévales reliées à l’ancien chœur de l’église, désormais utilisé comme auditorium. Dans la troisième salle, une vitrine expose des partitions et des souvenirs du musicien agrigentin Michele Lizzi, offerts au musée avec son piano par sa famille. Michele Lizzi, natif d’Agrigente, a composé le poème symphonique Teano (dont l’anneau a récemment été restitué au Musée archéologique) et l’opéra Pantea (sur la veuve ressuscitée par Empédocle après 30 jours). Dans les années 1960, il a également mis en musique Le Seigneur du Navire de Luigi Pirandello, créé au Teatro Massimo de Palerme. L’atmosphère chaotique de la fête rurale est magnifiée par des instruments de percussion. Une villa au bout du Viale della Vittoria est dédiée à ce grand musicien. Près de l’église, le long de la Panoramique des Temples, se trouve un oratoire rural dédié au ‘Seigneur du Navire’, construit par le riche chanoine Panitteri au début du XIXe siècle."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/ChiesaSanNicola.html:67
+msgid "Passo Scelto ChiesaSanNicola"
+msgstr ""
+"Le Seigneur du Navire est célébré dans l'ancienne église normande de Saint Nicolas, qui se dresse à bonne distance de la ville, à un tournant de la route, au milieu"
+"des champs. Assurément, s'il est ainsi nommé, il doit y avoir une histoire ou une légende que j'ignore. Mais certainement, c'est un Christ que, celui qui l'a fait," 
+"ne pouvait pas le faire plus Christ que celui-ci; il lui a conféré une telle férocité d'être Christ, que dans les tibias durs cloués sur la croix noire rugueuse," 
+"dans les côtes qui peuvent être comptées une par une, parmi les coups de fouet et les contusions, pas un once de chair n'a été laissé qui n'apparaisse horriblement"
+"torturée. Ce sont peut-être les Juifs qui se sont acharnés sur la chair vivante du Christ; mais ici, c'était lui, le sculpteur. Pourtant, quand on parle d'être" 
+"Christ et d'aimer l'humanité! Même traité ainsi, ce Seigneur du Navire opère d'innombrables miracles, comme en témoignent les centaines d'offrandes de cire et" 
+"d'argent et les tablettes votives qui remplissent tout un mur de la petite église."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:67
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/secondaPagina.html:62
 #: media/save.txt:3
 msgid "Arte Piano San Gerlando"
@@ -229,7 +246,7 @@ msgstr ""
 "phase du développement de la cité médiévale de la Terravecchia avant la "
 "venue des Chiaramonte."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:69
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:71
 msgid "Passo Scelto Piano San Gerlando"
 msgstr ""
 "De son côté, il savait qu'il avait fendu la tête de sa femme d'un coup de "
@@ -240,7 +257,7 @@ msgstr ""
 "heures plus tôt, sa femme avait été surprise en flagrant délit d'adultère "
 "avec le chevalier Don Agatino Fiorìca."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:62
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:59
 msgid "Arte Pirandello"
 msgstr ""
 "Elle se trouve en parallèle de la rue Atenea, l’actuelle rue Pirandello. A "
@@ -266,7 +283,7 @@ msgstr ""
 "Pirandello est revenue s’installer dans la ville. L’écrivain était si "
 "attaché à cette maison qu'il la décrit  dans  plusieurs œuvres.  "
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:62
 msgid "Passo Scelto Pirandello"
 msgstr ""
 "Une boîte de jouets,  avec des arbres couronnés de copeaux et avec le petit "
@@ -285,7 +302,7 @@ msgstr ""
 "et querelleuses et des cochons toujours un peu tourmentés, comme on peut "
 "s'en douter, et presque irrités par leur trop grande corpulence."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:68
 msgid "Arte VialeVittoria"
 msgstr ""
 "L’avenue de la Victoire L’avenue de la Victoire, une promenade publique, a "
@@ -331,7 +348,7 @@ msgstr ""
 "psychiatrique sera inauguré.  Le 28 octobre 1935, les nouveaux locaux des "
 "écoles primaires Lauricella et le Palais des Postes sont inaugurés."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:68
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:71
 msgid "Passo Scelto VialeVittoria"
 msgstr ""
 "Ils se connaissaient si profondément qu'un léger signe de tête, un regard, "
@@ -347,9 +364,192 @@ msgstr ""
 "qu'il semblait presque incroyable que ces deux-là puissent passer sans même "
 "se retourner pour regarder."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:34
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:27
 msgid "introduzione"
-msgstr "Bienvenue à Agrigento Pirandelliana! Ici, vous trouverez les points d'intérêt les plus importants."
+msgstr ""
+"Bienvenue à Agrigento Pirandelliana! Ici, vous trouverez les points "
+"d'intérêt les plus importants."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:43
+#, fuzzy
+#| msgid "Arte Cattedrale"
+msgid "Card Cattedrale"
+msgstr ""
+"La cathédrale d’Agrigente et le palais épiscopal original ont été construits "
+"au XIe siècle par l’évêque Gerlando de Besançon, appelé par le normand "
+"Roger, pour évangéliser le peuple longtemps soumis par les musulmans. La "
+"construction de la cathédrale a commencé en 1090 et s’est achevée six ans "
+"plus tard.  Déjà dans les décennies suivantes, il y eut des problèmes de "
+"stabilité considérables, parce qu’un tiers de la construction était fondée "
+"sur une nappe de terre argileuse et glissante. Les interventions effectuées "
+"ont presque totalement transformé l’édifice normand primitif, dont il reste "
+"bien peu à cause des modifications apportées à des moments différents, soit "
+"à cause des événements naturels comme glissements de terrain et tremblements "
+"de terre, soit en raison des événements historiques tels que les "
+"insurrections des musulmans et les guerres de Frédéric II, jusqu’aux "
+"Chiaramonte qui, pendant des décennies seigneurs d’Agrigente, au XIVe "
+"siècle, la reconstruisent dans sa forme actuelle. Au XVe siècle, par l’œuvre "
+"de Giovanni Montaperto, puis évêque de Mazzara, fut réalisé le clocher "
+"actuel construit comme rempart pour l’église et la ville et, par l’œuvre de "
+"l’évêque Giuliano Cybo, le plafond en bois, peint par Masolino da Floregia "
+"avec les images des apôtres, des saints d’Agrigente et les armoiries des "
+"familles les plus nobles de la ville; par l’évêque Giovanni Horozco de Leyva "
+"de Covarruvias, la cathédrale chiaramontaine fut allongée vers l’est avec "
+"des colonnes rondes de stuc. La cathédrale est le fruit de neuf siècles de "
+"constructions, rénovations, agrandissements et restaurations; elle se "
+"présente aujourd’hui comme une vaste construction à trois nefs, à croix "
+"latine, au transept peu allongé, très complexe dans ses structures "
+"architecturales, Suggestive pour sa grandeur et élégance et aussi pour la "
+"variété des styles et la richesse des œuvres d’art qu’elle contient. Le "
+"palais épiscopal, siège de l’évêché, de ses archives et du musée diocésain, "
+"au cours des siècles a été agrandi et embelli par les évêques successifs à "
+"la tête du diocèse d’Agrigente. Endommagé par le tremblement de terre de "
+"1693, il avait été immédiatement restauré et vers la moitié du XVIIIe "
+"siècle, sur un dessin de l’architecte Domenico Dolcemascolo de Sciacca, "
+"plusieurs transformations y furent apportées, tant dans la façade que dans "
+"l’intérieur. Le portail d’entrée, délimité par deux colonnes qui servent de "
+"piédestal à un balcon, est enrichi par un tympan triangulaire ouvert au "
+"centre, qui contient les armoiries de l’évêque Andrea Lucchesi Palli. Cet "
+"homme d’église, et grand savant consacré à l’astronomie, à l’histoire, à la "
+"sociologie et aux sciences humaines, fut l’architecte de l’agrandissement du "
+"palais et le fondateur, en 1765, d’une grande bibliothèque portant son nom. "
+"Au début du XIXe siècle, l’escalier d’entrée a été refait et la belle statue "
+"en marbre de Sainte Marie de Monserrato, de l’école de Domenico Gagini, a "
+"été placée dans une niche. A l’intérieur du Palais, sont conservés les "
+"portraits des évêques d’Agrigente."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:53
+#, fuzzy
+#| msgid "Arte Piano San Gerlando"
+msgid "Card San Gerlando"
+msgstr ""
+"La place S.Gerland, aujourd’hui appelée Place don Minzoni, se trouve à la "
+"fin de la rue Duomo d’où on accède à l’escalier qui mène à la façade "
+"principale de la cathédrale. Elle peut être considérée comme la plus "
+"ancienne place de la ville, née pour servir de zone de manœuvre militaire du "
+"Steri. Sur la place se trouve le majestueux édifice du séminaire fondé, en "
+"1577, par l’évêque Cesare Marullo sur l’antique Steri Chiaramontano. La "
+"façade extérieure se compose de deux rangées de fenêtres symétriques "
+"régulières avec au centre deux balcons baroques sur le portail. Le Steri "
+"était la résidence fortifiée de Manfredi Chiaramonte où il a déménagé en "
+"laissant sa demeure qui est  aujourd’hui le monastère de Saint-Esprit. En "
+"1310, l’évêque Labro lui concède quelques maisons où il y édifie son palais "
+"dans une position stratégique. Fazello raconte qu’en 1353 une grande fête a "
+"eu lieu sur cette place pour le mariage de Luchina Chiaramonte, fille de "
+"Frédéric III, qui épousait Enrico Rosso, comte d’Aidone. Le choix de la "
+"position au point le plus élevé de la ville et, en particulier, face à la "
+"cathédrale, le plus important symbole religieux, est l’expression du "
+"prestige de la plus puissante famille féodale sicilienne du XIVe siècle. À "
+"côté du bâtiment, sur le côté nord-ouest de la place, se trouvait la Porte "
+"des Chevaliers, l’une des neuf portes médiévales de la Vieille Terre, tandis "
+"que sur le côté sud-est, se trouve l’Arc Spoto qui représente la première "
+"phase du développement de la cité médiévale de la Terravecchia avant la "
+"venue des Chiaramonte."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:63
+#, fuzzy
+#| msgid "Arte Basilica"
+msgid "Card Basilica"
+msgstr ""
+"La Basilique de l'Immaculée, identifiée comme Église de Saint François "
+"d'Assise, avec le couvent attenant fut fondée par les Frères mineurs "
+"franciscains qui s'établirent en Sicile au XIlle siècle et, en particulier à "
+"Agrigente, dès 1295. Les murs et la voûte ont été peints par le peintre "
+"Lucio Gurreri qui a représenté, sur la voûte de l'abside, parmi les saints, "
+"dans une image paradisiaque bondée. La première construction fut citée dans "
+"le testament de Donna Isabella Chiaramonte du 6 décembre 1362, de lui "
+"ériger, à sa mort, un tombeau dans cette Tribuna nova ecclesiae conventus "
+"San Francisco, construit par Federico Chiaramonte. En 1788, un nouveau "
+"clocher est ajouté et après les bombardements de 1943 Mons. Michele "
+"Sclafani, recteur de la Basilique, intervient pour restaurer le monument, en "
+"reproposant les peintures et les décorations. Une plaque placée sur le mur "
+"d'enceinte rappelle que le 12 juillet 1943, un bombardier allié a frappé le "
+"refuge de la via San Francesco, faisant 340 victimes. La basilique est "
+"aujourd'hui en excellent état avec sa magnifique façade en tuf grès flanqué "
+"de deux clochers. Au centre, en bas, un élégant portail entre les pilastres "
+"ioniques et des éléments décoratifs gothiques et locaux, en fait des "
+"chiaramontani, tandis qu'en haut, la niche qui contient la statue de Saint "
+"François, en marbre blanc."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:75
+#, fuzzy
+#| msgid "Arte Pirandello"
+msgid "Card Pirandello"
+msgstr ""
+"Elle se trouve en parallèle de la rue Atenea, l’actuelle rue Pirandello. A "
+"vrai dire, c’est la maison de sa famille, où il a vécu pendant sa jeunesse. "
+"En fait, sa maison de naissance se trouve dans une localité de campagne "
+"appelée Kaos, où il revenait vivre de temps en temps, quand il passait sa "
+"vie entre Palerme et Rome. Dans certaines de ses nouvelles, comme “Châle "
+"Noire” et “Les vieux et les jeunes”, il fait référence à l’habitation de "
+"famille, qui était très grande pour l'époque; en particulier, Pirandello "
+"regardait vers la terrasse pour frapper avec sa fronde les pigeons qui "
+"construisaient leurs nids sur le clocher de l'église de Saint Pierre qui se "
+"trouve juste à côté. Le bâtiment a ensuite été bombardé pendant la Deuxième "
+"Guerre mondiale: les dommages ont été immenses et même la terrasse où le "
+"dramaturge passait plusieurs heures de la journée a été rasée. Juste après "
+"la guerre, le bâtiment a été entièrement rénové et, aujourd'hui, cette "
+"maison abrite un studio de radiologie. Une petite épigraphe rappelle le lieu "
+"où l’écrivain a vécu dans sa jeunesse. L'historien local Paolo Cilona dit "
+"que l’écrivain n'est pas né dans cette maison à cause du choléra; en effet, "
+"quand la mère était enceinte de Luigi, elle avait peur parce que beaucoup de "
+"gens étaient malades. Pour cette raison, la famille a décidé de s’installer "
+"pendant un certain temps en dehors d’Agrigente, à la campagne, dans la "
+"localité Kaos. Quelque temps après, le choléra a disparu et la famille "
+"Pirandello est revenue s’installer dans la ville. L’écrivain était si "
+"attaché à cette maison qu'il la décrit  dans  plusieurs œuvres.  "
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:85
+msgid "Card Viale"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:95
+#, fuzzy
+#| msgid "Arte Ravanusella"
+msgid "Card Ravanusella"
+msgstr ""
+"La maison Granella, ou mieux le palais Quartana, prend le nom du riche et "
+"détesté usurier, originaire de la ville de Trapani, Pietro Quartana. Elle "
+"est restée intacte, presque comme merveilleusement décrite par Luigi "
+"Pirandello dans la nouvelle homonyme. Austère et solitaire, pas seulement "
+"pour l'emplacement mais aussi du fait que l'épouse de Quartana est expulsée "
+"de la maison parce qu’on a découvert qu’elle était l’amante de Nicolò Gallo, "
+"épisode qui a inspiré Luigi Pirandello pour écrire L’exclue. Encore "
+"aujourd'hui les volets sont fermés; pendant une courte période, la maison a "
+"abrité une école primaire fermée à cause des fantômes, fait qui explique "
+"pourquoi elle est encore inhabitée aujourd'hui. La nouvelle présente une "
+"description détaillée de la maison, de la place et du quartier du point de "
+"vue géographique et sociologique. La maison est édifiée dans le point plus "
+"haut et solitaire en dehors de la Porte Bibirria. Elle est caractérisée par "
+"de belles arches, plus ou moins visibles dans les corniches des activités "
+"commerciales du rez-de-chaussée. Il y a aussi un centre liturgique qui vend "
+"des objets religieux. L'historien Beniamino Biondi, après avoir interviewé "
+"les habitants du quartier, confirme l'hypothèse que la maison est toujours "
+"considérée comme hantée. L’architecture du XIXe siècle du palais Quartana, "
+"construit par Dionisio Sciascia, l’architecte des théâtres d’Agrigente et de "
+"Racalmuto, est simple.Devant ‘la maison Granella’ il y a aujourd’hui le "
+"Belvédère Don Bosco d'où on peut admirer l'arrière-pays agrigentin de "
+"Raffadali à Cammarata. De la place Bibirria, on accède à l’ouest sur la rue "
+"Dôme avec la Cathédrale, le Séminaire, la Curie, le Palais Épiscopal, le "
+"Musée diocésain. Au sud s'écarte la rue BacBac (rue du nain) pour arriver à "
+"Place Lena et à la place de la Reconnaissance. Ce sont des lieux que "
+"Pirandello connaissait bien puisque la future épouse habitait près de Rue "
+"Duomo. La porte Bibirria était construite en arc avec la voûte basse et "
+"avait la forme d’un tunnel long 8 mètres, démolie en 1864 dans le but de "
+"réaliser l’actuelle terrasse panoramique. La Terravecchia,avant l'époque "
+"chiaramontaine, comprenait la rue Duomo, Place Bibirria et rue BacBac sur la "
+"colline de Girgenti. Elle se développait de la Porte des Chevaliers vers "
+"Porte Bibirria, descendait de la rue BacBac, tournait vers l’ouest jusqu’à "
+"la Porte Mazzara (rue Sferri) pour remonter jusqu’à l’église de San Giorgio. "
+"La Place Bibirria était dominée par le Château Vieux, situé entre le "
+"quartier de Saint Gerlando et celui de Saint Michel, dit 'u munti' (la "
+"montagne) pour sa collocation plus au nord. Selon la tradition, le nom "
+"'Bibirria' dérive de la phrase poétique en rime prononcée par Saint "
+"Libertin, quand en 251, avant d’être décapité à coups de hache, il aurait "
+"crié: 'gens iniqua, plebs rea, non videbis ossa mea' (peuple injuste, gens "
+"méchants, vous ne verrez pas mes os). Pourtant il n’y a aucun document "
+"prouvant sa décapitation sur cette place et il est très peu probable que le "
+"saint martyr ait prononcé ce juron et cette malédiction."
 
 #: media/save.txt:38
 #, fuzzy

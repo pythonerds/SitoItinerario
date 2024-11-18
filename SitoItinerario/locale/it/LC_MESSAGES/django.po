@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-11 15:19+0100\n"
+"POT-Creation-Date: 2024-11-18 16:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,25 +18,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: SitoItinerario/settings.py:34
+#: SitoItinerario/settings.py:35
 msgid "Italian"
 msgstr ""
 
-#: SitoItinerario/settings.py:35
+#: SitoItinerario/settings.py:36
 msgid "English"
 msgstr ""
 
-#: SitoItinerario/settings.py:36
+#: SitoItinerario/settings.py:37
 msgid "Germany"
 msgstr ""
 
-#: SitoItinerario/settings.py:37
+#: SitoItinerario/settings.py:38
 msgid "French"
 msgstr ""
 
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Bibbirria.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/ChiesaSanNicola.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:2
@@ -203,7 +204,22 @@ msgstr ""
 "di Santa Maria di Monserrato della scuola di Domenico Gagini. All'interno "
 "del Palazzo, sono custoditi i ritratti dei Vescovi agrigentini."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:66
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/ChiesaSanNicola.html:64
+msgid "Arte ChiesaSanNicola"
+msgstr ""
+"CHIESA DI SAN NICOLA (IL SIGNORE DELLA NAVE) La chiesetta di San Nicola sorge sul Poggio S. Nicola nel cuore della Valle dei Templi, dove vi era l’antica Agorà superiore;  una posizione a balcone  da cui si gode uno splendido panorama sulla Valle dei Templi e il mare. L’attuale chiesa è il lato sud del transetto di una grande chiesa a croce latina mai realizzata che doveva arrivare fino all’Oratorio di Falaride; infatti essa risulta essere orientata a Sud e non ad Ovest come le chiese medievali. La conferma è data dal fatto che le cappelle si trovano solo nel lato destro. Nel 1219 I padri Cistercensi  fondano fuori le mura la chiesa e il Monastero. Nel 1322 la chiesa passa ai monaci Benedettini e nel 1426 il Beato Matteo Cimarra vi fonda un Monastero francescano. Ricostruisce, utilizzando alcune rovine del vicino Tempio di Giove,  quasi ex-novo la chiesa e il convento, inglobando il portale e le cappelle di epoca precedente. Nel 1442 il Beato Matteo Cimarra diventa vescovo di Agrigento e il convento francescano si trasferisce nel nuovo convento di San Vito, l’ex carcere di Agrigento. Nel 1567 il convento è diretto dal francescano fra Bonoventura Sciascia, che costruisce le volte ogivali ribassate ad angoli ed i pilastri su cui scaricano; la cornice aggettante, le due ante esterne, le cinque arcatine rinascimentali a tutto sesto con 5 affreschi cinquecenteschi che rappresentano San Sebastiano e San Rocco; San Giovanni Battista, Santa Maria di Gesù; San Francesco che riceve le stimmate; San Girolamo. In basso due affreschi di Sant’Onofrio e San Corrado. Gli affreschi delle arcatelle sono eseguiti nel 1575 da Innocenzo Mascarella. La chiesa, costruita di tufo,  è un felice esempio di stile gotico-cistercense, semplice, disadorno ma monumentale. La facciata è semplice e grandiosa, inquadrata da due poderose ante che proteggono il bel portale a quattro archi a sesto acuto sormontate da una cornice molto aggettante. La grande porta di legno è di Angelo Blundo, 1531. La facciata presenta tre delle quattro originarie piccole formelle bianche in pietra lavorata di fattura gaginesca che rappresentano San Giorgio o San Michele Arcangelo che uccide il drago; SS Pietro e Paolo; due braccia che si incontrano come simbolo della fraternità francescana. La facciata doveva contenere un campanile, oggi scomparso. L’interno è austero, chiuso e suggestivo, ad unica navata, sormontata da una volta ogivale. La seconda cappella a destra, fino a pochi anni fa, custodiva il famoso sarcofago di Fedra e Ippolito, ritornato al Museo diocesano. Goethe lo ritenne “uno dei più leggiadri esempi dell’arte greca”, anche se sappiamo che è romano e risale al III° sec. D.C. Il sarcofago marmoreo in ottimo stato di conservazione è stato ritrovato nel 1740 dal prete Libertino Sciascia a Porto Empedocle in contrada Inficherna. Sul lato destro vi sono quattro cappelle comunicanti, invece  nel lato sinistro le arcate sono cieche. La chiesa non ha l’abside, ha una forma quadrangolare e dà sul chiostro di forma quadrata. Al centro del chiostro vi è un pozzo circondato da un ambulacro, di cui resta solo la parte est e sud. Al centro dell’altare maggiore, in alto, troviamo l’antico Crocifisso ligneo del “Signore della nave” circondato da ex-voto. La sagra popolare si svolgeva la prima domenica di settembre nell’ambito dei festeggiamenti in onore del miracoloso e veneratissimo Crocifisso. I riti iniziavano in chiesa per procedere in processione nello spazio antistante la chiesa dove veniva macellata, arrostita e consumata la carne suina. Si tratta di una festa campestre che continuò fino agli anni Sessanta. Come ci ricorda L. Pirandello, per la festa lo spazio antistante la chiesa si riempiva di baracche, banchi di macellai, tavoli, braci per arrostire la salsiccia e le costole di maiale. I maiali venivano macellati sul posto, all’aperto fra allegria, grida e odori forti. La festa religiosa, enfatizzata nella novella, assumeva l’aspetto irriverente di fiera dei maiali, una fiera gastronomica. La carne veniva consumata sul posto o nella vicina trattoria “U bagianu”, accompagnata dal vino. Il Crocifisso veniva portato in processione dai pescatori e marinai fino in città, da dove si benediva la valle e il mare. Il Signore della nave è un Crocefisso ligneo che salvò i naufraghi che si erano aggrappati al cristo schiodatosi da solo per portarli in salvo. Nel 2022 c’è stato un tentativo di riprendere la festa, non solo dal punto di vista religioso ma anche  teatrale. All’angolo sud-est del chiostro una porticina ci immette ad un gruppo di salette medievali che portano all’antico coro della chiesa, adibito ad Auditorum. Nella terza saletta, in una bacheca sono esposti spartiti e ricordi di Michele Lizzi, musicista agrigentino, donati, col pianoforte del maestro, dai familiari al museo. Ricordiamo che il musicista agrigentino oltre ad avere composto il poemetto sinfonico “Teano”, (il cui anello è stato di recente restituito al Museo archeologico) e l’opera lirica Pantea (la vedova resuscitata dopo 30 giorni da Empedocle) ha messo in musica negli anni ’60  il “Signore della nave” di Luigi Pirandello e rappresentato per la prima volta al teatro Massimo di Palermo. Il testo, interpretato dal racalmutese Infantino, rimane fedele alla novella. L’atmosfera di festa agraria e caotica è esaltata da strumenti a percussione. Michel Lizzi sceglie di farne un’opera lirica in memoria della sua infanzia, quando da piccolo assisteva alla Sagra. Ricordiamo che la villetta in fondo al viale della Vittoria è dedicata a questo illustre musicista agrigentino. Nei pressi della chiesa, lungo la Panoramica dei Templi, vi è l’edicola di campagna e viaria del “Signore della nave”, voluta dal ricco Ciantro Panitteri nei primi anni dell’Ottocento. E’ ubicata nel muro di recinzione della sua ex proprietà. Ricordiamo che col Ciantro Panitteri il convento diventa una lussuosa dimora circondata da orti, giardini e piante medicinali. Amante dell’arte riceveva viaggiatori ed artisti."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/ChiesaSanNicola.html:67
+msgid "Passo Scelto ChiesaSanNicola"
+msgstr ""
+"il Signore della Nave si festeggia nell’antica chiesetta normanna di San Nicola, che sorge un buon tratto fuori del paese, a una svolta dello stradone, tra i campi."
+"Ci dev’essere, se si chiama così questo Signore, qualche storia o leggenda ch’io non so. Ma certo è un Cristo che, chi lo fece, più Cristo di così non lo poteva" 
+"fare; ci si mise addosso con una tale ferocia di farlo Cristo, che nei duri stinchi inchiodati su la rozza croce nera, nelle costole che gli si possono contare" 
+"tutte a una a una, tra i guidaleschi e le lividure, non un’oncia di carne gli lasciò che non apparisse atrocemente martoriata. Saranno stati i giudei su la carne" 
+"viva di Cristo; ma qui fu lui, lo scultore. Quando però si dice, esser Cristo e amare l’umanità! Pur trattato così, fa miracoli senza fine questo Signore della" 
+"Nave, come si può vedere dalle cento e cento offerte di cera e d’argento e dalle tabelle votive che riempiono tutta una parete della chiesetta"
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:67
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/secondaPagina.html:62
 #: media/save.txt:3
 msgid "Arte Piano San Gerlando"
@@ -241,7 +257,7 @@ msgstr ""
 "l’Arco di Spoto. L’Arco di Spoto rappresenta la prima fase dello sviluppo "
 "della città medievale della Terravecchia prima della venuta dei Chiaramonte."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:69
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:71
 msgid "Passo Scelto Piano San Gerlando"
 msgstr ""
 "Per conto suo, sapeva che aveva spaccato la testa alla moglie con un colpo "
@@ -252,7 +268,7 @@ msgstr ""
 "avanti, sua moglie era stata sorpresa in flagrante adulterio insieme col "
 "cavaliere don Agatino Fiorìca."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:62
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:59
 msgid "Arte Pirandello"
 msgstr ""
 "Sulla parallela della via Atenea corre la via Pirandello, un tempo via San "
@@ -279,7 +295,7 @@ msgstr ""
 "stabilirsi in città. Luigi era molto legato a questa casa, la descrive anche "
 "in alcune opere."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:62
 msgid "Passo Scelto Pirandello"
 msgstr ""
 " Una scatola di giocattoli, di quelle con gli alberetti incoronati di "
@@ -297,7 +313,7 @@ msgstr ""
 "ingorde e rissose e porchetti sempre un po’ angustiati, si sa, e quasi "
 "irritati dalla soverchia grassezza."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:68
 msgid "Arte VialeVittoria"
 msgstr ""
 "Il Viale della Vittoria, un tempo Pubblico passeggio, viene  realizzato nel "
@@ -348,7 +364,7 @@ msgstr ""
 "del plesso Lauricella, in quello stesso giorno fu inaugurato il Palazzo "
 "delle Poste"
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:68
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:71
 msgid "Passo Scelto VialeVittoria"
 msgstr ""
 "Si conoscevano così a fondo, che bastava un lieve cenno, uno sguardo, una "
@@ -363,9 +379,208 @@ msgstr ""
 "tramonto: vista di tanta bellezza, che pareva perfino incredibile che quei "
 "due vi potessero passar davanti così, senza neppure voltarsi a guardare."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:34
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:27
 msgid "introduzione"
-msgstr "Benvenuti su Agrigento Pirandelliana! Qui puoi trovare i maggior punti di interesse"
+msgstr ""
+"Benvenuti su Agrigento Pirandelliana! Qui puoi trovare i maggior punti di "
+"interesse"
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:43
+#, fuzzy
+#| msgid "Arte Cattedrale"
+msgid "Card Cattedrale"
+msgstr ""
+"La Cattedrale di Agrigento e l’originario Palazzo vescovile vennero "
+"costruiti nell’XI secolo dal vescovo Gerlando di Besançon, chiamato dal "
+"normanno Ruggero, per evangelizzare il popolo da lungo tempo sottomesso dai "
+"musulmani. La costruzione del Duomo venne iniziata nel 1090 e completata sei "
+"anni dopo.  Già nei decenni successivi si rilevarono notevoli problemi di "
+"stabilità, perchè un terzo della costruzione era fondata su di una falda di "
+"terreno argilloso e franoso. I necessari interventi effettuati hanno quasi "
+"totalmente trasformato il primitivo edificio normanno, di cui resta ben poco "
+"a causa delle modifiche  apportate in momenti diversi, sia per gli eventi "
+"naturali frane, terremoti, smottamenti  che per le vicende storiche quali le "
+"insurrezioni dei musulmani e le guerre di Federico II, fino ai  Chiaramonte, "
+"che per decenni signori di Agrigento, nel secolo XIV la ricostruirono nella "
+"forma attuale. Nel secolo XV, per opera di Giovanni Montaperto, poi vescovo "
+"di Mazzara, fu realizzata l'attuale torre campanaria costruita come baluardo "
+"per la chiesa e la città e per opera del vescovo Giuliano Cybo  il soffitto "
+"ligneo a capriate, dipinto da Masolino da Floregia con le immagini degli "
+"apostoli, dei Santi agrigentini e gli stemmi delle famiglie più nobili della "
+"città; per opera del vescovo Giovanni Horozco de Leyva de Covarruvias la "
+"cattedrale chiaramontana venne allungata verso oriente con l'aggiunta delle "
+"colonne rotonde di stucco, dopo il primo arco trionfale. La cattedrale "
+"frutto di nove secoli di costruzioni, rifacimenti, ampliamenti e restauri, "
+"si presenta oggi come un'ampia costruzione a tre navate, a croce latina, dal "
+"transetto poco allungato, assai complessa nelle sue strutture "
+"architettoniche, suggestiva per la sua imponenza ed eleganza ed anche per la "
+"varietà degli stili e la ricchezza delle opere d'arte che contiene. \n"
+" Anche il Palazzo vescovile, sede del Vescovado, del suo archivio e del "
+"Museo Diocesano , nel corso dei secoli è stato ingrandito e abbellito per "
+"opera dei vescovi succedutisi alla guida della diocesi agrigentina. "
+"Danneggiato dal terremoto del 1693, era stato subito ripristinato e verso la "
+"metà del Settecento, su disegno dell’architetto Domenico Dolcemascolo di "
+"Sciacca, vi furono apportate varie trasformazioni, sia nel prospetto, sia "
+"nell’interno. Di particolare pregio il portale d'ingresso, delimitato da due "
+"colonne che fanno da piedistallo a un balcone, quest’ultimo è arricchito da "
+"un timpano triangolare aperto al centro, che contiene lo stemma del Vescovo "
+"Andrea Lucchesi Palli. Costui, uomo di chiesa e grande studioso dedito "
+"all'astronomia, alla storia, alla sociologia e alle scienze umanistiche, fu "
+"artefice dell’ampliamento del palazzo e il fondatore nel 1765 di una grande "
+"biblioteca, che porta il suo nome. Nei primi anni dell’Ottocento fu rifatto "
+"lo scalone d’ingresso e posta, in una sua nicchia, la bella statua marmorea "
+"di Santa Maria di Monserrato della scuola di Domenico Gagini. All'interno "
+"del Palazzo, sono custoditi i ritratti dei Vescovi agrigentini."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:53
+#, fuzzy
+#| msgid "Arte Piano San Gerlando"
+msgid "Card San Gerlando"
+msgstr ""
+"Il piano S. Gerlando oggi chiamato piazza don Minzoni si trova alla fine "
+"della via duomo e da cui si accede alla scalinata  che conduce alla facciata "
+"principale della Cattedrale.  Si può considerare la più antica piazza della "
+"città, nata per servire come zona di manovra militare.Sulla piazza prospetta "
+"il maestoso edificio del seminario fondato in data 1577 ad opera del vescovo "
+"Cesare Marullo sui resti dell’antico Steri Chiaramontano, e opera degli "
+"interventi di diversi vescovi ad iniziare dal vescovo Bonincontro seguito "
+"dai vescovi  Traina, Ramirez, Gioieni, Lucchesi Palli che hanno "
+"riutilizzando le strutture medievali. Oggi appartiene alla Curia "
+"agrigentina. Il prospetto esterno è formato da due ordini di finestre "
+"simmetriche regolari con al centro due balconi barocchi sul portale. Lo "
+"Steri era  dimora fortificata di Manfredi Chiaramonte, Gran Siniscalco e "
+"Conte di Modica, dove si trasferì lasciando la precedente dimora oggi il "
+"monastero di S.Spirito. Nel 1310 il Vescovo Labro gli concede alcune case "
+"dove egli vi edifica il suo palazzo in posizione strategica. Il Fazello "
+"racconta che nel 1353 in questa piazza si tenne una grande festa per le "
+"nozze di Luchina Chiaramonte, figlia di Federico III, che sposava Enrico "
+"Rosso, conte di Aidone. In questo  grande spiazzo si apparecchiò uno "
+"straordinario e sfarzoso banchetto  a cui partecipò anche il popolo. La "
+"scelta della posizione nel punto più alto della città e in particolare di "
+"fronte  al simbolo religioso qual’era la cattedrale,  è espressione del  "
+"prestigio della più potente famiglia feudale siciliana del XIV secolo,  di "
+"cui sono rimaste alcune testimonianze chiara montane:  i resti di una torre "
+"merlata, alcune monofore, una bifora e una serie di volte a crociera "
+"poggianti su pilastri sormontati da capitelli, nei quali vi è lo stemma dei "
+"Chiaramonte dove sono raffigurati il colle e i cinque monti, incorniciati da "
+"un arco trilobato. Viene chiamato “Lo steri grande” (da Hosterium, palazzo "
+"fortificato). In adiacenza all’edificio sul lato nord ovest della piazza si "
+"ergeva la Porta dei Cavalieri, una delle nove porte medievali della Terra "
+"Vecchia, mentre sul lato sud est si trova nascosto un arco a tutto sesto, "
+"l’Arco di Spoto. L’Arco di Spoto rappresenta la prima fase dello sviluppo "
+"della città medievale della Terravecchia prima della venuta dei Chiaramonte."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:63
+#, fuzzy
+#| msgid "Arte Basilica"
+msgid "Card Basilica"
+msgstr ""
+"La Basilica dell’Immacolata, individuata come Chiesa di San Francesco "
+"d’Assisi, con l’annesso Convento fu fondata dai Frati Minori Francescani che "
+"si stabilirono in Sicilia nel secolo XIII e, in particolare ad Agrigento, "
+"sin dal 1295. La pianta della Chiesa è rettangolare, ad una sola navata "
+"senza transetto, con sette altari laterali; Le pareti e la volta sono state "
+"affrescate dal pittore Lucio Gurreri che ha effigiato, sulla volta "
+"dell’abside, tra i santi, in un’affollata immagine paradisiaca, le figure di "
+"Mons. Michele Sclafani e del Vescovo Mons. Giovanni Battista Peruzzo che ha "
+"voluto essere inumato nella stessa chiesa. La prima costruzione è di "
+"impianto chiara montano e ne dà conferma il testamento di Donna Isabella "
+"Chiaramonte del 6 dicembre 1362, in cui la stessa ordinava ai suoi eredi di "
+"erigerle, alla sua morte, un sepolcro in quella Tribuna nova ecclesiae "
+"conventus San Francisci, fatta costruire da Federico Chiaramonte. Nel 1788 "
+"si aggiunse un nuovo campanile e dopo i bombardamenti del 1943 Mons. Michele "
+"Sclafani, rettore della Basilica, prontamente interviene per restaurare il "
+"monumento, sia all’esterno che all’interno riproponendo le pitture e le "
+"decorazioni. Un targa posta sul muro perimetrale ricorda che il 12 luglio "
+"1943 un bombardiere alleato colpì il rifugio di via San Francesco "
+"provocando  340 vittime. La basilica oggi si conserva in ottimo stato con la "
+"sua magnifica  facciata in tufo arenario  affiancata da due torri "
+"campanarie. Al centro in basso un elegante portale tra lesene ioniche  e da  "
+"elementi decorativi gotici e locali, per l’appunto chiaramontani, mentre in "
+"alto la nicchia che contiene la statua di San Francesco, in marmo bianco."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:75
+#, fuzzy
+#| msgid "Arte Pirandello"
+msgid "Card Pirandello"
+msgstr ""
+"Sulla parallela della via Atenea corre la via Pirandello, un tempo via San "
+"Pietro, lungo la quale si trova la casa di città della famiglia dello "
+"scrittore Luigi Pirandello, dove ha vissuto tutta la sua giovinezza "
+"precisamente dal 1868, un anno dopo la sua nascita avvenuta al Caos, nella "
+"campagna di Agrigento, fino al 1888. In questa casa tornò a viverci per "
+"altri periodi, quando ormai trascorreva la sua vita tra Palermo e Roma. In "
+"alcune delle sue novelle, come Scialle nero e I vecchi e i giovani, si fa "
+"proprio riferimento a questa abitazione, che per l'epoca era molto grande. "
+"In particolare, Pirandello si affacciava alla terrazza per colpire con la "
+"fionda i piccioni che costruivano i loro nidi sul campanile della chiesa di "
+"San Pietro distante pochi metri. La palazzina fu poi bombardata durante la "
+"Seconda guerra mondiale: i danni furono immensi e quella stessa terrazza "
+"dove il drammaturgo trascorreva parecchie ore della giornata venne rasa al "
+"suolo. Subito dopo la guerra, l’edificio fu completamente ristrutturato e "
+"oggi questa casa ospita uno studio di radiologia. Una piccola epigrafe "
+"ricorda il luogo dove visse da giovane lo scrittore.  Lo storico locale "
+"Paolo Cilona dice che lo scrittore  non nacque in questa casa a causa del "
+"colera, e quando la mamma era incinta di Luigi ebbe paura perché in tanti si "
+"erano ammalati. Proprio per questo motivo, la famiglia decise di stabilirsi "
+"per qualche tempo fuori Agrigento, in campagna, in località Caos. Qualche "
+"tempo dopo l'allarme colera svanì e la famiglia Pirandello tornò a "
+"stabilirsi in città. Luigi era molto legato a questa casa, la descrive anche "
+"in alcune opere."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:85
+msgid "Card Viale"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:95
+#, fuzzy
+#| msgid "Arte Ravanusella"
+msgid "Card Ravanusella"
+msgstr ""
+"BIBBIRRIA PALAZZO QUARTANA La “casa Granella” o meglio il palazzo Quartana "
+"prende il nome del ricco e odiato usuraio trapanese Pietro Quartana. E’ "
+"rimasta intatta, quasi come viene descritta da Luigi Pirandello nella sua "
+"novella; austera e solitaria, non solo per la posizione ma anche per il "
+"fatto che la moglie del Quartana viene cacciata via di Casa perché scoperta "
+"essere l’amante di Nicolò Gallo. Episodio a cui si è ispirato Luigi "
+"Pirandello per scrivere “L’esclusa”. Ancora oggi ha le persiane sempre "
+"chiuse ed è sfitta con l’eccezione che circa 40 anni fa viene adibita a "
+"scuola elementare; pare che la scuola abbia avuto vita breve proprio a causa "
+"dei fantasmi! Fatto che spiega il perché ancora oggi sia disabitata.Quella "
+"letteraria della novella è una descrizione felicissima della casa, della "
+"piazza e del quartiere dal punto di vista geografico e sociologico. La casa "
+"viene edificata nel punto più alto e solitario, fuori dalla Porta Bibirria. "
+"Il prospetto è caratterizzato da bellissimi archi, più o meno visibili nella "
+"cornice delle attività commerciali del pianoterra. Vi è anche un centro "
+"liturgico che vende articoli religiosi che di recente ha preso il posto di "
+"un pub, chiamato “Museum”. Lo storico Beniamino Biodi, dopo aver "
+"intervistato gli abitanti del quartiere, conferma l’ipotesi che la casa sia "
+"ritenuta ancora stregata. L’architettura ottocentesca del palazzo Quartana, "
+"costruito dall’allievo del Basile, Dionisio Sciascia, l’architetto dei "
+"teatri di Agrigento e di Racalmuto, è semplice. Antistante “la casa del "
+"Granella” vi è oggi il “Belvedere don Bosco” da dove si può ammirare "
+"l’entroterra agrigentino da Raffadali a Cammarata. Dalla Piazza Bibirria, si "
+"accede ad ovest in via Duomo con la Cattedrale, il Seminario, la Curia, il "
+"Palazzo Vescovile, il Museo diocesano. A sud si diparte la via BacBac (via "
+"del nano) per arrivare al Piano Lena e alla Piazza della Riconoscenza. Sono "
+"luoghi che Pirandello conosce bene dato che la futura moglie abita nei "
+"pressi di Via Duomo. La porta Bibirria era costruita ad arco con la volta "
+"bassa ed aveva la forma di una galleria lunga 8 metri, demolita nel 1864 "
+"allo scopo di realizzare l’attuale terrazza panoramica. La Terravecchia, "
+"prima dell’epoca chiaramontana, comprendeva la via Duomo, Piano Bibirria e "
+"via BacBac sul colle di Girgenti. Essa si sviluppava dalla Porta dei "
+"Cavalieri o “del pertugio” verso Porta Bibirria, scendeva dalla via BacBac, "
+"girava verso Ovest fino alla Porta Mazzara (via Sferri) per risalire fino "
+"alla chiesa di San Giorgio. Il Piano Bibirria era dominato dall’alto dal "
+"Castello Vecchio, si trova tra il quartiere di San Gerlando e quello di San "
+"Michele, detto “u munti” per la sua collocazione più a nord. Secondo la "
+"tradizione il nome “Bibirria” deriva dalla frase poetica in rima pronunciata "
+"da San Libertino, quando nel 251 prima di essere decapitato a colpi d’ascia "
+"avrebbe gridato : “Gens iniqua, plebs rea, non videbis ossa mea” (popolo "
+"ingiusto, plebe malvagia, non vedrai le mie ossa). Ma non c’è nessun "
+"documento che attesti la sua decapitazione in questa piazza ed è molto "
+"improbabile che il santo martire avesse pronunciato questa imprecazione e "
+"maledizione."
 
 #: media/save.txt:38
 #, fuzzy
@@ -1618,19 +1833,3 @@ msgstr ""
 #: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:248
 msgid "Connect, get help, or contribute"
 msgstr ""
-
-#~ msgid "Passo Scelto Basilica"
-#~ msgstr ""
-#~ "La statua della SS. Immacolata, custodita tutto l’anno dentro un armadio "
-#~ "a muro nella sagrestia della chiesa di S. Francesco d’Assisi, il giorno "
-#~ "otto dicembre, tutta parata d’ori e di gemme, col manto azzurro di seta "
-#~ "stellato d’argento, dopo le solenni funzioni in chiesa, era condotta sul "
-#~ "fercolo in processione per le erte vie di Montelusa, tra le vecchie "
-#~ "casupole screpolate, pigiate, quasi l’una sull’altra; su, su, fino alla "
-#~ "Cattedrale in cima al colle; e lì lasciata, la sera, ospite del patrono "
-#~ "S. Gerlando. Nella Cattedrale, la SS. Immacolata avrebbe dovuto rimanere "
-#~ "dalla sera del giovedì alla mattina della domenica: due giorni e mezzo. "
-#~ "Ma ormai, per consuetudine, parendo troppo breve questo tempo, si "
-#~ "lasciava stare per quella prima domenica dopo la festa, e si aspettava la "
-#~ "domenica seguente per ricondurla con una nuova e più pomposa processione "
-#~ "alla chiesa di S. Francesco."
