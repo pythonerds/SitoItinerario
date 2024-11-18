@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-11 15:19+0100\n"
+"POT-Creation-Date: 2024-11-18 17:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,27 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: SitoItinerario/settings.py:34
-msgid "Italian"
-msgstr ""
-
-#: SitoItinerario/settings.py:35
-msgid "English"
-msgstr ""
-
-#: SitoItinerario/settings.py:36
-msgid "Germany"
-msgstr ""
-
-#: SitoItinerario/settings.py:37
-msgid "French"
-msgstr ""
-
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Basilica.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Cattedrale.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:2
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Rabato.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:2
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/secondaPagina.html:2
@@ -89,7 +74,7 @@ msgstr ""
 "Sunday after the feast, and the following Sunday was awaited to bring her "
 "back with a new and more pompous procession to the church of St. Francis."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:62
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:66
 msgid "Arte Ravanusella"
 msgstr ""
 " The 'Granella House,' or more accurately Palazzo Quartana, takes its name "
@@ -135,7 +120,7 @@ msgstr ""
 "no document attesting to his beheading in this square, and it is highly "
 "improbable that the martyred saint uttered this curse and imprecation"
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/CasaRavanusella.html:69
 msgid "Passo Scelto Ravanusella"
 msgstr ""
 "he house stood in the highest district of the city, atop the hill. Up there, "
@@ -185,7 +170,6 @@ msgstr ""
 
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/PianoSanGerlando.html:66
 #: itinerarioPirandelliano/templates/itinerarioPirandelliano/secondaPagina.html:62
-#: media/save.txt:3
 msgid "Arte Piano San Gerlando"
 msgstr ""
 "The S. Gerlando floor, today called Piazza Don Minzoni, is located at the "
@@ -232,7 +216,7 @@ msgstr ""
 "where he lived, on the hills of San Gerlando. A few hours earlier, his wife "
 "had been caught red-handed in adultery with the knight Don Agatino Fiorìca."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:62
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:59
 msgid "Arte Pirandello"
 msgstr ""
 "His favorite activity was going on the balcony and shooting with a sling the "
@@ -245,7 +229,7 @@ msgstr ""
 "family returned to the city house. He was so attached to his house that he "
 "describes it in many stories."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Pirandello.html:62
 msgid "Passo Scelto Pirandello"
 msgstr ""
 "A toy box, one of those with little trees crowned with wood shavings and a "
@@ -264,7 +248,16 @@ msgstr ""
 "distressed, as you might expect, and almost irritated by their excessive "
 "plumpness."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:65
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Rabato.html:62
+msgid "Arte Rabato"
+msgstr "The Santa Croce district is one of the oldest areas of the Ràbato and the historic center of the city of Agrigento. Today, it is almost abandoned after the landslide of 1966. The name Ràbato comes from the Arabic RABAD (suburb outside the walls of Terravecchia). This area contrasted with the fortified district, the Hisn, where the notables and the King lived, located on the highest part of the hill dominated by the castle. The Arabic influence is clearly visible in the popular urban layout characterized by narrow alleys, courtyards, stairways, arches, catoj, winding and narrow streets, and low arches. The Arabs (Berbers from North Africa) conquered Sicily in 827 and remained there until 1096, renaming the city of Agrigentum as Kerkent. Starting from the Byzantine period, the ancient Greek city of Akragas and Roman Agrigentum, for defensive reasons, was built on the northwest side of the hill, consequently moving the port to the nearby Marina di Girgenti, accessible through the gate called Cannone, located precisely on the winding path rising between the Addolorata Church and the so-called troglodyte houses. Next to the gate, there was a circular tower functioning as a defensive system, located where the Calvario stands today. In 1864, following the lowering of Via Garibaldi and subsequent leveling, the gate was also demolished. The Arabic city rose in the Balatizzo district, discovered by Salvatore Bonfiglio in 1898, stretching between today’s Via Dante and the current Parco dell’Addolorata to the west, up to the Santa Croce district to the north, and eastward to the area where the Carmine convent was built in the 14th century. It is believed that these caves existed as early as the Protohistoric age. On the Kerkent hill, the Arabs built a castle, the remains of which are still visible, a mosque, repaired pre-existing walls, constructed watchtowers, improved communication routes, and built aqueducts, fountains, markets, civil buildings, new irrigation systems, and introduced new crops such as pistachios, carob, and citrus fruits. The Ràbato is crossed by a main street (shari) - today’s Via Garibaldi - from which many secondary alleys (zuqāq) branch off. Along the narrow, winding streets, there is an underground network of wells, channels, and filtering galleries (qanāt) that supply water to the entire city, the result of a skilled irrigation exploitation of the area’s spring and underground waters. In the Balatizzo district, people lived in stone shelters, called grubi. These are caves carved into the shelly tuff rock, used not only as dwellings but also as warehouses, cellars, and stables. These rock shelters are safe, hidden, economical, and long-lasting. Numerous bell-shaped cisterns carved into the rock have been found, likely used for collecting rainwater. Some of these cisterns were transformed into crypts during the construction of the Addolorata Church. They are located under the churchyard and the nave, and some are still accessible today. In one of these cisterns, human bone remains were allegedly found, as until the 19th century, a cemetery stood next to the current churchyard. These rock-cut dwellings were used until the 1950s by poor people, as evidenced by plaster and masonry remains inside some of them. The Ràbato is a poor and popular district inhabited by farmers, breeders, and small artisans, whose homes often consisted of a ground floor room with a mezzanine for the bedroom, adjacent to the stable. The entrance faced a courtyard where women and children spent most of their daily lives. Even in periods after the Arabic era, the district continued to be populated, dedicated to agriculture and craftsmanship, a hub of commerce and religious and popular traditions, animated by artisan workshops and street vendors. The landslide on July 19, 1966, caused by the cementification of the area starting from the post-war period, water infiltration from the Drago River into the clayey subsoil between the two hills of Agrigento and Montaperto, and massive tuff quarries, led to the abandonment of the heavily damaged Ràbato. Some timid urban redevelopment interventions can be observed, such as the establishment of B&Bs and the Parco dell’Addolorata, known as Parco Icori, unfortunately also in a state of decay."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/Rabato.html:65
+msgid "Passo Scelto Rabato"
+msgstr "He raised his eyes, thinking so, to Girgenti sitting high on the hill with the old houses gilded by the sun, as if in a scene; and he searched in the suburb of Ràbato, which seemed like the arm on which it leaned so long, to see if he could spot the little bell tower of Santa Croce, which was his parish. Nearby, he had an old small house, where he would close his eyes forever: He had enriched himself in a short time with usury, and now he lorded over, sitting under the Madonna's lamp, behind the long counter of his bakery shop, which was the largest on the whole Via Atenèa. Mrs. Nela, with a face like an eggplant planted without a neck atop enormous breasts, did not speak until she first consulted with her husband's eyes. But to one of the daughters, turning her gaze to the ledge nearby, where the two ancient Temples rise, one of Juno on one side and the other called the Temple of Concord on the other, in a burst of admiration sprang right from the heart: ●	Oh beautiful, daddy! Instead of going through the Ponte Gate, he preferred to take the Solitary Street under Saint Peter up to the Ravanusella Plain; even though that street was infamous for many crimes that remained obscure and, to pass through it late at night, instilled a certain dread. Footsteps echoed there, because the slope of the hill was so steep that the walls of the houses almost abutted there. Houses that, on the front, on the little street above, were only one story and of a miserable appearance, but here in the back they had walls that seemed like those of a cathedral. On the other side, at the beginning, the street still showed the ancient city wall with its half-ruined towers. In the first one, barely closed by a faded and crooked partition, unknown dead were displayed, and the slain were brought there for judicial inspections. Crossing that stretch, Maràbito really felt, in the silence and amidst the echo of footsteps, like there was something mysterious in that street; and he couldn't wait to arrive at the Ravanusella Plain, airy. But he only breathed easy there for a short while. He had to go back up towards the Santa Lucia Strait, also notorious and almost always deserted, to reach the Mazzata Gate, where he entered the Ràbato Street. Used to living in the countryside, entering the narrowness of the houses, he felt suffocated every time, even if he crossed the city through the main street, which he didn't call by its name - Via Atenèa - but in the manner of everyone (and who knows why) the Small Square: it was not a square at all; it was a street a bit wider and longer than the others, winding, paved, with elegant houses and shops in a row. How much noise did Maràbito's clogged boots make on those smooth slippery stones as he walked hunched over and cautious, with the gait of peasants, hands behind his back and looking down, while the black cap's tassel dangled on his neck with each step. Everything stirred up, seeing from afar, on the right, Scinè's bakery shop with its four grand opulent windows and the door in the middle. It was right in the center of the street just before the Largo dei Tribunali, where people crowded the most."
+
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:68
 msgid "Arte VialeVittoria"
 msgstr ""
 "The Viale della Vittoria, once a public promenade, was built in 1848 under "
@@ -313,7 +306,7 @@ msgstr ""
 "schools of the Lauricella complex were inaugurated and,  on the same day,  "
 "the Post Office building was inaugurated."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:68
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/VialeVIttoria.html:71
 msgid "Passo Scelto VialeVittoria"
 msgstr ""
 "They knew each other so deeply that a slight nod, a glance, a word sufficed "
@@ -328,14 +321,46 @@ msgstr ""
 "beauty that it seemed almost unbelievable that those two could pass by "
 "without even turning to look."
 
-#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:34
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:27
 msgid "introduzione"
-msgstr "Welcome to Agrigento Pirandelliana! Here you can find the most important points of interest."
+msgstr ""
+"Welcome to Agrigento Pirandelliana! Here you can find the most important "
+"points of interest."
 
-#: media/save.txt:38
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:43
+#, fuzzy
+#| msgid "Arte Cattedrale"
+msgid "Card Cattedrale"
+msgstr ""
+"The  cathedral of Agrigento and the original Palazzo Vescovile were built "
+"by  bishop Gerlando di Besançon in the 11th century to evangelize the people "
+"of Muslim religion. In the following decades many problems of instability "
+"were revealed because  one third of the building was built on a layer of "
+"clay and landslide soil. The needed measures have almost changed completely "
+"the original Norman building due to natural events, such as earthquakes, or "
+"historic events, such as Muslim insurrections and  Frederick II’s wars, up "
+"to the Chiaramonte dinasty, for decades lords of Agrigento, who rebuilt the "
+"cathedral in its actual form. In the 15th century the tower bell was made by "
+"Giovanni Montaperto bishop of Mazzara, as bulwark for the church and the "
+"city.  After nine centuries of renovations, the  cathedral of Agrigento "
+"shows up, today, as a Latin cross building with three aisles, with a very "
+"complex architectural structure and a great variety of works of art. Also "
+"the Palazzo Vescovile, seat of Vescovado and the Museo Diocesano, over the "
+"centuries were extended and decorated by the bishops of the Diocesi of "
+"Agrigento. Damaged by the 1693 earthquake it was quickly restored by the "
+"architect Domenico Dolcemascolo that made many changes. The particular "
+"entrance gate, delimited by two columns, is enriched by a triangular "
+"tympanum, opened in the center, that contains the Vescovo Andrea Lucchesi "
+"Palli’s emblem.  He was a man of church and a great studious devoted to "
+"astronomy, history and humanities, science. He also expanded the palace and "
+"was the founder of a great library in 1765. In the entrance staircase, a "
+"niche contains a beautiful marble statue of Santa Maria di Monserrato.  The "
+"portraits of the  bishops of Agrigento are kept inside the palace."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:53
 #, fuzzy
 #| msgid "Arte Piano San Gerlando"
-msgid "Novella sanGerlando"
+msgid "Card San Gerlando"
 msgstr ""
 "The S. Gerlando floor, today called Piazza Don Minzoni, is located at the "
 "end of Via Duomo and from which you access the staircase that leads to the "
@@ -371,1232 +396,137 @@ msgstr ""
 "the first phase of the development of the medieval city of Terravecchia "
 "before the coming of the Chiaramonte family"
 
-#: myenv/lib/python3.12/site-packages/django/contrib/messages/apps.py:16
-msgid "Messages"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/contrib/sitemaps/apps.py:8
-msgid "Site Maps"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/contrib/staticfiles/apps.py:9
-msgid "Static Files"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/contrib/syndication/apps.py:7
-msgid "Syndication"
-msgstr ""
-
-#. Translators: String used to replace omitted page numbers in elided page
-#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
-#: myenv/lib/python3.12/site-packages/django/core/paginator.py:30
-msgid "…"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/paginator.py:32
-msgid "That page number is not an integer"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/paginator.py:33
-msgid "That page number is less than 1"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/paginator.py:34
-msgid "That page contains no results"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:22
-msgid "Enter a valid value."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:104
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:760
-msgid "Enter a valid URL."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:165
-msgid "Enter a valid integer."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:176
-msgid "Enter a valid email address."
-msgstr ""
-
-#. Translators: "letters" means latin letters: a-z and A-Z.
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:259
-msgid ""
-"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:267
-msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:279
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:306
-msgid "Enter a valid IPv4 address."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:286
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:307
-msgid "Enter a valid IPv6 address."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:298
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:305
-msgid "Enter a valid IPv4 or IPv6 address."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:341
-msgid "Enter only digits separated by commas."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:347
-#, python-format
-msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:382
-#, python-format
-msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:391
-#, python-format
-msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:400
-#, python-format
-msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:407
-#, python-format
-msgid ""
-"Ensure this value is a multiple of step size %(limit_value)s, starting from "
-"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:439
-#, python-format
-msgid ""
-"Ensure this value has at least %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at least %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:457
-#, python-format
-msgid ""
-"Ensure this value has at most %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at most %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:480
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:355
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:394
-msgid "Enter a number."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:482
-#, python-format
-msgid "Ensure that there are no more than %(max)s digit in total."
-msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:487
-#, python-format
-msgid "Ensure that there are no more than %(max)s decimal place."
-msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:492
-#, python-format
-msgid ""
-"Ensure that there are no more than %(max)s digit before the decimal point."
-msgid_plural ""
-"Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:563
-#, python-format
-msgid ""
-"File extension “%(extension)s” is not allowed. Allowed extensions are: "
-"%(allowed_extensions)s."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/core/validators.py:624
-msgid "Null characters are not allowed."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/base.py:1477
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:906
-msgid "and"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/base.py:1479
-#, python-format
-msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/constraints.py:20
-#, python-format
-msgid "Constraint “%(name)s” is violated."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:133
-#, python-format
-msgid "Value %(value)r is not a valid choice."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:134
-msgid "This field cannot be null."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:135
-msgid "This field cannot be blank."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:136
-#, python-format
-msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr ""
-
-#. Translators: The 'lookup_type' is one of 'date', 'year' or
-#. 'month'. Eg: "Title must be unique for pub_date year"
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:140
-#, python-format
-msgid ""
-"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:179
-#, python-format
-msgid "Field of type: %(field_type)s"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1155
-#, python-format
-msgid "“%(value)s” value must be either True or False."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1156
-#, python-format
-msgid "“%(value)s” value must be either True, False, or None."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1158
-msgid "Boolean (Either True or False)"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1208
-#, python-format
-msgid "String (up to %(max_length)s)"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1210
-msgid "String (unlimited)"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1314
-msgid "Comma-separated integers"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1415
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
-"format."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1419
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1554
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
-"date."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1423
-msgid "Date (without time)"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1550
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1558
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
-"[TZ]) but it is an invalid date/time."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1563
-msgid "Date (with time)"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1690
-#, python-format
-msgid "“%(value)s” value must be a decimal number."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1692
-msgid "Decimal number"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1853
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1857
-msgid "Duration"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1909
-msgid "Email address"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1934
-msgid "File path"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2012
-#, python-format
-msgid "“%(value)s” value must be a float."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2014
-msgid "Floating point number"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2054
-#, python-format
-msgid "“%(value)s” value must be an integer."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2056
-msgid "Integer"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2152
-msgid "Big (8 byte) integer"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2169
-msgid "Small integer"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2177
-msgid "IPv4 address"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2208
-msgid "IP address"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2301
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2302
-#, python-format
-msgid "“%(value)s” value must be either None, True or False."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2304
-msgid "Boolean (Either True, False or None)"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2355
-msgid "Positive big integer"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2370
-msgid "Positive integer"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2385
-msgid "Positive small integer"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2401
-#, python-format
-msgid "Slug (up to %(max_length)s)"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2437
-msgid "Text"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2512
-#, python-format
-msgid ""
-"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
-"format."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2516
-#, python-format
-msgid ""
-"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
-"invalid time."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2520
-msgid "Time"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2628
-msgid "URL"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2652
-msgid "Raw binary data"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2717
-#, python-format
-msgid "“%(value)s” is not a valid UUID."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2719
-msgid "Universally unique identifier"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/files.py:232
-msgid "File"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/files.py:393
-msgid "Image"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/json.py:26
-msgid "A JSON object"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/json.py:28
-msgid "Value must be valid JSON."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/related.py:939
-#, python-format
-msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/related.py:941
-msgid "Foreign Key (type determined by related field)"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/related.py:1235
-msgid "One-to-one relationship"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/related.py:1292
-#, python-format
-msgid "%(from)s-%(to)s relationship"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/related.py:1294
-#, python-format
-msgid "%(from)s-%(to)s relationships"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/db/models/fields/related.py:1342
-msgid "Many-to-many relationship"
-msgstr ""
-
-#. Translators: If found as last label character, these punctuation
-#. characters will prevent the default label_suffix to be appended to the label
-#: myenv/lib/python3.12/site-packages/django/forms/boundfield.py:185
-msgid ":?.!"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:95
-msgid "This field is required."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:304
-msgid "Enter a whole number."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:475
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:1252
-msgid "Enter a valid date."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:498
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:1253
-msgid "Enter a valid time."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:525
-msgid "Enter a valid date/time."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:559
-msgid "Enter a valid duration."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:560
-#, python-brace-format
-msgid "The number of days must be between {min_days} and {max_days}."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:629
-msgid "No file was submitted. Check the encoding type on the form."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:630
-msgid "No file was submitted."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:631
-msgid "The submitted file is empty."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:633
-#, python-format
-msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
-msgid_plural ""
-"Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:638
-msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:702
-msgid ""
-"Upload a valid image. The file you uploaded was either not an image or a "
-"corrupted image."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:874
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:960
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:1585
-#, python-format
-msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:962
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:1081
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:1583
-msgid "Enter a list of values."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:1082
-msgid "Enter a complete value."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:1321
-msgid "Enter a valid UUID."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/fields.py:1351
-msgid "Enter a valid JSON."
-msgstr ""
-
-#. Translators: This is the default suffix added to form field labels
-#: myenv/lib/python3.12/site-packages/django/forms/forms.py:94
-msgid ":"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/forms.py:231
-#, python-format
-msgid "(Hidden field %(name)s) %(error)s"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/formsets.py:61
-#, python-format
-msgid ""
-"ManagementForm data is missing or has been tampered with. Missing fields: "
-"%(field_names)s. You may need to file a bug report if the issue persists."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/formsets.py:65
-#, python-format
-msgid "Please submit at most %(num)d form."
-msgid_plural "Please submit at most %(num)d forms."
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/formsets.py:70
-#, python-format
-msgid "Please submit at least %(num)d form."
-msgid_plural "Please submit at least %(num)d forms."
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/formsets.py:484
-#: myenv/lib/python3.12/site-packages/django/forms/formsets.py:491
-msgid "Order"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/formsets.py:499
-msgid "Delete"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:899
-#, python-format
-msgid "Please correct the duplicate data for %(field)s."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:904
-#, python-format
-msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:911
-#, python-format
-msgid ""
-"Please correct the duplicate data for %(field_name)s which must be unique "
-"for the %(lookup)s in %(date_field)s."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:920
-msgid "Please correct the duplicate values below."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:1357
-msgid "The inline value did not match the parent instance."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:1448
-msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/models.py:1587
-#, python-format
-msgid "“%(pk)s” is not a valid value."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/utils.py:227
-#, python-format
-msgid ""
-"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
-"may be ambiguous or it may not exist."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/widgets.py:461
-msgid "Clear"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/widgets.py:462
-msgid "Currently"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/widgets.py:463
-msgid "Change"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/widgets.py:800
-msgid "Unknown"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/widgets.py:801
-msgid "Yes"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/forms/widgets.py:802
-msgid "No"
-msgstr ""
-
-#. Translators: Please do not add spaces around commas.
-#: myenv/lib/python3.12/site-packages/django/template/defaultfilters.py:876
-msgid "yes,no,maybe"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/template/defaultfilters.py:906
-#: myenv/lib/python3.12/site-packages/django/template/defaultfilters.py:923
-#, python-format
-msgid "%(size)d byte"
-msgid_plural "%(size)d bytes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/template/defaultfilters.py:925
-#, python-format
-msgid "%s KB"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/template/defaultfilters.py:927
-#, python-format
-msgid "%s MB"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/template/defaultfilters.py:929
-#, python-format
-msgid "%s GB"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/template/defaultfilters.py:931
-#, python-format
-msgid "%s TB"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/template/defaultfilters.py:933
-#, python-format
-msgid "%s PB"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dateformat.py:74
-msgid "p.m."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dateformat.py:75
-msgid "a.m."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dateformat.py:80
-msgid "PM"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dateformat.py:81
-msgid "AM"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dateformat.py:153
-msgid "midnight"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dateformat.py:155
-msgid "noon"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:7
-msgid "Monday"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:8
-msgid "Tuesday"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:9
-msgid "Wednesday"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:10
-msgid "Thursday"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:11
-msgid "Friday"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:12
-msgid "Saturday"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:13
-msgid "Sunday"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:16
-msgid "Mon"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:17
-msgid "Tue"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:18
-msgid "Wed"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:19
-msgid "Thu"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:20
-msgid "Fri"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:21
-msgid "Sat"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:22
-msgid "Sun"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:25
-msgid "January"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:26
-msgid "February"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:27
-msgid "March"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:28
-msgid "April"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:29
-msgid "May"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:30
-msgid "June"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:31
-msgid "July"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:32
-msgid "August"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:33
-msgid "September"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:34
-msgid "October"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:35
-msgid "November"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:36
-msgid "December"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:39
-msgid "jan"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:40
-msgid "feb"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:41
-msgid "mar"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:42
-msgid "apr"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:43
-msgid "may"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:44
-msgid "jun"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:45
-msgid "jul"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:46
-msgid "aug"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:47
-msgid "sep"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:48
-msgid "oct"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:49
-msgid "nov"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:50
-msgid "dec"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:53
-msgctxt "abbrev. month"
-msgid "Jan."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:54
-msgctxt "abbrev. month"
-msgid "Feb."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:55
-msgctxt "abbrev. month"
-msgid "March"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:56
-msgctxt "abbrev. month"
-msgid "April"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:57
-msgctxt "abbrev. month"
-msgid "May"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:58
-msgctxt "abbrev. month"
-msgid "June"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:59
-msgctxt "abbrev. month"
-msgid "July"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:60
-msgctxt "abbrev. month"
-msgid "Aug."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:61
-msgctxt "abbrev. month"
-msgid "Sept."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:62
-msgctxt "abbrev. month"
-msgid "Oct."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:63
-msgctxt "abbrev. month"
-msgid "Nov."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:64
-msgctxt "abbrev. month"
-msgid "Dec."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:67
-msgctxt "alt. month"
-msgid "January"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:68
-msgctxt "alt. month"
-msgid "February"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:69
-msgctxt "alt. month"
-msgid "March"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:70
-msgctxt "alt. month"
-msgid "April"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:71
-msgctxt "alt. month"
-msgid "May"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:72
-msgctxt "alt. month"
-msgid "June"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:73
-msgctxt "alt. month"
-msgid "July"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:74
-msgctxt "alt. month"
-msgid "August"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:75
-msgctxt "alt. month"
-msgid "September"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:76
-msgctxt "alt. month"
-msgid "October"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:77
-msgctxt "alt. month"
-msgid "November"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/dates.py:78
-msgctxt "alt. month"
-msgid "December"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/ipv6.py:8
-msgid "This is not a valid IPv6 address."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/text.py:123
-#, python-format
-msgctxt "String to return when truncating text"
-msgid "%(truncated_text)s…"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/text.py:323
-msgid "or"
-msgstr ""
-
-#. Translators: This string is used as a separator between list elements
-#: myenv/lib/python3.12/site-packages/django/utils/text.py:342
-#: myenv/lib/python3.12/site-packages/django/utils/timesince.py:135
-msgid ", "
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/timesince.py:8
-#, python-format
-msgid "%(num)d year"
-msgid_plural "%(num)d years"
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/timesince.py:9
-#, python-format
-msgid "%(num)d month"
-msgid_plural "%(num)d months"
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/timesince.py:10
-#, python-format
-msgid "%(num)d week"
-msgid_plural "%(num)d weeks"
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/timesince.py:11
-#, python-format
-msgid "%(num)d day"
-msgid_plural "%(num)d days"
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/timesince.py:12
-#, python-format
-msgid "%(num)d hour"
-msgid_plural "%(num)d hours"
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/utils/timesince.py:13
-#, python-format
-msgid "%(num)d minute"
-msgid_plural "%(num)d minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: myenv/lib/python3.12/site-packages/django/views/csrf.py:29
-msgid "Forbidden"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/csrf.py:30
-msgid "CSRF verification failed. Request aborted."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/csrf.py:34
-msgid ""
-"You are seeing this message because this HTTPS site requires a “Referer "
-"header” to be sent by your web browser, but none was sent. This header is "
-"required for security reasons, to ensure that your browser is not being "
-"hijacked by third parties."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/csrf.py:40
-msgid ""
-"If you have configured your browser to disable “Referer” headers, please re-"
-"enable them, at least for this site, or for HTTPS connections, or for “same-"
-"origin” requests."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/csrf.py:45
-msgid ""
-"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
-"including the “Referrer-Policy: no-referrer” header, please remove them. The "
-"CSRF protection requires the “Referer” header to do strict referer checking. "
-"If you’re concerned about privacy, use alternatives like <a "
-"rel=\"noreferrer\" …> for links to third-party sites."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/csrf.py:54
-msgid ""
-"You are seeing this message because this site requires a CSRF cookie when "
-"submitting forms. This cookie is required for security reasons, to ensure "
-"that your browser is not being hijacked by third parties."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/csrf.py:60
-msgid ""
-"If you have configured your browser to disable cookies, please re-enable "
-"them, at least for this site, or for “same-origin” requests."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/csrf.py:66
-msgid "More information is available with DEBUG=True."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:44
-msgid "No year specified"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:64
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:115
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:214
-msgid "Date out of range"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:94
-msgid "No month specified"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:147
-msgid "No day specified"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:194
-msgid "No week specified"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:349
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:380
-#, python-format
-msgid "No %(verbose_name_plural)s available"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:652
-#, python-format
-msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/dates.py:692
-#, python-format
-msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/detail.py:56
-#, python-format
-msgid "No %(verbose_name)s found matching the query"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/list.py:70
-msgid "Page is not “last”, nor can it be converted to an int."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/list.py:77
-#, python-format
-msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/generic/list.py:169
-#, python-format
-msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/static.py:49
-msgid "Directory indexes are not allowed here."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/static.py:51
-#, python-format
-msgid "“%(path)s” does not exist"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/static.py:68
-#: myenv/lib/python3.12/site-packages/django/views/templates/directory_index.html:8
-#: myenv/lib/python3.12/site-packages/django/views/templates/directory_index.html:11
-#, python-format
-msgid "Index of %(directory)s"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:7
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:220
-msgid "The install worked successfully! Congratulations!"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:206
-#, python-format
-msgid ""
-"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:221
-#, python-format
-msgid ""
-"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" "
-"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
-"configured any URLs."
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:229
-msgid "Django Documentation"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:230
-msgid "Topics, references, &amp; how-to’s"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:238
-msgid "Tutorial: A Polling App"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:239
-msgid "Get started with Django"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:247
-msgid "Django Community"
-msgstr ""
-
-#: myenv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:248
-msgid "Connect, get help, or contribute"
-msgstr ""
-
-#~ msgid "Passo Scelto Basilica"
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:63
+#, fuzzy
+#| msgid "Arte Basilica"
+msgid "Card Basilica"
+msgstr ""
+"The Basilica dell'Immacolata, identified as the Church of San Francesco "
+"d'Assisi, with the adjoining Convent, was founded by the Franciscan Friars "
+"Minor who had settled in Sicily in the 13th century and, particularly in "
+"Agrigento, since 1295. The plan of the Church is rectangular, with a single "
+"nave without transept, with seven side altars; The walls and the ceiling "
+"were frescoed by the painter Lucio Gurreri, who depicted, on the vault of "
+"the apse, among the saints, in a crowded heavenly image, the figures of "
+"Mons. Michele Sclafani and Bishop Mons. Giovanni Battista Peruzzo, who "
+"wanted to be buried in the same church. The first construction is of "
+"Chiaramonte origin, as confirmed by the testament of Donna Isabella "
+"Chiaramonte of December 6, 1362, in which she ordered her heirs to erect a "
+"tomb for her, upon her death, in that 'Tribuna nova ecclesiae conventus San "
+"Francisci', built by Federico Chiaramonte. In 1788, a new bell tower was "
+"added, and after the bombings of 1943, Mons. Michele Sclafani, rector of the "
+"Basilica, promptly intervened to restore the monument, both externally and "
+"internally, by reproducing the paintings and decorations. A plaque on the "
+"perimeter wall recalls that on July 12, 1943, an Allied bomber hit the "
+"shelter in Via San Francesco, causing 340 victims. The basilica today is in "
+"excellent condition with its magnificent facade in sandstone tuff, flanked "
+"by two bell towers. In the center at the bottom is an elegant portal between "
+"Ionic pilasters and Gothic and local decorative elements, precisely "
+"Chiaramonte, while at the top is the niche containing the statue of Saint "
+"Francis, in white marble."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:75
+#, fuzzy
+#| msgid "Arte Pirandello"
+msgid "Card Pirandello"
+msgstr ""
+"His favorite activity was going on the balcony and shooting with a sling the "
+"birds on the tower bell of San Pietro Church. The building was then blew up "
+"during  World War II, and everything  was destroyed. After the war, the "
+"building was completely restored and today it hosts a medical studio. The "
+"young writer wasn’t born in this house as his mother, scared of the cholera "
+"epidemics, had decided to move out of Agrigento to their  country house in a "
+"rural area called Caos. When the cholera emergency ended, Pirandello’s "
+"family returned to the city house. He was so attached to his house that he "
+"describes it in many stories."
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:85
+msgid "Card Viale"
+msgstr ""
+
+#: itinerarioPirandelliano/templates/itinerarioPirandelliano/home.html:95
+#, fuzzy
+#| msgid "Arte Ravanusella"
+msgid "Card Ravanusella"
+msgstr ""
+" The 'Granella House,' or more accurately Palazzo Quartana, takes its name "
+"from the wealthy and hated moneylender from Trapani, Pietro Quartana. It has "
+"remained intact, almost as described by Luigi Pirandello in his novella; "
+"austere and solitary, not only because of its location but also due to the "
+"fact that Quartana's wife was thrown out of the house after being discovered "
+"as the lover of Nicolò Gallo. This episode inspired Luigi Pirandello to "
+"write 'L’esclusa.' Even today, the shutters are always closed and it remains "
+"uninhabited, except for about 40 years ago when it was used as an elementary "
+"school (it is said that the school had a short life due to ghosts! This "
+"explains why it is still uninhabited today). The literary description in the "
+"novella is a felicitous portrayal of the house, the square, and the "
+"neighborhood from a geographical and sociological perspective. The house was "
+"built at the highest and most solitary point, outside Porta Bibirria. The "
+"facade is characterized by beautiful arches, more or less visible within the "
+"frame of the ground floor commercial activities. There is also a liturgical "
+"center selling religious items, which recently replaced a pub called "
+"'Museum.' Historian Beniamino Biodi, after interviewing the neighborhood "
+"residents, confirmed the hypothesis that the house is still considered "
+"haunted. The 19th-century architecture of Palazzo Quartana, built by "
+"Basile's student Dionisio Sciascia, the architect of the theaters in "
+"Agrigento and Racalmuto, is simple. In front of the 'Granella House' is now "
+"the 'Belvedere Don Bosco,' from where one can admire the Agrigento "
+"hinterland from Raffadali to Cammarata. From Piazza Bibirria, heading west, "
+"you reach Via Duomo with the Cathedral, the Seminary, the Curia, the "
+"Bishop's Palace, and the Diocesan Museum. To the south, Via BacBac (the "
+"dwarf's street) leads to Piano Lena and Piazza della Riconoscenza. These are "
+"places Pirandello knew well, as his future wife lived near Via Duomo. Porta "
+"Bibirria was built with a low vaulted arch and had the shape of an 8-meter-"
+"long gallery, demolished in 1864 to create the current panoramic terrace. "
+"Terravecchia, before the Chiaramontan era, included Via Duomo, Piano "
+"Bibirria, and Via BacBac on the Girgenti hill. It developed from Porta dei "
+"Cavalieri or 'del Pertugio' towards Porta Bibirria, descended from Via "
+"BacBac, turned west towards Porta Mazzara (Via Sferri), and rose again to "
+"the Church of San Giorgio. Piano Bibirria was dominated from above by the "
+"Castello Vecchio, located between the San Gerlando and San Michele "
+"neighborhoods, called 'u munti' for its more northern location. According to "
+"tradition, the name 'Bibirria' derives from a poetic rhyming phrase "
+"pronounced by San Libertino when, in 251, before being beheaded with an axe, "
+"he supposedly shouted: 'Gens iniqua, plebs rea, non videbis ossa mea' "
+"(unjust people, wicked plebs, you will not see my bones). However, there is "
+"no document attesting to his beheading in this square, and it is highly "
+"improbable that the martyred saint uttered this curse and imprecation"
+
+#, fuzzy
+#~| msgid "Arte Piano San Gerlando"
+#~ msgid "Novella sanGerlando"
 #~ msgstr ""
-#~ "The statue of the Blessed Virgin Mary, kept all year within a wall closet "
-#~ "in the sacristy of the church of St. Francis of Assisi, on the eighth day "
-#~ "of December, all adorned with gold and gems, with the azure mantle of "
-#~ "silk starred with silver, after the solemn church services, was borne on "
-#~ "the litter in procession through the steep streets of Montelusa, amidst "
-#~ "the old cracked hovels, pressed, almost one upon the other; up, up, until "
-#~ "reaching the Cathedral atop the hill; and there left, in the evening, as "
-#~ "a guest of the patron Saint Gerlando. In the Cathedral, the Blessed "
-#~ "Virgin Mary was to remain from Thursday evening until Sunday morning: two "
-#~ "and a half days. But now, out of habit, seeming too short this time, it "
-#~ "was left for that first Sunday after the feast, and the following Sunday "
-#~ "was awaited to bring her back with a new and more pompous procession to "
-#~ "the church of St. Francis."
+#~ "The S. Gerlando floor, today called Piazza Don Minzoni, is located at the "
+#~ "end of Via Duomo and from which you access the staircase that leads to "
+#~ "the main façade of the Cathedral. It can be considered the oldest square "
+#~ "in the city, created to serve as a military maneuver area for the steri. "
+#~ "Overlooking the square is the majestic building of the seminary founded "
+#~ "in 1577 by bishop Cesare Marullo on the remains of the ancient Steri "
+#~ "Charamontano, and the result of the interventions of several bishops "
+#~ "starting with bishop Boncontro followed by bishops Traina , Ramirez, "
+#~ "Gioieni, Lucchesi Pall who reused the medieval structures. Today it "
+#~ "belongs to the Agrigento Curia. The external façade is made up of two "
+#~ "orders of regular symmetrical windows with two baroque balconies on the "
+#~ "portal in the centre. The Steri was the fortified residence of Manfredi "
+#~ "Chiaramonte, Grand Seniscalco and Count of Modica, where he moved, "
+#~ "leaving the previous residence now the monastery of S. Spirito In 1310 "
+#~ "Bishop Labro granted him some houses where he lived he builds his palace "
+#~ "in a strategic position. Fazello tells the story that in 1353 a great "
+#~ "celebration was held in this square for the wedding of Luchina "
+#~ "Chiaramonte, daughter of Frederick Ill, whom he married Enrico Rosso, "
+#~ "count of Aidone. In this large clearing yes he prepared an extraordinary "
+#~ "and sumptuous banquet in which the people also participated. The choice "
+#~ "of the position at the highest point of the city and in particular in "
+#~ "front of the religious symbol which was the cathedral , is an expression "
+#~ "of the prestige of the most powerful Sicilian feudal family of the 14th "
+#~ "century, of which some clear mountain testimonies remain: the remains of "
+#~ "a crenellated tower, some single-lancet windows, a double lancet window "
+#~ "and a series of cross vaults resting on pillars surmounted by capitals, "
+#~ "in which there is the Chiaramonte coat of arms where the hill and the "
+#~ "five mountains are depicted, framed by a trefoil arch. It is called 'Lo "
+#~ "steri grande' (from Hosterium , fortified palace). Adjacent to the "
+#~ "building on the north-west side of the square stood the Porta dei "
+#~ "Cavalieri, one of the nine medieval gates of the Terra Vecchia, while on "
+#~ "the south-east side there is a hidden round arch, the Arch of Spoto. The "
+#~ "Spoto Arch represents the first phase of the development of the medieval "
+#~ "city of Terravecchia before the coming of the Chiaramonte family"
