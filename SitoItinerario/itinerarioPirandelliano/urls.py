@@ -13,6 +13,7 @@ urlpatterns = [
     path('Casa-Pirandello/', views.Pirandello, name='Pirandello'),
     path('Bibbirria/', views.Bibbirria, name='Bibbirria'),
     path('Chiesa-San-Nicola/', views.ChiesaSanNicola, name='ChiesaSanNicola'),
+    path('rabato/', views.Rabato, name='Rabato'),
 
 
    
