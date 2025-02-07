@@ -30,6 +30,7 @@ def home(request):
     #paragrafo=_("paragrafo")
     return render(request, 'itinerarioPirandelliano/home.html',{"pagina":pagina})
 
+
 def PianoSanGerlando(request):
     pagina="PianoSanGerlando"
     language = request.LANGUAGE_CODE
@@ -74,25 +75,33 @@ def VialeVittoria(request):
     return render(request, 'itinerarioPirandelliano/VialeVittoria.html',{"pagina":pagina, "lang_name":language})
 
 
-def CasaRavanusella(request):
-    pagina="CasaRavanusella"
+def Bibbirria(request):
+    pagina="Bibbirria"
     language = request.LANGUAGE_CODE
 
 
     logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
     #paragrafo=_("paragrafo")
-    return render(request, 'itinerarioPirandelliano/CasaRavanusella.html',{"pagina":pagina, "lang_name":language})
+    return render(request, 'itinerarioPirandelliano/Bibbirria.html',{"pagina":pagina, "lang_name":language})
+
+
+def ChiesaSanNicola(request):
+    pagina="ChiesaSanNicola"
+    language = request.LANGUAGE_CODE
+
+
+    logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
+    #paragrafo=_("paragrafo")
+    return render(request, 'itinerarioPirandelliano/ChiesaSanNicola.html',{"pagina":pagina, "lang_name":language})
+
 
 def Rabato(request):
     pagina="Rabato"
     language = request.LANGUAGE_CODE
 
-
     logger.debug(f"----------Contenuto della sessione: {request.session.items()}")
     #paragrafo=_("paragrafo")
     return render(request, 'itinerarioPirandelliano/Rabato.html',{"pagina":pagina, "lang_name":language})
-
-
 
 
 

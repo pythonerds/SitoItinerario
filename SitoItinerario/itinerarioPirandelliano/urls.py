@@ -11,8 +11,9 @@ urlpatterns = [
     path('Cattedrale-Palazzo-Vescovile/', views.Cattedrale, name='Cattedrale'),
     path('Viale-Vittoria/', views.VialeVittoria, name='VialeVittoria'),
     path('Casa-Pirandello/', views.Pirandello, name='Pirandello'),
-    path('CasaRavanusella/', views.CasaRavanusella, name='CasaRavanusella'),
-    path('Rabato/', views.Rabato, name='Rabato'),
+    path('Bibbirria/', views.Bibbirria, name='Bibbirria'),
+    path('Chiesa-San-Nicola/', views.ChiesaSanNicola, name='ChiesaSanNicola'),
+    path('rabato/', views.Rabato, name='Rabato'),
 
 
    

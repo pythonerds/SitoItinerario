@@ -1,0 +1,252 @@
+{% extends 'itinerarioPirandelliano/common.html' %}
+{% load i18n %}<!-- viene messo dove abbiamo frasi da tradurre, {% trans "frase da tradurre" %}-->
+
+{% block title %}ItinerarioPirandelliano{% endblock %}
+
+{% block content %}
+<input type="hidden" name="pagina" id="pagina" value="secondaPagina">
+
+<div style="min-height: auto">
+
+  <div class="row text-center" id="sottoBarra">
+    <div class="col">
+      <h1 style="font-family:fantasy; margin-top: 8%;">Chiesa San Nicola e Il Signore della Nave</h1> 
+  </div>
+  </div>
+  <div class="row" style="margin:5% 5% 3%">
+    <div class="col">
+      <!--Carousel-->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner fixed-carousel-size" style="max-height: 60vh;">
+          <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../../../media/ChiesaSanNicola.jpg" class="\d-block img-fluid custom-carousel-image center-image" style="width: 30vw;" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="../../../media/SignoreDellaNave.jpg" class="\d-block img-fluid custom-carousel-image center-image" style="width: 30vw;" alt="...">
+            </div>
+          <!-- <div class="carousel-item" data-bs-interval="2000">
+            <img src="../../../media/SanGerlando2.jpg" class="d-block w-100 img-fluid custom-carousel-image" alt="..." style="object-fit: cover;">
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+  </div>
+  
+    <!--Bottoni Arte, Passo Scelto e Novella Completa-->
+  
+  <div class="row" style="margin: 2% 10% 3%">
+    <div class="container mt-3">
+      <div class="card" id="ciao" style="background-color: rgba(224, 159, 61, 0.644);">
+        <div style="font-family: fantasy; font-size: 130%;">
+        <ul class="nav nav-tabs" id="navTabDescription" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="arte-tab" data-bs-toggle="tab" data-bs-target="#arte-tab-pane" type="button" role="tab" aria-controls="arte-tab-pane" aria-selected="true">Arte</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="scelta-tab" data-bs-toggle="tab" data-bs-target="#scelta-tab-pane" type="button" role="tab" aria-controls="scelta-tab-pane" aria-selected="false">Passo Scelto</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="novella-tab" data-bs-toggle="tab" data-bs-target="#novella-tab-pane" type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella completa</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="video-tab" data-bs-toggle="tab" data-bs-target="#video-tab-pane" type="button" role="tab" aria-controls="video-tab-pane" aria-selected="false">Video</button>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content mt-3" id="myTabContent">
+          <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+            {%trans "Arte ChiesaSanNicola"%}
+
+          </div> 
+          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab" style=" font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">{%trans "Passo Scelto ChiesaSanNicola"%}</div>
+          <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab" style=" font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">IL SIGNORE DELLA NAVE
+Giuro che non ho voluto offendere il signor Lavaccara né una volta né due, come in paese si va dicendo.
+
+Il signor Lavaccara mi volle parlare d’un suo porco per convincermi ch’era una bestia intelligente.
+
+Io allora gli domandai:
+– Scusi, è magro?
+Ed ecco che il signor Lavaccara mi guardò una prima volta come se con questa domanda non propriamente lui ma avessi voluto offendere quella sua bestia.
+
+Mi rispose:
+–    Magro? Peserà più d’un quintale! E io allora gli dissi:
+–    Scusi, e le pare che possa essere intelligente?
+Del porco si parlava.
+Il signor Lavaccara, con tutta quella rosea prosperità di carne che gli tremola addosso, credette che io dopo il porco ora volessi offendere lui, come se in genere avessi detto che la grassezza esclude l’intelligenza.
+Ma del porco, ripeto, si parlava.
+Non doveva dunque farsi così brutto il signor Lavaccara né domandarmi:
+– Ma allora io, secondo lei? M’affrettai a rispondergli:
+– O che c’entra lei, caro signor Lavaccara? È forse un porco lei? Mi scusi.
+Quando lei mangia col bello appetito che Dio le conservi sempre, per chi mangia lei? mangia per sé, non ingrassa mica per gli altri.
+Il porco, invece, crede di mangiare per sé e ingrassa per gli altri.
+
+Mica rise.
+Niente.
+Mi restò lì piantato e duro davanti, più brutto di prima.
+E io allora, per smuoverlo, soggiunsi con premura:
+– Poniamo, poniamo, caro signor Lavaccara, che lei con la sua bella intelligenza fosse un porco, mi scusi.
+Mangerebbe lei? Io no.
+Vedendomi portare da mangiare, io grugnirei, inorridito: «Nix! Ringrazio, signori.
+Mangiatemi magro!».
+Un porco che sia grasso vuol dire che questo ancora non l’ha capito; e se non ha capito questo, può mai essere intelligente? Perciò le ho domandato se il suo era magro.
+Lei m’ha risposto che pesa più d’un quintale; e allora mi scusi, caro signor Lavaccara, sarà un bel porco il suo, non dico, ma non è certo un porco intelligente.
+
+Spiegazione più chiara di questa mi sembra che non avrei potuto dare al signor Lavaccara.
+Ma non ha valso a nulla.
+Anzi è certo che ho fatto peggio; me ne sono accorto parlando.
+Più mi sforzavo di render chiara la spiegazione e più il signor Lavaccara si scuriva in viso, masticando:
+– Già… già…
+Perché certo gli è parso che io, facendo ragionare quella sua bestia come un uomo, o meglio, pretendendo che quella sua bestia ragionasse come un uomo, non intendessi mica parlare della bestia, ma di lui.
+
+E così.
+So difatti che il signor Lavaccara va portando in giro il mio discorso per farne risaltare la fatuità agli occhi di tutti, perché tutti gli dicano che non avrebbe senso quel mio discorso riferito a una bestia la quale anch’essa crede di mangiare per sé e non può sapere che gli altri la facciano ingrassare per conto loro; e se un porco è nato porco che può farci? per forza come un porco deve mangiare, e dire che non dovrebbe e dovrebbe rifiutare il pasto per farsi mangiar magro è una sciocchezza, perché un tal proposito a un porco non può mai venire in mente.
+
+Siamo perfettamente d’accordo.
+Ma se me l’ha cantato lui, santo Dio, il signor Lavaccara, lui in tutti i toni, che quella sua bestia la parola sola le mancava! Io gli ho voluto dimostrare appunto che non poteva averla e non l’aveva per sua fortuna questa famosa intelligenza umana; perché un uomo sì, può permetterselo il lusso di mangiare come un porco, sapendo che alla fine, ingrassando, non sarà scannato; ma un porco no, no e no.
+Perdio, mi sembra così chiaro!
+Offendere? ma che offendere! io ho voluto anzi difendere contro se stesso il signor Lavaccara e conservargli intero il mio rispetto e levargli fin l’ombra del rimorso d’aver venduto quella sua bestia perché fosse scannata alla festa del Signore della Nave.
+Se no, alle corte: m’arrabbio sul serio e dico al signor Lavaccara che, o il suo porco era un porco qualunque e non aveva questa famosa intelligenza umana che lui va dicendo, o il vero porco è lui, il signor Lavaccara; e ora lo offendo per davvero.
+
+Questione di logica, signori.
+E poi qui è in ballo la dignità umana che mi preme salvare ad ogni costo, e non potrei salvarla se non a patto di convincere il signor Lavaccara e tutti quelli che gli danno ragione, che i porci grassi non possono essere intelligenti, perché se questi porci parlano tra sé come il signor Lavaccara pretende e va dicendo, non essi, ma la dignità umana appunto sarebbe scannata in questa festa del Signore della Nave.
+
+Veramente non so che relazione ci sia tra il Signore della Nave e la scanna dei porci che si suole iniziare il giorno della sua festa.
+Penso che, siccome d’estate la carne di queste bestie è nociva, tanto che se ne proibisce la macellazione, e con l’autunno il tempo comincia a rinfrescare, si colga l’occasione della festa del Signore della Nave, che cade appunto in settembre, per festeggiare anche, come suol dirsi, le nozze di quell’animale.
+In campagna, perché il Signore della Nave si festeggia nell’antica chiesetta normanna di San Nicola, che sorge un buon tratto fuori del paese, a una svolta dello stradone, tra i campi.
+
+Ci dev’essere, se si chiama così questo Signore, qualche storia o leggenda ch’io non so.
+Ma certo è un Cristo che, chi lo fece, più Cristo di così non lo poteva fare; ci si mise addosso con una tale ferocia di farlo Cristo, che nei duri stinchi inchiodati su la rozza croce nera, nelle costole che gli si possono contare tutte a una a una, tra i guidaleschi e le lividure, non un’oncia di carne gli lasciò che non apparisse atrocemente martoriata.
+Saranno stati i giudei su la carne viva di Cristo; ma qui fu lui, lo scultore.
+Quando però si dice, esser Cristo e amare l’umanità! Pur trattato così, fa miracoli senza fine questo Signore della Nave, come si può vedere dalle cento e cento offerte di cera e d’argento e dalle tabelle votive che riempiono tutta una parete della chiesetta; ogni tabella col suo mare blu in tempesta, che non potrebbe esser più blu di così, e il naufragio della barchetta col nome scritto bello grosso a poppa che ciascuno possa leggerlo bene, e insomma ogni cosa, tra nuvole squarciate, e questo Cristo che appare alle supplicazioni dei naufraghi e fa il miracolo.
+
+Basta.
+Io intanto con la discussione su l’intelligenza e la grassezza del porco e il deplorabilissimo malinteso a cui questa discussione ha dato luogo, ho perduto l’invito del signor Lavaccara alla festa.
+
+Non me ne dolgo tanto per il piacere che mi è mancato, quanto per lo sforzo che ho dovuto fare, assistendo solo da curioso alla festa, per conservare il rispetto a tante brave persone e salvare, come ho detto, la dignità umana.
+
+Dico la verità.
+Dati i sani criteri di cui mi sento ormai profondamente compenetrato, non credevo mi dovesse costar tanto.
+Ma alla fine, con l’ajuto di Dio, ci sono riuscito.
+
+Quando, la mattina, tra la polvere dello stradone ho veduto i branchi e branchetti di tutti quei porcelloni cretacei avviarsi ballonzolanti e grufolanti al luogo della festa, ho voluto guardarli apposta a uno a uno attentamente.
+
+Bestie intelligenti, quelle? Ma via! Con quel grugno lì? con quelle orecchie? con quel buffo cosino arricciolato dietro? E grugnirebbero così, se fossero intelligenti? Ma se è la voce della stessa ingordigia, quel loro grugnito! Ma se frugolavano finanche nella polvere dello stradone! fino all’ultimo, senza il minimo sospetto che tra poco sarebbero stati scannati.
+Si fidavano dell’uomo? Ma grazie tante di questa fiducia! Come se l’uomo, da che mondo è mondo e ha pratica coi porci, non avesse sempre dimostrato al porco di appetirne la carne; e ch’esso perciò non deve affatto fidarsi di lui! Perdio, se l’uomo arriva finanche ad assaggiargli addosso, da vivo, le orecchie e il codino! Meglio di così? Che se poi vogliamo chiamar fiducia la stupidità, siamo logici in nome di Dio, e non diciamo che i porci sono bestie intelligenti.
+
+Ma scusate, e se non se lo dovesse mangiare, che obbligo avrebbe l’uomo d’allevare il porco con tanta cura, fargli da servo, lui carne battezzata, condurselo al pascolo, perché? che servizio gli rende in compenso del cibo che n’ha? Nessuno vorrà negare che il porco, finché campa, campa bene.
+Considerando la vita che ha fatto, se poi è scannato se ne deve contentare, perché certo per sé, come porco, non se la meritava.
+
+E passiamo agli uomini, signori miei! Ho voluto osservarli apposta anch’essi a uno a uno, mentre s’avviavano al luogo della festa.
+
+Che altro aspetto, signori miei!
+Il dono divino dell’intelligenza traspariva anche dai minimi atti: dal fastidio con cui voltavano la faccia per non prendersi il polverone sollevato dai branchi di quelle bestie, e dal rispetto, con cui poi si salutavano l’un l’altro.
+
+Ma l’aver pensato di coprir di panni l’oscena nudità del corpo, già questo solo, considerate a quale altezza colloca l’uomo sopra uno schifosissimo porco.
+Potrà mangiare fino a schiattarne e anche imbrodolarsi tutto, un uomo; ma poi ha questo, che si lava e si veste.
+E quand’anche li immaginassimo nudi per lo stradone, uomini e donne; cosa impossibile, ma ammettiamola pure; non dico che sarebbe un bel vedere, le vecchie, i panciuti, i non puliti; tuttavia, che differenza, pensate, anche a guardar soltanto alla luce dell’occhio umano, specchio dell’anima, e al dono del sorriso e della parola.
+
+E i pensieri che ciascuno, pur andando alla festa, aveva in mente; forse non del padre o della madre, ma di qualche amico o della nipote o dello zio, che lo scorso anno partecipavano anche loro allegri alla festa campestre, bevevano anche loro quella bell’aria aperta, e adesso, rinserrati nel bujo sottoterra, poverini… Sospiri, rimpianti, e anche qualche rimorso.
+Ma sì! Non erano tutti lieti quei visi; la promessa del godimento d’una giornata grassa non spianava su la fronte di tanti magri le rughe delle cure opprimenti e i segni delle fatiche e delle sofferenze.
+E parecchi compassionevolmente portavano a quella festa d’un giorno la loro miseria di tutto l’anno, per provare se trovasse più il verso, là tra tanti sanguigni ben pasciuti, d’aprire i denti gialli a uno squallido sorriso.
+
+E poi pensavo a tutte le arti, a tutti i mestieri a cui quegli uomini attendevano con tanto studio, con tanti travagli e tanti rischi, che i porci certamente non conoscono.
+Perché un porco è porco e basta; ma un uomo, no, signori, potrà anche esser porco, non dico, ma porco e medico, per esempio, porco e avvocato, porco e professore di belle lettere e filosofia, e notajo e cancelliere e orologiajo e fabbro… Tutti i lavori, le afflizioni, le cure dell’umanità vedevo con soddisfazione rappresentati in quella folla che procedeva per lo stradone.
+
+A un certo punto, il signor Lavaccara, reggendo per mano, uno di qua, uno di là, i due figliuoli più piccoli, m’è passato davanti, con la moglie dietro, rosea e prosperosa come lui, tra le due figliuole maggiori.
+Tutt’e sei han fatto finta di non vedermi; ma le due figliuole, tirando via di lungo, si sono tutte invermigliate e uno dei piccini, dopo pochi passi, s’è voltato tre volte a sbirciarmi.
+La terza volta, così per ridere, io ho cacciato fuori la lingua e l’ho salutato di nascosto con la mano; s’è fatto serio serio, con un viso lungo lungo distratto e s’è subito messo a guardare altrove.
+
+Mangerà il porco anche lui, povero piccino; forse ne mangerà troppo; ma speriamo che non gli faccia male.
+Quand’anche però gli dovesse far male, la previdenza umana c’è pure per qualche cosa.
+Andate a cercarla nei porci, la previdenza; trovatemi un porco farmacista che prepari con l’alchermes l’olio di ricino per i porcellini che si siano guastati lo stomaco per intemperanza!
+Ho seguito da lontano, per un buon tratto, la cara famigliuola del signor Lavaccara che si avviava sicuramente incontro a un solennissimo guasto di stomaco; ma ecco che mi son potuto consolare pensando che domani troverà da un farmacista la purghetta che li guarirà.
+
+Quante baracche improvvisate con grandi lenzuola palpitanti, nello spiazzo davanti la chiesa di San Nicola, attraversato dallo stradone!
+Taverne all’aperto; tavole, tavole e panche; caratelli e barili di vino; fornelli portatili; banchi e ceppi di macellai.
+
+Un velo di fumo grasso misto alla polvere annebbiava lo spettacolo tumultuoso della festa; ma pareva che non tanto quella grassa fumicaja, quanto lo stordimento cagionato dalla confusione e dal baccano impedisse di vedere chiaramente.
+
+Non erano però grida giulive, di festa, ma grida strappate dalla violenza d’un ferocissimo dolore.
+Oh sensibilità umana! I venditori ambulanti, gridando la loro merce; i tavernai, invitando alle loro mense apparecchiate; i macellai, ai loro banchi di vendita, intonavano il bando, senza forse saperlo, su le strida terribili dei porci che là stesso, in mezzo alla folla, erano macellati, sparati, scorticati, squartati.
+E le campane della gentile chiesina ajutavano le voci umane, rintronando all’impazzata, senza posa, a coprire pietosamente quelle strida.
+
+Voi dite: ma perché almeno non si macellavano lontano dalla folla tutti quei porci? E io vi rispondo: ma perché la festa allora avrebbe perduto uno dei suoi caratteri tradizionali, forse il suo primitivo carattere sacro, d’immolazione.
+
+Voi non pensate al sentimento religioso, signori.
+
+Ho visto tanti impallidire, turarsi con le mani gli orecchi, torcere il viso per non vedere l’accoratojo brandito cacciarsi nella gola del porco convulso tenuto violentemente da otto braccia sanguinose smanicate; e per dir la verità, ho torto il viso anch’io, ma lamentando dentro di me amaramente che l’uomo a mano a mano, col progredire della civiltà, si fa sempre più debole, perde sempre più, pur cercando d’acquistarlo meglio, il sentimento religioso.
+Seguita, sì, a mangiarsi il porco; volentieri assiste alla manifattura delle salsicce, alla lavatura della corata, al taglio netto del fegato lucido compatto tremolante; ma torce poi il viso all’atto dell’immolazione.
+E certo è ormai cancellato il ricordo dell’antica Maja, madre del dio Mercurio, da cui il porco ripete il suo secondo nome.
+
+Ho rivisto sul tardi il signor Lavaccara, sudato e stravolto, senza giacca, recando tra le mani un gran piatto bislungo, avviarsi, seguito dai due piccini, al banco del macellajo al quale aveva venduta quella sua bestia intelligente.
+Andava a riceverne – patto della vendita – la testa e tutto il fegato.
+
+Anche questa volta, ma con più ragione, il signor Lavaccara ha finto di non vedermi.
+Uno dei due piccini piangeva; ma voglio credere che non piangesse per la prossima vista della pallida testa insanguinata della cara grossa bestia carezzata per circa due anni nel cortile della casa.
+La contemplerà il padre quella testa dalle larghe orecchie abbattute, dagli occhi gravemente socchiusi tra i peli, per lodarne forse, con rimpianto ancora una volta, l’intelligenza, e per questa maledetta ostinazione si guasterà il piacere di mangiarsela.
+
+Ah mi avesse invitato a tavola con lui! Mi sarei risparmiato certamente il grande affanno di vedere, io solo a digiuno, io solo con gli occhi non offuscati dai vapori del vino, tutta quella umanità, degna di tanta considerazione e di tanto rispetto, ridursi a poco a poco in uno stato miserando, senza più neppure un’ombra di coscienza, senza la più lontana memoria delle innumerevoli benemerenze che in tanti secoli ha saputo acquistarsi sopra le altre bestie della terra con le sue fatiche e con le sue virtù.
+
+Scamiciati gli uomini, discinte le donne; teste ciondolanti, facce paonazze, occhi imbambolati, danze folli tra tavole capovolte, panche rovesciate, canti sguajati, falò, spari di mortaretti, urli di bimbi, risa sgangherate.
+Un pandemonio sotto le rosse nubi dense e gravi del tramonto, sopravvenute quasi con spavento.
+
+Sotto queste nubi divenute a mano a mano più cupe e fumolente, ho veduto poco dopo, al richiamo delle campane sante, raccogliersi alla meglio tra spinte e urtoni tutta quella folla ubriaca, e imbrancarsi in processione dietro a quel terribile Cristo flagellato su la croce nera, tratto fuori dalla chiesa, sorretto da un chierico pallido e seguito da alcuni preti digiuni, col camice e la stola.
+
+Due porcelloni, per loro somma ventura scampati al macello, sdrajati a pie d’un fico, vedendo passare quella processione, m’è parso si guardassero tra loro come per dirsi:
+«Ecco, fratello, vedi? e poi dicono che i porci siamo noi».
+
+Mi sentii fino all’anima ferire da quello sguardo, e fissai anch’io la folla ubriaca che mi passava davanti.
+Ma no, no ecco – oh consolazione! – vidi che piangeva, piangeva tutta quella folla ubriaca, singhiozzava, si dava pugni sul petto, si strappava i capelli scarmigliati, cempennando, barellando dietro a quel Cristo flagellato.
+S’era mangiato il porco, sì, s’era ubriacata, è vero, ma ora piangeva disperatamente dietro a quel suo Cristo, l’umanità.
+
+– Morire scannate è niente, o stupidissime bestie! – io allora esclamai, trionfante.
+– Voi, o porci, la passate grassa e in pace la vostra vita, finché vi dura.
+Guardate a questa degli uomini adesso! Si sono imbestiati, si sono ubriacati, ed eccoli qua che piangono ora inconsolabilmente, dietro a questo loro Cristo sanguinante su la croce nera! eccoli qua che piangono il porco che si sono mangiato! E volete una tragedia più tragedia di questa?
+
+          </div>
+          <div class="tab-pane fade" id="video-tab-pane" role="tabpanel" aria-labelledby="video-tab"><video src="../../../media/SignoreNave/SignoreNave{{ lang_name }}.mp4" type="video/mp4" controls style="width: 100%;"></video></div>
+        </div>
+      </div>
+    </div>
+    
+  
+  </div>
+
+  
+
+</div>
+
+
+
+
+
+<script>
+
+
+  function changeBackgroundImage(){
+      // Ottieni il body
+      var body = document.body;
+
+      // Nuovo URL dell'immagine di sfondo
+      var newBackgroundImageURL = 'url("../../../media/SanGerlando.jpg")';
+
+      // Imposta la nuova immagine di sfondo
+      body.style.backgroundImage = newBackgroundImageURL;
+    }
+
+    document.addEventListener("DOMContentLoaded", changeBackgroundImage)
+  
+</script>
+
+
+
+{% endblock %}

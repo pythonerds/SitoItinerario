@@ -58,15 +58,21 @@
                 type="button" role="tab" aria-controls="novella-tab-pane" aria-selected="false">Novella
                 completa</button>
             </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="video-tab" data-bs-toggle="tab" data-bs-target="#video-tab-pane" type="button" role="tab" aria-controls="video-tab-pane" aria-selected="false">Video</button>
+            </li>
           </ul>
         </div>
         <div class="tab-content mt-3" id="myTabContent">
           <div class="tab-pane fade show active" id="arte-tab-pane" role="tabpanel" aria-labelledby="arte-tab"
             style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+            
             {%trans "Arte Piano San Gerlando"%}
 
           </div>
-          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab">{%trans "Passo Scelto Piano San Gerlando" %}</div>
+          <div class="tab-pane fade" id="scelta-tab-pane" role="tabpanel" aria-labelledby="scelta-tab" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 130%;">
+            {%trans "Passo Scelto Piano San Gerlando" %}
+          </div>
           <div class="tab-pane fade" id="novella-tab-pane" role="tabpanel" aria-labelledby="novella-tab">La verità
             Saru Argentu, inteso Tarara, appena introdotto nella gabbia della squallida Corte d’Assise, per prima cosa
             cavò di tasca un ampio fazzoletto rosso di cotone a fiorami gialli, e lo stese accuratamente su uno dei
@@ -255,6 +261,7 @@
             - Nossignore. Che tesi? Questa è la verità, signor presidente.
             E in grazia della verità, così candidamente confessata, Tarara fu condannato a tredici anni di reclusione.
           </div>
+          <div class="tab-pane fade" id="video-tab-pane" role="tabpanel" aria-labelledby="video-tab"><video src="../../../media/ArcoSpoto/ArcoSpoto{{ lang_name }}.mp4" type="video/mp4" controls style="width: 100%;"></video></div>
         </div>
       </div>
     </div>

@@ -31,6 +31,22 @@
 
 
   }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 205vh)); /* Crea colonne dinamiche */
+    gap: 40px; /* Spazio tra le card */
+}
+
+.btn{
+  flex: 1;
+  cursor: pointer;
+}
+
+.button-container {
+    display: grid; /* Usa CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Due colonne di uguale larghezza */
+    gap: 8px; /* Spazio tra i bottoni */
+}
 
   #navbar{
     background: #baa93f;
@@ -113,6 +129,23 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.smussatura{
+  border-radius: 3%;
+  box-shadow: 0 1% 2% rgba(0,0,0,0.1);
+}
+
+.card{
+  height: 100%;
+  gap: 0px;
+}
+
+/* @media (max-width: 800px) {
+    /* .container {
+         grid-template-columns: 200vh; Una sola colonna
+        gap: 100px; Aumenta lo spazio verticale tra le card 
+    } 
+} */
+
 
 .card-home{
     padding: 3%;
@@ -162,6 +195,16 @@
   margin-right: auto;
 }
 
+.nome-novella{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: block;
+  text-align: center;
+}
+
+.descrizione-luogo{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
 
 
   .introduzione {
@@ -202,8 +245,9 @@
               <li><a class="dropdown-item" href="{%url 'Basilica'%}">Basilica dell'immacolata</a></li>
               <li><a class="dropdown-item" href="{%url 'Pirandello'%}">Via Pirandello - Casa Luigi Pirandello</a></li>
               <li><a class="dropdown-item" href="{%url 'VialeVittoria'%}">Viale della Vittoria</a></li>
-              <li><a class="dropdown-item" href="{%url 'CasaRavanusella'%}">Casa Ravanusella</a></li>
-              <li><a class="dropdown-item" href="{%url 'Rabato'%}">Ra'bato - Santa Croce</a></li>
+              <li><a class="dropdown-item" href="{%url 'Bibbirria'%}">Casa del Granella - Quartiere Bibbirria</a></li>
+              <li><a class="dropdown-item" href="{%url 'ChiesaSanNicola'%}">Chiesa San Nicola e Il Signore della Nave</a></li>
+              <li><a class="dropdown-item" href="{%url 'Rabato'%}">Rabato</a></li>
               
             </ul>
           </li>
